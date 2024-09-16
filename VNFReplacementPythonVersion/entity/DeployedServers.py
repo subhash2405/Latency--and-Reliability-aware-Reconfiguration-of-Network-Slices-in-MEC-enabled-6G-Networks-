@@ -25,7 +25,14 @@ class Server:
             'vnf_list': [vnf.get_info() for vnf in self.vnf_list]
         }
 
-
+    def get_vnfs(self):
+        return self.vnf_list
+    
+    def server_fail(self):
+        self.available_resources = 0
+        self.total_resources = 0
+        self.vnf_list = []
+        self.reliability = 0
 
 
 # class Server:

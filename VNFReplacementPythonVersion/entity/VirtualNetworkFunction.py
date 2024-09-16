@@ -15,7 +15,8 @@ class VNF:
             'server_id': self.server_id
         }
 
-
+    def change_server_id(self, server):
+        self.server_id = server
 
 
 

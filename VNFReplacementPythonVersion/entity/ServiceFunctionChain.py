@@ -1,3 +1,7 @@
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from params.parameters import param
 class SFC:
     def __init__(self, id):
         self.id = id
@@ -15,7 +19,7 @@ class SFC:
     def add_distance_latency(self, dist):
         self.total_latency += dist
 
-    def add_total_relaibility(self, relaibilty):
+    def add_relaibility(self, relaibilty):
         self.total_relaibility*=relaibilty
     
     def get_info(self):
@@ -24,10 +28,15 @@ class SFC:
             'vnf_count': len(self.vnf_list),
             'total_resources': self.total_resources,
             'total_latency': self.total_latency,
+            'total_relaibility' : self.total_relaibility + param.bias,
             'vnf_list': [vnf.get_info() for vnf in self.vnf_list]
         }
 
-
+    def get_deployed_server_list(self):
+        servers = []
+        for vnf in self.vnf_list:
+            servers.append(vnf.server_id)
+        return servers
 
 
 
