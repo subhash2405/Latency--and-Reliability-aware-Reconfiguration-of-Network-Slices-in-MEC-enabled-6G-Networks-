@@ -9,11 +9,13 @@ class SFC:
         self.total_resources = 0  
         self.total_latency = 0  
         self.total_relaibility = 1
+        self.vnf_latency = 0
 
     def add_vnf(self, vnf):
         self.vnf_list.append(vnf)
         self.total_resources += vnf.resources
         self.total_latency += vnf.latency
+        self.vnf_latency += vnf.latency
         print(f"VNF {vnf.id} added to SFC {self.id}. Total resources: {self.total_resources}, Total latency: {self.total_latency}")
 
     def add_distance_latency(self, dist):
@@ -28,6 +30,7 @@ class SFC:
             'vnf_count': len(self.vnf_list),
             'total_resources': self.total_resources,
             'total_latency': self.total_latency,
+            'vnf_latency' : self.vnf_latency,
             'total_relaibility' : self.total_relaibility + param.bias,
             'vnf_list': [vnf.get_info() for vnf in self.vnf_list]
         }

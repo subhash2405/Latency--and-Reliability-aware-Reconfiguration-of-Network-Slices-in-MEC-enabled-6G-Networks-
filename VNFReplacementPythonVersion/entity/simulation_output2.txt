@@ -42,11 +42,11 @@ VNF 20 assigned to Server 0. Available resources: 52
 VNF 20 added to SFC 4. Total resources: 127, Total latency: 14
 VNF 21 assigned to Server 5. Available resources: 20
 VNF 21 added to SFC 4. Total resources: 144, Total latency: 15
-VNF Preferences {2: [(<DeployedServers.Server object at 0x0000021E3BE6D490>, 13, 1), (<DeployedServers.Server object at 0x0000021E3BE6D690>, 13, 7), (<DeployedServers.Server object at 0x0000021E3BE6D6D0>, 14, 8)], 16: [(<DeployedServers.Server object at 0x0000021E3BE6D450>, 17, 0), (<DeployedServers.Server object at 0x0000021E3BE6D590>, 17, 4), (<DeployedServers.Server object at 0x0000021E3BE6D690>, 19, 7)], 17: [(<DeployedServers.Server object at 0x0000021E3BE6D490>, 11, 1), (<DeployedServers.Server object at 0x0000021E3BE6D690>, 11, 7), (<DeployedServers.Server object at 0x0000021E3BE6D6D0>, 13, 8)]}
-server prefrences {0: [<VirtualNetworkFunction.VNF object at 0x0000021E3BE6D990>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F210>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F110>], 1: [<VirtualNetworkFunction.VNF object at 0x0000021E3BE6D990>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F210>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F110>], 2: [], 3: [<VirtualNetworkFunction.VNF object at 0x0000021E3BE6F210>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F110>], 4: [<VirtualNetworkFunction.VNF object at 0x0000021E3BE6D990>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F210>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F110>], 5: [], 6: [], 7: [<VirtualNetworkFunction.VNF object at 0x0000021E3BE6D990>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F210>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F110>], 8: [<VirtualNetworkFunction.VNF object at 0x0000021E3BE6D990>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F210>, <VirtualNetworkFunction.VNF object at 0x0000021E3BE6F110>]}
-VNF 2 assigned to Server 1. Available resources: 56
-VNF 16 assigned to Server 0. Available resources: 21
-VNF 17 assigned to Server 1. Available resources: 23
+VNF Preferences {2: [(<DeployedServers.Server object at 0x00000201CAD7D6D0>, 13, 0.926323076705542, 7), (<DeployedServers.Server object at 0x00000201CAD7D4D0>, 13, 0.9218284006407503, 1), (<DeployedServers.Server object at 0x00000201CAD7D710>, 14, 0.9207810980251826, 8)], 16: [(<DeployedServers.Server object at 0x00000201CAD7D6D0>, 19, 0.9289867637245632, 7), (<DeployedServers.Server object at 0x00000201CAD7D490>, 17, 0.9222221287462773, 0), (<DeployedServers.Server object at 0x00000201CAD7D590>, 17, 0.9218858566472198, 4)], 17: [(<DeployedServers.Server object at 0x00000201CAD7D6D0>, 11, 0.9248064781715358, 7), (<DeployedServers.Server object at 0x00000201CAD7D4D0>, 11, 0.9203193232868904, 1), (<DeployedServers.Server object at 0x00000201CAD7D710>, 13, 0.9192737731784058, 8)]}
+server prefrences {0: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 1: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 2: [], 3: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 4: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 5: [], 6: [], 7: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 8: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>]}
+VNF 2 assigned to Server 7. Available resources: 97
+VNF 16 assigned to Server 7. Available resources: 66
+VNF 17 assigned to Server 7. Available resources: 33
 Stable matching completed. VNFs from server 2 have been reassigned.
 
 Server Information:
@@ -54,14 +54,14 @@ Server Information:
 Server 0:
   Total Resources: 140
   Reliability: 0.982
-  Available Resources: 21
-  VNF Count: 4
+  Available Resources: 52
+  VNF Count: 3
 
 Server 1:
   Total Resources: 147
   Reliability: 0.984
-  Available Resources: 23
-  VNF Count: 4
+  Available Resources: 91
+  VNF Count: 2
 
 Server 2:
   Total Resources: 0
@@ -96,8 +96,8 @@ Server 6:
 Server 7:
   Total Resources: 132
   Reliability: 0.989
-  Available Resources: 132
-  VNF Count: 0
+  Available Resources: 33
+  VNF Count: 3
 
 Server 8:
   Total Resources: 135
@@ -122,7 +122,7 @@ SFC 0:
   VNF 2:
     Resources: 35
     Latency: 1
-    Deployed on Server: 1
+    Deployed on Server: 7
 
   VNF 3:
     Resources: 32
@@ -135,7 +135,7 @@ SFC 0:
     Deployed on Server: 3
 
   Total Resources: 134
-  Total Reliability: 0.9418697891997772
+  Total Reliability: 0.9464643507299162
   Total Latency: 29
 
 SFC 1:
@@ -207,17 +207,17 @@ SFC 3:
   VNF 16:
     Resources: 31
     Latency: 3
-    Deployed on Server: 0
+    Deployed on Server: 7
 
   Total Resources: 118
-  Total Reliability: 0.942213512395775
-  Total Latency: 32
+  Total Reliability: 0.9491280377489375
+  Total Latency: 34
 
 SFC 4:
   VNF 17:
     Resources: 33
     Latency: 2
-    Deployed on Server: 1
+    Deployed on Server: 7
 
   VNF 18:
     Resources: 24
@@ -240,19 +240,19 @@ SFC 4:
     Deployed on Server: 5
 
   Total Resources: 144
-  Total Reliability: 0.9403607118459174
+  Total Reliability: 0.94494775219591
   Total Latency: 26
 
 
 Final Server Information:
 ==========================
 Server 0:
-  Available Resources: 21
-  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 29, 'latency': 3, 'server_id': 0}, {'id': 11, 'sfc_id': 2, 'resources': 28, 'latency': 2, 'server_id': 0}, {'id': 20, 'sfc_id': 4, 'resources': 31, 'latency': 3, 'server_id': 0}, {'id': 16, 'sfc_id': 3, 'resources': 31, 'latency': 3, 'server_id': 0}]
+  Available Resources: 52
+  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 29, 'latency': 3, 'server_id': 0}, {'id': 11, 'sfc_id': 2, 'resources': 28, 'latency': 2, 'server_id': 0}, {'id': 20, 'sfc_id': 4, 'resources': 31, 'latency': 3, 'server_id': 0}]
 
 Server 1:
-  Available Resources: 23
-  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 39, 'latency': 4, 'server_id': 1}, {'id': 12, 'sfc_id': 3, 'resources': 17, 'latency': 3, 'server_id': 1}, {'id': 2, 'sfc_id': 0, 'resources': 35, 'latency': 1, 'server_id': 1}, {'id': 17, 'sfc_id': 4, 'resources': 33, 'latency': 2, 'server_id': 1}]
+  Available Resources: 91
+  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 39, 'latency': 4, 'server_id': 1}, {'id': 12, 'sfc_id': 3, 'resources': 17, 'latency': 3, 'server_id': 1}]
 
 Server 2:
   Available Resources: 0
@@ -275,8 +275,8 @@ Server 6:
   VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 32, 'latency': 5, 'server_id': 6}, {'id': 5, 'sfc_id': 1, 'resources': 13, 'latency': 1, 'server_id': 6}, {'id': 13, 'sfc_id': 3, 'resources': 37, 'latency': 2, 'server_id': 6}]
 
 Server 7:
-  Available Resources: 132
-  VNFs Deployed: []
+  Available Resources: 33
+  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 35, 'latency': 1, 'server_id': 7}, {'id': 16, 'sfc_id': 3, 'resources': 31, 'latency': 3, 'server_id': 7}, {'id': 17, 'sfc_id': 4, 'resources': 33, 'latency': 2, 'server_id': 7}]
 
 Server 8:
   Available Resources: 102

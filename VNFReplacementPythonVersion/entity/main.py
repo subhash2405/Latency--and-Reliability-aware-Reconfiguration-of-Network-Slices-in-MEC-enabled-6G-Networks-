@@ -10,7 +10,7 @@ from utility.distance import distances
 
 random.seed(42)
 
-output_file = open('simulation_output1.txt', 'w')
+output_file = open('simulation_output2.txt', 'w')
 sys.stdout = output_file
 
 # Initialize servers
@@ -67,7 +67,7 @@ for sfc in sfcs:
 
 # Function to handle server failure and reassign VNFs
 def handle_server_failure(failing_server_id):
-    from stable_matching import stable_matching_for_failed_server
+    from stable_matching_relaibility import stable_matching_for_failed_server
     stable_matching_for_failed_server(failing_server_id)
 
 # Call the function for a server expected to fail
