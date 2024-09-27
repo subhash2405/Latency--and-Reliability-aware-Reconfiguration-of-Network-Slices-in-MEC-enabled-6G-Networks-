@@ -1,9 +1,11 @@
 from params.parameters import param
 from utility.distance import distances
 from VirtualNetworkFunction import VNF
-def stable_matching_for_failed_server(failing_server_id):
-    
-    from main import servers, sfcs
+# global count
+def stable_matching_for_failed_server(failing_server_id, servers, sfcs):
+    global count
+    count = 0
+    # from main import servers, sfcs
 
     failing_server = servers[failing_server_id]
     vnfs_to_reassign = failing_server.get_vnfs()  # Get all VNFs from the failing server
@@ -48,8 +50,11 @@ def stable_matching_for_failed_server(failing_server_id):
 
 
         # Sort the servers for each VNF by highest relaibility
-
-        vnf_preferences[vnf.id].sort(key=lambda x: x[2], reverse = True)
+        if len(vnf_preferences[vnf.id])==0:
+            count+=1
+            print(f"No matching found for SFC {current_sfc.id} whose vnf is {vnf.id}")
+        else:
+            vnf_preferences[vnf.id].sort(key=lambda x: x[2], reverse = True)
     print("VNF Preferences", vnf_preferences)
 
     for server in servers:
@@ -103,6 +108,7 @@ def stable_matching_for_failed_server(failing_server_id):
         info = current_sfc.get_info()
         
         current_sfc.add_distance_latency(-1*(current_sfc.total_latency-current_sfc.vnf_latency))
+        current_relaibility = current_sfc.total_relaibility
         current_sfc.total_relaibility = 1
         for i  in range(0,len(info['vnf_list'])-1):    
             vnf1 = info['vnf_list'][i]
@@ -113,7 +119,9 @@ def stable_matching_for_failed_server(failing_server_id):
             current_sfc.add_relaibility(relaible)
         relaible = servers[vnf2['server_id']].reliability
         current_sfc.add_relaibility(relaible)
-
+        if current_relaibility>current_sfc.total_relaibility:
+            count+=1
+            print(f"Relaibility factor not satisfied for SFC {current_sfc.id} whose vnf {vnf.id} is deployed in server {new_server_id}")
     failing_server.server_fail()
-
+    print(f"Total SFC's that failed realibility factor or latency requirement {count}")
     print(f"Stable matching completed. VNFs from server {failing_server_id} have been reassigned.")

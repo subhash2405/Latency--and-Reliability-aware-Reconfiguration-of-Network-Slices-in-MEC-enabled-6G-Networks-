@@ -11,6 +11,7 @@ class param:
     min_resource_vnf = 10
     max_resource_vnf = 40
     bias = 0.02
+    failing_server_id = 2
     # connected_matrix = [[] for _ in range(numOfServers)]
 
 

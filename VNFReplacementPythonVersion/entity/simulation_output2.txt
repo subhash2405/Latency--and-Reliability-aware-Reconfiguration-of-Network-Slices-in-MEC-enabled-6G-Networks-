@@ -42,12 +42,7 @@ VNF 20 assigned to Server 0. Available resources: 52
 VNF 20 added to SFC 4. Total resources: 127, Total latency: 14
 VNF 21 assigned to Server 5. Available resources: 20
 VNF 21 added to SFC 4. Total resources: 144, Total latency: 15
-VNF Preferences {2: [(<DeployedServers.Server object at 0x00000201CAD7D6D0>, 13, 0.926323076705542, 7), (<DeployedServers.Server object at 0x00000201CAD7D4D0>, 13, 0.9218284006407503, 1), (<DeployedServers.Server object at 0x00000201CAD7D710>, 14, 0.9207810980251826, 8)], 16: [(<DeployedServers.Server object at 0x00000201CAD7D6D0>, 19, 0.9289867637245632, 7), (<DeployedServers.Server object at 0x00000201CAD7D490>, 17, 0.9222221287462773, 0), (<DeployedServers.Server object at 0x00000201CAD7D590>, 17, 0.9218858566472198, 4)], 17: [(<DeployedServers.Server object at 0x00000201CAD7D6D0>, 11, 0.9248064781715358, 7), (<DeployedServers.Server object at 0x00000201CAD7D4D0>, 11, 0.9203193232868904, 1), (<DeployedServers.Server object at 0x00000201CAD7D710>, 13, 0.9192737731784058, 8)]}
-server prefrences {0: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 1: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 2: [], 3: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 4: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 5: [], 6: [], 7: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>], 8: [<VirtualNetworkFunction.VNF object at 0x00000201CAD7D9D0>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F250>, <VirtualNetworkFunction.VNF object at 0x00000201CAD7F150>]}
-VNF 2 assigned to Server 7. Available resources: 97
-VNF 16 assigned to Server 7. Available resources: 66
-VNF 17 assigned to Server 7. Available resources: 33
-Stable matching completed. VNFs from server 2 have been reassigned.
+Intital Configuration
 
 Server Information:
 ====================
@@ -57,54 +52,320 @@ Server 0:
   Available Resources: 52
   VNF Count: 3
 
+Starting to print server and SFC information...
 Server 1:
   Total Resources: 147
   Reliability: 0.984
   Available Resources: 91
   VNF Count: 2
 
+Starting to print server and SFC information...
 Server 2:
-  Total Resources: 0
-  Reliability: 0.000
-  Available Resources: 0
-  VNF Count: 0
+  Total Resources: 114
+  Reliability: 0.982
+  Available Resources: 15
+  VNF Count: 3
 
+Starting to print server and SFC information...
 Server 3:
   Total Resources: 106
   Reliability: 0.990
   Available Resources: 34
   VNF Count: 3
 
+Starting to print server and SFC information...
 Server 4:
   Total Resources: 134
   Reliability: 0.981
   Available Resources: 93
   VNF Count: 2
 
+Starting to print server and SFC information...
 Server 5:
   Total Resources: 127
   Reliability: 0.980
   Available Resources: 20
   VNF Count: 5
 
+Starting to print server and SFC information...
 Server 6:
   Total Resources: 105
   Reliability: 0.983
   Available Resources: 23
   VNF Count: 3
 
+Starting to print server and SFC information...
 Server 7:
   Total Resources: 132
   Reliability: 0.989
-  Available Resources: 33
-  VNF Count: 3
+  Available Resources: 132
+  VNF Count: 0
 
+Starting to print server and SFC information...
 Server 8:
   Total Resources: 135
   Reliability: 0.983
   Available Resources: 102
   VNF Count: 1
 
+Starting to print server and SFC information...
+
+Service Function Chains (SFC) Information:
+==========================================
+SFC 0:
+  VNF 0:
+    Resources: 32
+    Latency: 5
+    Deployed on Server: 6
+
+  VNF 1:
+    Resources: 17
+    Latency: 4
+    Deployed on Server: 4
+
+  VNF 2:
+    Resources: 35
+    Latency: 1
+    Deployed on Server: 2
+
+  VNF 3:
+    Resources: 32
+    Latency: 4
+    Deployed on Server: 5
+
+  VNF 4:
+    Resources: 18
+    Latency: 2
+    Deployed on Server: 3
+
+  Total Resources: 134
+  Total Reliability: 0.939965985874324
+  Total Latency: 30
+
+Starting to print server and SFC information...
+SFC 1:
+  VNF 5:
+    Resources: 13
+    Latency: 1
+    Deployed on Server: 6
+
+  VNF 6:
+    Resources: 13
+    Latency: 3
+    Deployed on Server: 5
+
+  VNF 7:
+    Resources: 29
+    Latency: 3
+    Deployed on Server: 0
+
+  VNF 8:
+    Resources: 33
+    Latency: 4
+    Deployed on Server: 8
+
+  Total Resources: 88
+  Total Reliability: 0.9503055883854473
+  Total Latency: 28
+
+Starting to print server and SFC information...
+SFC 2:
+  VNF 9:
+    Resources: 39
+    Latency: 4
+    Deployed on Server: 1
+
+  VNF 10:
+    Resources: 27
+    Latency: 3
+    Deployed on Server: 5
+
+  VNF 11:
+    Resources: 28
+    Latency: 2
+    Deployed on Server: 0
+
+  Total Resources: 94
+  Total Reliability: 0.9672252314956469
+  Total Latency: 17
+
+Starting to print server and SFC information...
+SFC 3:
+  VNF 12:
+    Resources: 17
+    Latency: 3
+    Deployed on Server: 1
+
+  VNF 13:
+    Resources: 37
+    Latency: 2
+    Deployed on Server: 6
+
+  VNF 14:
+    Resources: 18
+    Latency: 4
+    Deployed on Server: 5
+
+  VNF 15:
+    Resources: 15
+    Latency: 3
+    Deployed on Server: 3
+
+  VNF 16:
+    Resources: 31
+    Latency: 3
+    Deployed on Server: 2
+
+  Total Resources: 118
+  Total Reliability: 0.9426109893788667
+  Total Latency: 35
+
+Starting to print server and SFC information...
+SFC 4:
+  VNF 17:
+    Resources: 33
+    Latency: 2
+    Deployed on Server: 2
+
+  VNF 18:
+    Resources: 24
+    Latency: 4
+    Deployed on Server: 4
+
+  VNF 19:
+    Resources: 39
+    Latency: 5
+    Deployed on Server: 3
+
+  VNF 20:
+    Resources: 31
+    Latency: 3
+    Deployed on Server: 0
+
+  VNF 21:
+    Resources: 17
+    Latency: 1
+    Deployed on Server: 5
+
+  Total Resources: 144
+  Total Reliability: 0.9384600249979952
+  Total Latency: 28
+
+Starting to print server and SFC information...
+
+ Server Information after initial deployment:
+==========================
+Server 0:
+  Available Resources: 52
+  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 29, 'latency': 3, 'server_id': 0}, {'id': 11, 'sfc_id': 2, 'resources': 28, 'latency': 2, 'server_id': 0}, {'id': 20, 'sfc_id': 4, 'resources': 31, 'latency': 3, 'server_id': 0}]
+
+Server 1:
+  Available Resources: 91
+  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 39, 'latency': 4, 'server_id': 1}, {'id': 12, 'sfc_id': 3, 'resources': 17, 'latency': 3, 'server_id': 1}]
+
+Server 2:
+  Available Resources: 15
+  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 35, 'latency': 1, 'server_id': 2}, {'id': 16, 'sfc_id': 3, 'resources': 31, 'latency': 3, 'server_id': 2}, {'id': 17, 'sfc_id': 4, 'resources': 33, 'latency': 2, 'server_id': 2}]
+
+Server 3:
+  Available Resources: 34
+  VNFs Deployed: [{'id': 4, 'sfc_id': 0, 'resources': 18, 'latency': 2, 'server_id': 3}, {'id': 15, 'sfc_id': 3, 'resources': 15, 'latency': 3, 'server_id': 3}, {'id': 19, 'sfc_id': 4, 'resources': 39, 'latency': 5, 'server_id': 3}]
+
+Server 4:
+  Available Resources: 93
+  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 17, 'latency': 4, 'server_id': 4}, {'id': 18, 'sfc_id': 4, 'resources': 24, 'latency': 4, 'server_id': 4}]
+
+Server 5:
+  Available Resources: 20
+  VNFs Deployed: [{'id': 3, 'sfc_id': 0, 'resources': 32, 'latency': 4, 'server_id': 5}, {'id': 6, 'sfc_id': 1, 'resources': 13, 'latency': 3, 'server_id': 5}, {'id': 10, 'sfc_id': 2, 'resources': 27, 'latency': 3, 'server_id': 5}, {'id': 14, 'sfc_id': 3, 'resources': 18, 'latency': 4, 'server_id': 5}, {'id': 21, 'sfc_id': 4, 'resources': 17, 'latency': 1, 'server_id': 5}]
+
+Server 6:
+  Available Resources: 23
+  VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 32, 'latency': 5, 'server_id': 6}, {'id': 5, 'sfc_id': 1, 'resources': 13, 'latency': 1, 'server_id': 6}, {'id': 13, 'sfc_id': 3, 'resources': 37, 'latency': 2, 'server_id': 6}]
+
+Server 7:
+  Available Resources: 132
+  VNFs Deployed: []
+
+Server 8:
+  Available Resources: 102
+  VNFs Deployed: [{'id': 8, 'sfc_id': 1, 'resources': 33, 'latency': 4, 'server_id': 8}]
+
+All Servers , SFC's have been setup!!!
+VNF Preferences {2: [(<DeployedServers.Server object at 0x000001E35B773990>, 13, 0.926323076705542, 7), (<DeployedServers.Server object at 0x000001E35B7734D0>, 13, 0.9218284006407503, 1), (<DeployedServers.Server object at 0x000001E35B773A10>, 14, 0.9207810980251826, 8)], 16: [(<DeployedServers.Server object at 0x000001E35B773990>, 19, 0.9289867637245632, 7), (<DeployedServers.Server object at 0x000001E35B773050>, 17, 0.9222221287462773, 0), (<DeployedServers.Server object at 0x000001E35B7737D0>, 17, 0.9218858566472198, 4)], 17: [(<DeployedServers.Server object at 0x000001E35B773990>, 11, 0.9248064781715358, 7), (<DeployedServers.Server object at 0x000001E35B7734D0>, 11, 0.9203193232868904, 1), (<DeployedServers.Server object at 0x000001E35B773A10>, 13, 0.9192737731784058, 8)]}
+server prefrences {0: [<VirtualNetworkFunction.VNF object at 0x000001E35B773E10>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C2D0>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C210>], 1: [<VirtualNetworkFunction.VNF object at 0x000001E35B773E10>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C2D0>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C210>], 2: [], 3: [<VirtualNetworkFunction.VNF object at 0x000001E35B77C2D0>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C210>], 4: [<VirtualNetworkFunction.VNF object at 0x000001E35B773E10>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C2D0>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C210>], 5: [], 6: [], 7: [<VirtualNetworkFunction.VNF object at 0x000001E35B773E10>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C2D0>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C210>], 8: [<VirtualNetworkFunction.VNF object at 0x000001E35B773E10>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C2D0>, <VirtualNetworkFunction.VNF object at 0x000001E35B77C210>]}
+VNF 2 assigned to Server 7. Available resources: 97
+VNF 16 assigned to Server 7. Available resources: 66
+VNF 17 assigned to Server 7. Available resources: 33
+Total SFC's that failed realibility factor or latency requirement 0
+Stable matching completed. VNFs from server 2 have been reassigned.
+Final Configuration after the VNF's deployment
+
+Server Information:
+====================
+Server 0:
+  Total Resources: 140
+  Reliability: 0.982
+  Available Resources: 52
+  VNF Count: 3
+
+Starting to print server and SFC information...
+Server 1:
+  Total Resources: 147
+  Reliability: 0.984
+  Available Resources: 91
+  VNF Count: 2
+
+Starting to print server and SFC information...
+Server 2:
+  Total Resources: 0
+  Reliability: 0.000
+  Available Resources: 0
+  VNF Count: 0
+
+Starting to print server and SFC information...
+Server 3:
+  Total Resources: 106
+  Reliability: 0.990
+  Available Resources: 34
+  VNF Count: 3
+
+Starting to print server and SFC information...
+Server 4:
+  Total Resources: 134
+  Reliability: 0.981
+  Available Resources: 93
+  VNF Count: 2
+
+Starting to print server and SFC information...
+Server 5:
+  Total Resources: 127
+  Reliability: 0.980
+  Available Resources: 20
+  VNF Count: 5
+
+Starting to print server and SFC information...
+Server 6:
+  Total Resources: 105
+  Reliability: 0.983
+  Available Resources: 23
+  VNF Count: 3
+
+Starting to print server and SFC information...
+Server 7:
+  Total Resources: 132
+  Reliability: 0.989
+  Available Resources: 33
+  VNF Count: 3
+
+Starting to print server and SFC information...
+Server 8:
+  Total Resources: 135
+  Reliability: 0.983
+  Available Resources: 102
+  VNF Count: 1
+
+Starting to print server and SFC information...
 
 Service Function Chains (SFC) Information:
 ==========================================
@@ -138,6 +399,7 @@ SFC 0:
   Total Reliability: 0.9464643507299162
   Total Latency: 29
 
+Starting to print server and SFC information...
 SFC 1:
   VNF 5:
     Resources: 13
@@ -163,6 +425,7 @@ SFC 1:
   Total Reliability: 0.9503055883854473
   Total Latency: 28
 
+Starting to print server and SFC information...
 SFC 2:
   VNF 9:
     Resources: 39
@@ -183,6 +446,7 @@ SFC 2:
   Total Reliability: 0.9672252314956469
   Total Latency: 17
 
+Starting to print server and SFC information...
 SFC 3:
   VNF 12:
     Resources: 17
@@ -213,6 +477,7 @@ SFC 3:
   Total Reliability: 0.9491280377489375
   Total Latency: 34
 
+Starting to print server and SFC information...
 SFC 4:
   VNF 17:
     Resources: 33
@@ -243,6 +508,7 @@ SFC 4:
   Total Reliability: 0.94494775219591
   Total Latency: 26
 
+Starting to print server and SFC information...
 
 Final Server Information:
 ==========================

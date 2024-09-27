@@ -1,0 +1,19 @@
+Server ID,Total Resources,Reliability,Available Resources,VNF Count,VNF List
+0,140,0.982,52,3,"[{'id': 7, 'sfc_id': 1, 'resources': 29, 'latency': 3, 'server_id': 0}, {'id': 11, 'sfc_id': 2, 'resources': 28, 'latency': 2, 'server_id': 0}, {'id': 20, 'sfc_id': 4, 'resources': 31, 'latency': 3, 'server_id': 0}]"
+1,147,0.984,91,2,"[{'id': 9, 'sfc_id': 2, 'resources': 39, 'latency': 4, 'server_id': 1}, {'id': 12, 'sfc_id': 3, 'resources': 17, 'latency': 3, 'server_id': 1}]"
+2,114,0.982,15,3,"[{'id': 2, 'sfc_id': 0, 'resources': 35, 'latency': 1, 'server_id': 2}, {'id': 16, 'sfc_id': 3, 'resources': 31, 'latency': 3, 'server_id': 2}, {'id': 17, 'sfc_id': 4, 'resources': 33, 'latency': 2, 'server_id': 2}]"
+3,106,0.990,34,3,"[{'id': 4, 'sfc_id': 0, 'resources': 18, 'latency': 2, 'server_id': 3}, {'id': 15, 'sfc_id': 3, 'resources': 15, 'latency': 3, 'server_id': 3}, {'id': 19, 'sfc_id': 4, 'resources': 39, 'latency': 5, 'server_id': 3}]"
+4,134,0.981,93,2,"[{'id': 1, 'sfc_id': 0, 'resources': 17, 'latency': 4, 'server_id': 4}, {'id': 18, 'sfc_id': 4, 'resources': 24, 'latency': 4, 'server_id': 4}]"
+5,127,0.980,20,5,"[{'id': 3, 'sfc_id': 0, 'resources': 32, 'latency': 4, 'server_id': 5}, {'id': 6, 'sfc_id': 1, 'resources': 13, 'latency': 3, 'server_id': 5}, {'id': 10, 'sfc_id': 2, 'resources': 27, 'latency': 3, 'server_id': 5}, {'id': 14, 'sfc_id': 3, 'resources': 18, 'latency': 4, 'server_id': 5}, {'id': 21, 'sfc_id': 4, 'resources': 17, 'latency': 1, 'server_id': 5}]"
+6,105,0.983,23,3,"[{'id': 0, 'sfc_id': 0, 'resources': 32, 'latency': 5, 'server_id': 6}, {'id': 5, 'sfc_id': 1, 'resources': 13, 'latency': 1, 'server_id': 6}, {'id': 13, 'sfc_id': 3, 'resources': 37, 'latency': 2, 'server_id': 6}]"
+7,132,0.989,132,0,[]
+8,135,0.983,102,1,"[{'id': 8, 'sfc_id': 1, 'resources': 33, 'latency': 4, 'server_id': 8}]"
+0,140,0.982,52,3,"[{'id': 7, 'sfc_id': 1, 'resources': 29, 'latency': 3, 'server_id': 0}, {'id': 11, 'sfc_id': 2, 'resources': 28, 'latency': 2, 'server_id': 0}, {'id': 20, 'sfc_id': 4, 'resources': 31, 'latency': 3, 'server_id': 0}]"
+1,147,0.984,91,2,"[{'id': 9, 'sfc_id': 2, 'resources': 39, 'latency': 4, 'server_id': 1}, {'id': 12, 'sfc_id': 3, 'resources': 17, 'latency': 3, 'server_id': 1}]"
+2,0,0.000,0,0,[]
+3,106,0.990,34,3,"[{'id': 4, 'sfc_id': 0, 'resources': 18, 'latency': 2, 'server_id': 3}, {'id': 15, 'sfc_id': 3, 'resources': 15, 'latency': 3, 'server_id': 3}, {'id': 19, 'sfc_id': 4, 'resources': 39, 'latency': 5, 'server_id': 3}]"
+4,134,0.981,93,2,"[{'id': 1, 'sfc_id': 0, 'resources': 17, 'latency': 4, 'server_id': 4}, {'id': 18, 'sfc_id': 4, 'resources': 24, 'latency': 4, 'server_id': 4}]"
+5,127,0.980,20,5,"[{'id': 3, 'sfc_id': 0, 'resources': 32, 'latency': 4, 'server_id': 5}, {'id': 6, 'sfc_id': 1, 'resources': 13, 'latency': 3, 'server_id': 5}, {'id': 10, 'sfc_id': 2, 'resources': 27, 'latency': 3, 'server_id': 5}, {'id': 14, 'sfc_id': 3, 'resources': 18, 'latency': 4, 'server_id': 5}, {'id': 21, 'sfc_id': 4, 'resources': 17, 'latency': 1, 'server_id': 5}]"
+6,105,0.983,23,3,"[{'id': 0, 'sfc_id': 0, 'resources': 32, 'latency': 5, 'server_id': 6}, {'id': 5, 'sfc_id': 1, 'resources': 13, 'latency': 1, 'server_id': 6}, {'id': 13, 'sfc_id': 3, 'resources': 37, 'latency': 2, 'server_id': 6}]"
+7,132,0.989,33,3,"[{'id': 2, 'sfc_id': 0, 'resources': 35, 'latency': 1, 'server_id': 7}, {'id': 16, 'sfc_id': 3, 'resources': 31, 'latency': 3, 'server_id': 7}, {'id': 17, 'sfc_id': 4, 'resources': 33, 'latency': 2, 'server_id': 7}]"
+8,135,0.983,102,1,"[{'id': 8, 'sfc_id': 1, 'resources': 33, 'latency': 4, 'server_id': 8}]"
