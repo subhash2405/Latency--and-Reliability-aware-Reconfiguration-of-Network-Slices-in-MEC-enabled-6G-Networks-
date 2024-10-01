@@ -23,11 +23,11 @@ from params.parameters import param
 #     [(3, 3), (4, 2), (5, 3), (6, 2), (8, 2)],
 #     [(7, 2), (5, 2)]
 # ]
-adj_matrix = [[] for _ in range(param.numOfServers)]
+adj_matrix = [[] for _ in range(param.numOfFacilities)]
 
-core_servers = param.numofCoreServers
-regional_servers = param.numofregionalServers
-nodal_servers = param.numofnodalServers
+core_servers = param.numofCoreFacilities
+regional_servers = param.numofregionalFacilities
+nodal_servers = param.numofnodalFacilities
 
 # Start indices for regional and nodal servers
 regional_start_index = core_servers

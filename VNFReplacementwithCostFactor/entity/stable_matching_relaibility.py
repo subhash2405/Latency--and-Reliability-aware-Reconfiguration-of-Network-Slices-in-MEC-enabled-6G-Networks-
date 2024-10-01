@@ -2,7 +2,7 @@ from params.parameters import param
 from utility.distance import distances
 from VirtualNetworkFunction import VNF
 # global count
-def stable_matching_for_failed_server(failing_server_id, servers, sfcs):
+def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_facility):
     global count
     count = 0
     # from main import servers, sfcs
@@ -42,11 +42,17 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs):
                         distance_latency += distances[server.id][current_sfc.vnf_list[other_vnf + 1].server_id]
                 
                 # Add the server and its calculated distance_latency to the VNF's preference list
-                if distance_latency <= present_latency:
-                    new_relability = (current_sfc.total_relaibility - param.bias)/failing_server.reliability
-                    new_relability*=server.reliability
-                    new_relability+=param.bias
-                    vnf_preferences[vnf.id].append((server,  distance_latency, new_relability,server.id))
+                new_relability = (current_sfc.total_relaibility - param.bias)/failing_server.reliability
+                new_relability*=server.reliability
+                new_relability+=param.bias
+                if distance_latency <= present_latency and new_relability>=current_sfc.total_relaibility:
+                    cost_of_migration = vnf.data*distances[failing_server.server_facility_id][server.server_facility_id]
+                    if len(server.vnf_list)==0:
+                        cost_of_migration+=server.activation_cost
+                    facility = server_facility[server.server_facility_id]
+                    if len(facility.deployed_servers)==0:
+                        cost_of_migration+=facility.activation_cost
+                    vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id))
 
 
         # Sort the servers for each VNF by highest relaibility 
@@ -56,7 +62,7 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs):
             print(f"No matching found for SFC {current_sfc.id} whose vnf is {vnf.id}")
         else:
         
-            vnf_preferences[vnf.id].sort(key=lambda x: x[2], reverse = True)
+            vnf_preferences[vnf.id].sort(key=lambda x: x[2])
     print("VNF Preferences", vnf_preferences)
 
     for server in servers:
@@ -80,7 +86,7 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs):
         vnf_id = vnf.id
 
         # VNF proposes to its most preferred server
-        preferred_server, _, _, _ = vnf_preferences[vnf_id].pop(0)
+        preferred_server, _, _, _, _ = vnf_preferences[vnf_id].pop(0)
         
         # If the server can accept the VNF, assign it
         if sum(v.resources for v in server_assignments[preferred_server.id]) + vnf.resources <= preferred_server.available_resources:

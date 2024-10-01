@@ -1,6 +1,11 @@
 class param:
 
-    numOfServers = 9
+    numofCoreServers = 3
+    multiplicityofCores = 2
+    numofregionalServers = multiplicityofCores*numofCoreServers
+    multiplicityofregional = 7
+    numofnodalServers = numofregionalServers*multiplicityofregional
+    numOfServers = numofCoreServers + multiplicityofCores*numofCoreServers + multiplicityofCores*multiplicityofregional*numofCoreServers
     numOfSFC = 5
     min_resource_server = 100
     max_resource_server = 150

@@ -6,6 +6,7 @@ class VNF:
         self.latency = latency # remove 
         self.server_id = server_id
         # data it has - random 
+        self.data = 1
 
 
     def get_info(self):
@@ -14,7 +15,8 @@ class VNF:
             'sfc_id': self.sfc_id,
             'resources': self.resources,
             'latency': self.latency,
-            'server_id': self.server_id
+            'server_id': self.server_id,
+            'Data':self.data
         }
 
     def change_server_id(self, server):

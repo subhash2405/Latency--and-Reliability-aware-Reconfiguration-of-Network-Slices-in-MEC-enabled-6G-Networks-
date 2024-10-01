@@ -1,11 +1,13 @@
 class Server:
-    def __init__(self, id, total_resources, reliability):
+    def __init__(self, id,server_facility_id, total_resources, reliability, activation_cost):
         self.id = id
+        self.server_facility_id = server_facility_id
         self.total_resources = total_resources
         self.available_resources = total_resources
         self.vnf_list = []
         self.reliability = reliability
         #cost of activating that server if vnf list = 0
+        self.activation_cost = activation_cost
         
 
     def add_vnf(self, vnf):
@@ -20,6 +22,8 @@ class Server:
     def get_info(self):
         return {
             'id': self.id,
+            'DeployedinFacility' : self.server_facility_id,
+            'ActivationCost' : self.activation_cost,
             'total_resources': self.total_resources,
             'reliability': self.reliability,
             'available_resources': self.available_resources,
