@@ -63,7 +63,8 @@ for sfc in sfcs:
     serverslist = set()
     for _ in range(sfc_length):
         resources = random.randint(param.min_resource_vnf, param.max_resource_vnf)
-        latency = random.randint(1, 5)
+        # latency = random.randint(1, 5)
+        latency = 0
         
         server = None
         server_set = set()

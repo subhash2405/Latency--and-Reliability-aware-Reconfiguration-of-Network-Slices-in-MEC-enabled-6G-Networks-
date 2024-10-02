@@ -50,7 +50,12 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
                     if len(server.vnf_list)==0:
                         cost_of_migration+=server.activation_cost
                     facility = server_facility[server.server_facility_id]
-                    if len(facility.deployed_servers)==0:
+                    flag=0
+                    for srv in facility.server_list:
+                        if len(srv.vnf_list)!=0:
+                            flag=1
+                            break
+                    if flag==0:
                         cost_of_migration+=facility.activation_cost
                     vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id))
 

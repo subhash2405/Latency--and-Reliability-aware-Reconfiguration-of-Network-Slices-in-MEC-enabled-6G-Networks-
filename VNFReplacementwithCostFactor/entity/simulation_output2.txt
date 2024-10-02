@@ -100,46 +100,46 @@ Server 98 assigned to Server Facility 49.
 Server 99 assigned to Server Facility 49.
 Server 100 assigned to Server Facility 50.
 Server 101 assigned to Server Facility 50.
-VNF 0 assigned to Server 3. Available resources: 67
-VNF 0 added to SFC 0. Total resources: 38, Total latency: 4
-VNF 1 assigned to Server 100. Available resources: 111
-VNF 1 added to SFC 0. Total resources: 53, Total latency: 7
-VNF 2 assigned to Server 85. Available resources: 102
-VNF 2 added to SFC 0. Total resources: 92, Total latency: 11
-VNF 3 assigned to Server 34. Available resources: 83
-VNF 3 added to SFC 1. Total resources: 35, Total latency: 2
-VNF 4 assigned to Server 48. Available resources: 113
-VNF 4 added to SFC 1. Total resources: 50, Total latency: 3
-VNF 5 assigned to Server 60. Available resources: 90
-VNF 5 added to SFC 1. Total resources: 87, Total latency: 4
-VNF 6 assigned to Server 58. Available resources: 86
-VNF 6 added to SFC 1. Total resources: 104, Total latency: 6
-VNF 7 assigned to Server 101. Available resources: 94
-VNF 7 added to SFC 1. Total resources: 125, Total latency: 9
-VNF 8 assigned to Server 84. Available resources: 117
-VNF 8 added to SFC 2. Total resources: 17, Total latency: 1
-VNF 9 assigned to Server 42. Available resources: 89
-VNF 9 added to SFC 2. Total resources: 33, Total latency: 5
-VNF 10 assigned to Server 98. Available resources: 84
-VNF 10 added to SFC 2. Total resources: 51, Total latency: 6
-VNF 11 assigned to Server 51. Available resources: 124
-VNF 11 added to SFC 3. Total resources: 21, Total latency: 5
-VNF 12 assigned to Server 42. Available resources: 58
-VNF 12 added to SFC 3. Total resources: 52, Total latency: 10
-VNF 13 assigned to Server 14. Available resources: 74
-VNF 13 added to SFC 3. Total resources: 92, Total latency: 11
-VNF 14 assigned to Server 22. Available resources: 79
-VNF 14 added to SFC 3. Total resources: 130, Total latency: 14
-VNF 15 assigned to Server 4. Available resources: 72
-VNF 15 added to SFC 4. Total resources: 40, Total latency: 3
-VNF 16 assigned to Server 55. Available resources: 117
-VNF 16 added to SFC 4. Total resources: 53, Total latency: 8
-VNF 17 assigned to Server 77. Available resources: 99
-VNF 17 added to SFC 4. Total resources: 74, Total latency: 11
-VNF 18 assigned to Server 49. Available resources: 89
-VNF 18 added to SFC 4. Total resources: 100, Total latency: 12
-VNF 19 assigned to Server 24. Available resources: 87
-VNF 19 added to SFC 4. Total resources: 138, Total latency: 17
+VNF 0 assigned to Server 52. Available resources: 83
+VNF 0 added to SFC 0. Total resources: 38, Total latency: 0
+VNF 1 assigned to Server 22. Available resources: 107
+VNF 1 added to SFC 0. Total resources: 48, Total latency: 0
+VNF 2 assigned to Server 42. Available resources: 72
+VNF 2 added to SFC 0. Total resources: 81, Total latency: 0
+VNF 3 assigned to Server 85. Available resources: 106
+VNF 3 added to SFC 1. Total resources: 35, Total latency: 0
+VNF 4 assigned to Server 94. Available resources: 98
+VNF 4 added to SFC 1. Total resources: 72, Total latency: 0
+VNF 5 assigned to Server 31. Available resources: 94
+VNF 5 added to SFC 1. Total resources: 107, Total latency: 0
+VNF 6 assigned to Server 20. Available resources: 125
+VNF 6 added to SFC 1. Total resources: 125, Total latency: 0
+VNF 7 assigned to Server 48. Available resources: 115
+VNF 7 added to SFC 2. Total resources: 13, Total latency: 0
+VNF 8 assigned to Server 4. Available resources: 75
+VNF 8 added to SFC 2. Total resources: 50, Total latency: 0
+VNF 9 assigned to Server 60. Available resources: 90
+VNF 9 added to SFC 2. Total resources: 87, Total latency: 0
+VNF 10 assigned to Server 25. Available resources: 92
+VNF 10 added to SFC 2. Total resources: 104, Total latency: 0
+VNF 11 assigned to Server 58. Available resources: 67
+VNF 11 added to SFC 2. Total resources: 140, Total latency: 0
+VNF 12 assigned to Server 101. Available resources: 96
+VNF 12 added to SFC 3. Total resources: 19, Total latency: 0
+VNF 13 assigned to Server 29. Available resources: 70
+VNF 13 added to SFC 3. Total resources: 56, Total latency: 0
+VNF 14 assigned to Server 3. Available resources: 88
+VNF 14 added to SFC 3. Total resources: 73, Total latency: 0
+VNF 15 assigned to Server 24. Available resources: 94
+VNF 15 added to SFC 3. Total resources: 104, Total latency: 0
+VNF 16 assigned to Server 35. Available resources: 126
+VNF 16 added to SFC 4. Total resources: 20, Total latency: 0
+VNF 17 assigned to Server 8. Available resources: 84
+VNF 17 added to SFC 4. Total resources: 57, Total latency: 0
+VNF 18 assigned to Server 98. Available resources: 62
+VNF 18 added to SFC 4. Total resources: 97, Total latency: 0
+VNF 19 assigned to Server 44. Available resources: 124
+VNF 19 added to SFC 4. Total resources: 115, Total latency: 0
 Intital Configuration
 ====================
 Server_Facility 0
@@ -427,7 +427,7 @@ Deployed in facility : 1
 Server 3:
   Total Resources: 105
   Reliability: 0.983
-  Available Resources: 67
+  Available Resources: 88
   VNF Count: 1
 Activation cost for setup :150.53552881033625
 Deployed in facility : 1
@@ -435,7 +435,7 @@ Deployed in facility : 1
 Server 4:
   Total Resources: 112
   Reliability: 0.991
-  Available Resources: 72
+  Available Resources: 75
   VNF Count: 1
 Activation cost for setup :170.1324973590236
 Deployed in facility : 2
@@ -467,8 +467,8 @@ Deployed in facility : 3
 Server 8:
   Total Resources: 121
   Reliability: 0.982
-  Available Resources: 121
-  VNF Count: 0
+  Available Resources: 84
+  VNF Count: 1
 Activation cost for setup :137.99273006373375
 Deployed in facility : 4
 
@@ -515,8 +515,8 @@ Deployed in facility : 6
 Server 14:
   Total Resources: 114
   Reliability: 0.993
-  Available Resources: 74
-  VNF Count: 1
+  Available Resources: 114
+  VNF Count: 0
 Activation cost for setup :138.01262250391662
 Deployed in facility : 7
 
@@ -563,8 +563,8 @@ Deployed in facility : 9
 Server 20:
   Total Resources: 143
   Reliability: 0.985
-  Available Resources: 143
-  VNF Count: 0
+  Available Resources: 125
+  VNF Count: 1
 Activation cost for setup :176.83135775923722
 Deployed in facility : 10
 
@@ -579,7 +579,7 @@ Deployed in facility : 10
 Server 22:
   Total Resources: 117
   Reliability: 0.981
-  Available Resources: 79
+  Available Resources: 107
   VNF Count: 1
 Activation cost for setup :191.3136124185545
 Deployed in facility : 11
@@ -595,7 +595,7 @@ Deployed in facility : 11
 Server 24:
   Total Resources: 125
   Reliability: 0.993
-  Available Resources: 87
+  Available Resources: 94
   VNF Count: 1
 Activation cost for setup :164.28518702004243
 Deployed in facility : 12
@@ -603,8 +603,8 @@ Deployed in facility : 12
 Server 25:
   Total Resources: 109
   Reliability: 0.984
-  Available Resources: 109
-  VNF Count: 0
+  Available Resources: 92
+  VNF Count: 1
 Activation cost for setup :124.66275076939834
 Deployed in facility : 12
 
@@ -635,8 +635,8 @@ Deployed in facility : 14
 Server 29:
   Total Resources: 107
   Reliability: 0.982
-  Available Resources: 107
-  VNF Count: 0
+  Available Resources: 70
+  VNF Count: 1
 Activation cost for setup :115.99820017224502
 Deployed in facility : 14
 
@@ -651,8 +651,8 @@ Deployed in facility : 15
 Server 31:
   Total Resources: 129
   Reliability: 0.988
-  Available Resources: 129
-  VNF Count: 0
+  Available Resources: 94
+  VNF Count: 1
 Activation cost for setup :197.10783776136182
 Deployed in facility : 15
 
@@ -675,16 +675,16 @@ Deployed in facility : 16
 Server 34:
   Total Resources: 118
   Reliability: 0.987
-  Available Resources: 83
-  VNF Count: 1
+  Available Resources: 118
+  VNF Count: 0
 Activation cost for setup :145.37237063292065
 Deployed in facility : 17
 
 Server 35:
   Total Resources: 146
   Reliability: 0.993
-  Available Resources: 146
-  VNF Count: 0
+  Available Resources: 126
+  VNF Count: 1
 Activation cost for setup :126.33890507510907
 Deployed in facility : 17
 
@@ -739,8 +739,8 @@ Deployed in facility : 20
 Server 42:
   Total Resources: 105
   Reliability: 0.981
-  Available Resources: 58
-  VNF Count: 2
+  Available Resources: 72
+  VNF Count: 1
 Activation cost for setup :148.59904633166138
 Deployed in facility : 21
 
@@ -755,8 +755,8 @@ Deployed in facility : 21
 Server 44:
   Total Resources: 142
   Reliability: 0.987
-  Available Resources: 142
-  VNF Count: 0
+  Available Resources: 124
+  VNF Count: 1
 Activation cost for setup :154.9803593494944
 Deployed in facility : 22
 
@@ -787,7 +787,7 @@ Deployed in facility : 23
 Server 48:
   Total Resources: 128
   Reliability: 0.993
-  Available Resources: 113
+  Available Resources: 115
   VNF Count: 1
 Activation cost for setup :145.14861413911296
 Deployed in facility : 24
@@ -795,8 +795,8 @@ Deployed in facility : 24
 Server 49:
   Total Resources: 115
   Reliability: 0.983
-  Available Resources: 89
-  VNF Count: 1
+  Available Resources: 115
+  VNF Count: 0
 Activation cost for setup :133.80855621474552
 Deployed in facility : 24
 
@@ -811,16 +811,16 @@ Deployed in facility : 25
 Server 51:
   Total Resources: 145
   Reliability: 0.989
-  Available Resources: 124
-  VNF Count: 1
+  Available Resources: 145
+  VNF Count: 0
 Activation cost for setup :122.89417838111544
 Deployed in facility : 25
 
 Server 52:
   Total Resources: 121
   Reliability: 0.981
-  Available Resources: 121
-  VNF Count: 0
+  Available Resources: 83
+  VNF Count: 1
 Activation cost for setup :123.80046343689952
 Deployed in facility : 26
 
@@ -843,8 +843,8 @@ Deployed in facility : 27
 Server 55:
   Total Resources: 130
   Reliability: 0.992
-  Available Resources: 117
-  VNF Count: 1
+  Available Resources: 130
+  VNF Count: 0
 Activation cost for setup :119.04099143618777
 Deployed in facility : 27
 
@@ -867,7 +867,7 @@ Deployed in facility : 28
 Server 58:
   Total Resources: 103
   Reliability: 0.986
-  Available Resources: 86
+  Available Resources: 67
   VNF Count: 1
 Activation cost for setup :133.93026053949632
 Deployed in facility : 29
@@ -1019,8 +1019,8 @@ Deployed in facility : 38
 Server 77:
   Total Resources: 120
   Reliability: 0.994
-  Available Resources: 99
-  VNF Count: 1
+  Available Resources: 120
+  VNF Count: 0
 Activation cost for setup :120.42591994235364
 Deployed in facility : 38
 
@@ -1075,15 +1075,15 @@ Deployed in facility : 41
 Server 84:
   Total Resources: 134
   Reliability: 0.991
-  Available Resources: 117
-  VNF Count: 1
+  Available Resources: 134
+  VNF Count: 0
 Activation cost for setup :161.16777657259502
 Deployed in facility : 42
 
 Server 85:
   Total Resources: 141
   Reliability: 0.988
-  Available Resources: 102
+  Available Resources: 106
   VNF Count: 1
 Activation cost for setup :166.78632037125834
 Deployed in facility : 42
@@ -1155,8 +1155,8 @@ Deployed in facility : 46
 Server 94:
   Total Resources: 135
   Reliability: 0.980
-  Available Resources: 135
-  VNF Count: 0
+  Available Resources: 98
+  VNF Count: 1
 Activation cost for setup :107.5243860073767
 Deployed in facility : 47
 
@@ -1187,7 +1187,7 @@ Deployed in facility : 48
 Server 98:
   Total Resources: 102
   Reliability: 0.993
-  Available Resources: 84
+  Available Resources: 62
   VNF Count: 1
 Activation cost for setup :121.00765383397541
 Deployed in facility : 49
@@ -1203,15 +1203,15 @@ Deployed in facility : 49
 Server 100:
   Total Resources: 126
   Reliability: 0.995
-  Available Resources: 111
-  VNF Count: 1
+  Available Resources: 126
+  VNF Count: 0
 Activation cost for setup :174.9477611143539
 Deployed in facility : 50
 
 Server 101:
   Total Resources: 115
   Reliability: 0.993
-  Available Resources: 94
+  Available Resources: 96
   VNF Count: 1
 Activation cost for setup :197.62060329309628
 Deployed in facility : 50
@@ -1222,127 +1222,127 @@ Service Function Chains (SFC) Information:
 SFC 0:
   VNF 0:
     Resources: 38
-    Latency: 4
-    Deployed on Server: 3
+    Latency: 0
+    Deployed on Server: 52
 
   VNF 1:
-    Resources: 15
-    Latency: 3
-    Deployed on Server: 100
+    Resources: 10
+    Latency: 0
+    Deployed on Server: 22
 
   VNF 2:
-    Resources: 39
-    Latency: 4
-    Deployed on Server: 85
+    Resources: 33
+    Latency: 0
+    Deployed on Server: 42
 
-  Total Resources: 92
-  Total Reliability: 0.9861771229465368
-  Total Latency: 17
+  Total Resources: 81
+  Total Reliability: 0.9644038314794668
+  Total Latency: 7
 
 SFC 1:
   VNF 3:
     Resources: 35
-    Latency: 2
-    Deployed on Server: 34
+    Latency: 0
+    Deployed on Server: 85
 
   VNF 4:
-    Resources: 15
-    Latency: 1
-    Deployed on Server: 48
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 94
 
   VNF 5:
-    Resources: 37
-    Latency: 1
-    Deployed on Server: 60
+    Resources: 35
+    Latency: 0
+    Deployed on Server: 31
 
   VNF 6:
-    Resources: 17
-    Latency: 2
-    Deployed on Server: 58
-
-  VNF 7:
-    Resources: 21
-    Latency: 3
-    Deployed on Server: 101
+    Resources: 18
+    Latency: 0
+    Deployed on Server: 20
 
   Total Resources: 125
-  Total Reliability: 0.9630743327311662
-  Total Latency: 21
+  Total Reliability: 0.9621581825739187
+  Total Latency: 8
 
 SFC 2:
+  VNF 7:
+    Resources: 13
+    Latency: 0
+    Deployed on Server: 48
+
   VNF 8:
-    Resources: 17
-    Latency: 1
-    Deployed on Server: 84
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 4
 
   VNF 9:
-    Resources: 16
-    Latency: 4
-    Deployed on Server: 42
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 60
 
   VNF 10:
-    Resources: 18
-    Latency: 1
-    Deployed on Server: 98
+    Resources: 17
+    Latency: 0
+    Deployed on Server: 25
 
-  Total Resources: 51
-  Total Reliability: 0.9856809266894827
+  VNF 11:
+    Resources: 36
+    Latency: 0
+    Deployed on Server: 58
+
+  Total Resources: 140
+  Total Reliability: 0.9585269535020158
   Total Latency: 15
 
 SFC 3:
-  VNF 11:
-    Resources: 21
-    Latency: 5
-    Deployed on Server: 51
-
   VNF 12:
-    Resources: 31
-    Latency: 5
-    Deployed on Server: 42
+    Resources: 19
+    Latency: 0
+    Deployed on Server: 101
 
   VNF 13:
-    Resources: 40
-    Latency: 1
-    Deployed on Server: 14
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 29
 
   VNF 14:
-    Resources: 38
-    Latency: 3
-    Deployed on Server: 22
+    Resources: 17
+    Latency: 0
+    Deployed on Server: 3
 
-  Total Resources: 130
-  Total Reliability: 0.9658234290194206
-  Total Latency: 24
-
-SFC 4:
   VNF 15:
-    Resources: 40
-    Latency: 3
-    Deployed on Server: 4
-
-  VNF 16:
-    Resources: 13
-    Latency: 5
-    Deployed on Server: 55
-
-  VNF 17:
-    Resources: 21
-    Latency: 3
-    Deployed on Server: 77
-
-  VNF 18:
-    Resources: 26
-    Latency: 1
-    Deployed on Server: 49
-
-  VNF 19:
-    Resources: 38
-    Latency: 5
+    Resources: 31
+    Latency: 0
     Deployed on Server: 24
 
-  Total Resources: 138
-  Total Reliability: 0.9743346559584303
-  Total Latency: 32
+  Total Resources: 104
+  Total Reliability: 0.9726229739658085
+  Total Latency: 9
+
+SFC 4:
+  VNF 16:
+    Resources: 20
+    Latency: 0
+    Deployed on Server: 35
+
+  VNF 17:
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 8
+
+  VNF 18:
+    Resources: 40
+    Latency: 0
+    Deployed on Server: 98
+
+  VNF 19:
+    Resources: 18
+    Latency: 0
+    Deployed on Server: 44
+
+  Total Resources: 115
+  Total Reliability: 0.975981125582256
+  Total Latency: 8
 
 
  Server Information after initial deployment:
@@ -1360,12 +1360,12 @@ Server 2:
   VNFs Deployed: []
 
 Server 3:
-  Available Resources: 67
-  VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 38, 'latency': 4, 'server_id': 3, 'Data': 1}]
+  Available Resources: 88
+  VNFs Deployed: [{'id': 14, 'sfc_id': 3, 'resources': 17, 'latency': 0, 'server_id': 3, 'Data': 1}]
 
 Server 4:
-  Available Resources: 72
-  VNFs Deployed: [{'id': 15, 'sfc_id': 4, 'resources': 40, 'latency': 3, 'server_id': 4, 'Data': 1}]
+  Available Resources: 75
+  VNFs Deployed: [{'id': 8, 'sfc_id': 2, 'resources': 37, 'latency': 0, 'server_id': 4, 'Data': 1}]
 
 Server 5:
   Available Resources: 126
@@ -1380,8 +1380,8 @@ Server 7:
   VNFs Deployed: []
 
 Server 8:
-  Available Resources: 121
-  VNFs Deployed: []
+  Available Resources: 84
+  VNFs Deployed: [{'id': 17, 'sfc_id': 4, 'resources': 37, 'latency': 0, 'server_id': 8, 'Data': 1}]
 
 Server 9:
   Available Resources: 122
@@ -1404,8 +1404,8 @@ Server 13:
   VNFs Deployed: []
 
 Server 14:
-  Available Resources: 74
-  VNFs Deployed: [{'id': 13, 'sfc_id': 3, 'resources': 40, 'latency': 1, 'server_id': 14, 'Data': 1}]
+  Available Resources: 114
+  VNFs Deployed: []
 
 Server 15:
   Available Resources: 129
@@ -1428,28 +1428,28 @@ Server 19:
   VNFs Deployed: []
 
 Server 20:
-  Available Resources: 143
-  VNFs Deployed: []
+  Available Resources: 125
+  VNFs Deployed: [{'id': 6, 'sfc_id': 1, 'resources': 18, 'latency': 0, 'server_id': 20, 'Data': 1}]
 
 Server 21:
   Available Resources: 103
   VNFs Deployed: []
 
 Server 22:
-  Available Resources: 79
-  VNFs Deployed: [{'id': 14, 'sfc_id': 3, 'resources': 38, 'latency': 3, 'server_id': 22, 'Data': 1}]
+  Available Resources: 107
+  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 10, 'latency': 0, 'server_id': 22, 'Data': 1}]
 
 Server 23:
   Available Resources: 136
   VNFs Deployed: []
 
 Server 24:
-  Available Resources: 87
-  VNFs Deployed: [{'id': 19, 'sfc_id': 4, 'resources': 38, 'latency': 5, 'server_id': 24, 'Data': 1}]
+  Available Resources: 94
+  VNFs Deployed: [{'id': 15, 'sfc_id': 3, 'resources': 31, 'latency': 0, 'server_id': 24, 'Data': 1}]
 
 Server 25:
-  Available Resources: 109
-  VNFs Deployed: []
+  Available Resources: 92
+  VNFs Deployed: [{'id': 10, 'sfc_id': 2, 'resources': 17, 'latency': 0, 'server_id': 25, 'Data': 1}]
 
 Server 26:
   Available Resources: 116
@@ -1464,16 +1464,16 @@ Server 28:
   VNFs Deployed: []
 
 Server 29:
-  Available Resources: 107
-  VNFs Deployed: []
+  Available Resources: 70
+  VNFs Deployed: [{'id': 13, 'sfc_id': 3, 'resources': 37, 'latency': 0, 'server_id': 29, 'Data': 1}]
 
 Server 30:
   Available Resources: 138
   VNFs Deployed: []
 
 Server 31:
-  Available Resources: 129
-  VNFs Deployed: []
+  Available Resources: 94
+  VNFs Deployed: [{'id': 5, 'sfc_id': 1, 'resources': 35, 'latency': 0, 'server_id': 31, 'Data': 1}]
 
 Server 32:
   Available Resources: 100
@@ -1484,12 +1484,12 @@ Server 33:
   VNFs Deployed: []
 
 Server 34:
-  Available Resources: 83
-  VNFs Deployed: [{'id': 3, 'sfc_id': 1, 'resources': 35, 'latency': 2, 'server_id': 34, 'Data': 1}]
+  Available Resources: 118
+  VNFs Deployed: []
 
 Server 35:
-  Available Resources: 146
-  VNFs Deployed: []
+  Available Resources: 126
+  VNFs Deployed: [{'id': 16, 'sfc_id': 4, 'resources': 20, 'latency': 0, 'server_id': 35, 'Data': 1}]
 
 Server 36:
   Available Resources: 111
@@ -1516,16 +1516,16 @@ Server 41:
   VNFs Deployed: []
 
 Server 42:
-  Available Resources: 58
-  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 16, 'latency': 4, 'server_id': 42, 'Data': 1}, {'id': 12, 'sfc_id': 3, 'resources': 31, 'latency': 5, 'server_id': 42, 'Data': 1}]
+  Available Resources: 72
+  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 33, 'latency': 0, 'server_id': 42, 'Data': 1}]
 
 Server 43:
   Available Resources: 104
   VNFs Deployed: []
 
 Server 44:
-  Available Resources: 142
-  VNFs Deployed: []
+  Available Resources: 124
+  VNFs Deployed: [{'id': 19, 'sfc_id': 4, 'resources': 18, 'latency': 0, 'server_id': 44, 'Data': 1}]
 
 Server 45:
   Available Resources: 116
@@ -1540,24 +1540,24 @@ Server 47:
   VNFs Deployed: []
 
 Server 48:
-  Available Resources: 113
-  VNFs Deployed: [{'id': 4, 'sfc_id': 1, 'resources': 15, 'latency': 1, 'server_id': 48, 'Data': 1}]
+  Available Resources: 115
+  VNFs Deployed: [{'id': 7, 'sfc_id': 2, 'resources': 13, 'latency': 0, 'server_id': 48, 'Data': 1}]
 
 Server 49:
-  Available Resources: 89
-  VNFs Deployed: [{'id': 18, 'sfc_id': 4, 'resources': 26, 'latency': 1, 'server_id': 49, 'Data': 1}]
+  Available Resources: 115
+  VNFs Deployed: []
 
 Server 50:
   Available Resources: 114
   VNFs Deployed: []
 
 Server 51:
-  Available Resources: 124
-  VNFs Deployed: [{'id': 11, 'sfc_id': 3, 'resources': 21, 'latency': 5, 'server_id': 51, 'Data': 1}]
+  Available Resources: 145
+  VNFs Deployed: []
 
 Server 52:
-  Available Resources: 121
-  VNFs Deployed: []
+  Available Resources: 83
+  VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 38, 'latency': 0, 'server_id': 52, 'Data': 1}]
 
 Server 53:
   Available Resources: 142
@@ -1568,8 +1568,8 @@ Server 54:
   VNFs Deployed: []
 
 Server 55:
-  Available Resources: 117
-  VNFs Deployed: [{'id': 16, 'sfc_id': 4, 'resources': 13, 'latency': 5, 'server_id': 55, 'Data': 1}]
+  Available Resources: 130
+  VNFs Deployed: []
 
 Server 56:
   Available Resources: 127
@@ -1580,8 +1580,8 @@ Server 57:
   VNFs Deployed: []
 
 Server 58:
-  Available Resources: 86
-  VNFs Deployed: [{'id': 6, 'sfc_id': 1, 'resources': 17, 'latency': 2, 'server_id': 58, 'Data': 1}]
+  Available Resources: 67
+  VNFs Deployed: [{'id': 11, 'sfc_id': 2, 'resources': 36, 'latency': 0, 'server_id': 58, 'Data': 1}]
 
 Server 59:
   Available Resources: 106
@@ -1589,7 +1589,7 @@ Server 59:
 
 Server 60:
   Available Resources: 90
-  VNFs Deployed: [{'id': 5, 'sfc_id': 1, 'resources': 37, 'latency': 1, 'server_id': 60, 'Data': 1}]
+  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 37, 'latency': 0, 'server_id': 60, 'Data': 1}]
 
 Server 61:
   Available Resources: 104
@@ -1656,8 +1656,8 @@ Server 76:
   VNFs Deployed: []
 
 Server 77:
-  Available Resources: 99
-  VNFs Deployed: [{'id': 17, 'sfc_id': 4, 'resources': 21, 'latency': 3, 'server_id': 77, 'Data': 1}]
+  Available Resources: 120
+  VNFs Deployed: []
 
 Server 78:
   Available Resources: 115
@@ -1684,12 +1684,12 @@ Server 83:
   VNFs Deployed: []
 
 Server 84:
-  Available Resources: 117
-  VNFs Deployed: [{'id': 8, 'sfc_id': 2, 'resources': 17, 'latency': 1, 'server_id': 84, 'Data': 1}]
+  Available Resources: 134
+  VNFs Deployed: []
 
 Server 85:
-  Available Resources: 102
-  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 39, 'latency': 4, 'server_id': 85, 'Data': 1}]
+  Available Resources: 106
+  VNFs Deployed: [{'id': 3, 'sfc_id': 1, 'resources': 35, 'latency': 0, 'server_id': 85, 'Data': 1}]
 
 Server 86:
   Available Resources: 142
@@ -1724,8 +1724,8 @@ Server 93:
   VNFs Deployed: []
 
 Server 94:
-  Available Resources: 135
-  VNFs Deployed: []
+  Available Resources: 98
+  VNFs Deployed: [{'id': 4, 'sfc_id': 1, 'resources': 37, 'latency': 0, 'server_id': 94, 'Data': 1}]
 
 Server 95:
   Available Resources: 144
@@ -1740,20 +1740,20 @@ Server 97:
   VNFs Deployed: []
 
 Server 98:
-  Available Resources: 84
-  VNFs Deployed: [{'id': 10, 'sfc_id': 2, 'resources': 18, 'latency': 1, 'server_id': 98, 'Data': 1}]
+  Available Resources: 62
+  VNFs Deployed: [{'id': 18, 'sfc_id': 4, 'resources': 40, 'latency': 0, 'server_id': 98, 'Data': 1}]
 
 Server 99:
   Available Resources: 115
   VNFs Deployed: []
 
 Server 100:
-  Available Resources: 111
-  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 15, 'latency': 3, 'server_id': 100, 'Data': 1}]
+  Available Resources: 126
+  VNFs Deployed: []
 
 Server 101:
-  Available Resources: 94
-  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 21, 'latency': 3, 'server_id': 101, 'Data': 1}]
+  Available Resources: 96
+  VNFs Deployed: [{'id': 12, 'sfc_id': 3, 'resources': 19, 'latency': 0, 'server_id': 101, 'Data': 1}]
 
 All Servers , SFC's have been setup!!!
 VNF Preferences {}
@@ -2047,7 +2047,7 @@ Deployed in facility : 1
 Server 3:
   Total Resources: 105
   Reliability: 0.983
-  Available Resources: 67
+  Available Resources: 88
   VNF Count: 1
 Activation cost for setup :150.53552881033625
 Deployed in facility : 1
@@ -2055,7 +2055,7 @@ Deployed in facility : 1
 Server 4:
   Total Resources: 112
   Reliability: 0.991
-  Available Resources: 72
+  Available Resources: 75
   VNF Count: 1
 Activation cost for setup :170.1324973590236
 Deployed in facility : 2
@@ -2087,8 +2087,8 @@ Deployed in facility : 3
 Server 8:
   Total Resources: 121
   Reliability: 0.982
-  Available Resources: 121
-  VNF Count: 0
+  Available Resources: 84
+  VNF Count: 1
 Activation cost for setup :137.99273006373375
 Deployed in facility : 4
 
@@ -2135,8 +2135,8 @@ Deployed in facility : 6
 Server 14:
   Total Resources: 114
   Reliability: 0.993
-  Available Resources: 74
-  VNF Count: 1
+  Available Resources: 114
+  VNF Count: 0
 Activation cost for setup :138.01262250391662
 Deployed in facility : 7
 
@@ -2183,8 +2183,8 @@ Deployed in facility : 9
 Server 20:
   Total Resources: 143
   Reliability: 0.985
-  Available Resources: 143
-  VNF Count: 0
+  Available Resources: 125
+  VNF Count: 1
 Activation cost for setup :176.83135775923722
 Deployed in facility : 10
 
@@ -2199,7 +2199,7 @@ Deployed in facility : 10
 Server 22:
   Total Resources: 117
   Reliability: 0.981
-  Available Resources: 79
+  Available Resources: 107
   VNF Count: 1
 Activation cost for setup :191.3136124185545
 Deployed in facility : 11
@@ -2215,7 +2215,7 @@ Deployed in facility : 11
 Server 24:
   Total Resources: 125
   Reliability: 0.993
-  Available Resources: 87
+  Available Resources: 94
   VNF Count: 1
 Activation cost for setup :164.28518702004243
 Deployed in facility : 12
@@ -2223,8 +2223,8 @@ Deployed in facility : 12
 Server 25:
   Total Resources: 109
   Reliability: 0.984
-  Available Resources: 109
-  VNF Count: 0
+  Available Resources: 92
+  VNF Count: 1
 Activation cost for setup :124.66275076939834
 Deployed in facility : 12
 
@@ -2255,8 +2255,8 @@ Deployed in facility : 14
 Server 29:
   Total Resources: 107
   Reliability: 0.982
-  Available Resources: 107
-  VNF Count: 0
+  Available Resources: 70
+  VNF Count: 1
 Activation cost for setup :115.99820017224502
 Deployed in facility : 14
 
@@ -2271,8 +2271,8 @@ Deployed in facility : 15
 Server 31:
   Total Resources: 129
   Reliability: 0.988
-  Available Resources: 129
-  VNF Count: 0
+  Available Resources: 94
+  VNF Count: 1
 Activation cost for setup :197.10783776136182
 Deployed in facility : 15
 
@@ -2295,16 +2295,16 @@ Deployed in facility : 16
 Server 34:
   Total Resources: 118
   Reliability: 0.987
-  Available Resources: 83
-  VNF Count: 1
+  Available Resources: 118
+  VNF Count: 0
 Activation cost for setup :145.37237063292065
 Deployed in facility : 17
 
 Server 35:
   Total Resources: 146
   Reliability: 0.993
-  Available Resources: 146
-  VNF Count: 0
+  Available Resources: 126
+  VNF Count: 1
 Activation cost for setup :126.33890507510907
 Deployed in facility : 17
 
@@ -2359,8 +2359,8 @@ Deployed in facility : 20
 Server 42:
   Total Resources: 105
   Reliability: 0.981
-  Available Resources: 58
-  VNF Count: 2
+  Available Resources: 72
+  VNF Count: 1
 Activation cost for setup :148.59904633166138
 Deployed in facility : 21
 
@@ -2375,8 +2375,8 @@ Deployed in facility : 21
 Server 44:
   Total Resources: 142
   Reliability: 0.987
-  Available Resources: 142
-  VNF Count: 0
+  Available Resources: 124
+  VNF Count: 1
 Activation cost for setup :154.9803593494944
 Deployed in facility : 22
 
@@ -2407,7 +2407,7 @@ Deployed in facility : 23
 Server 48:
   Total Resources: 128
   Reliability: 0.993
-  Available Resources: 113
+  Available Resources: 115
   VNF Count: 1
 Activation cost for setup :145.14861413911296
 Deployed in facility : 24
@@ -2415,8 +2415,8 @@ Deployed in facility : 24
 Server 49:
   Total Resources: 115
   Reliability: 0.983
-  Available Resources: 89
-  VNF Count: 1
+  Available Resources: 115
+  VNF Count: 0
 Activation cost for setup :133.80855621474552
 Deployed in facility : 24
 
@@ -2431,16 +2431,16 @@ Deployed in facility : 25
 Server 51:
   Total Resources: 145
   Reliability: 0.989
-  Available Resources: 124
-  VNF Count: 1
+  Available Resources: 145
+  VNF Count: 0
 Activation cost for setup :122.89417838111544
 Deployed in facility : 25
 
 Server 52:
   Total Resources: 121
   Reliability: 0.981
-  Available Resources: 121
-  VNF Count: 0
+  Available Resources: 83
+  VNF Count: 1
 Activation cost for setup :123.80046343689952
 Deployed in facility : 26
 
@@ -2463,8 +2463,8 @@ Deployed in facility : 27
 Server 55:
   Total Resources: 130
   Reliability: 0.992
-  Available Resources: 117
-  VNF Count: 1
+  Available Resources: 130
+  VNF Count: 0
 Activation cost for setup :119.04099143618777
 Deployed in facility : 27
 
@@ -2487,7 +2487,7 @@ Deployed in facility : 28
 Server 58:
   Total Resources: 103
   Reliability: 0.986
-  Available Resources: 86
+  Available Resources: 67
   VNF Count: 1
 Activation cost for setup :133.93026053949632
 Deployed in facility : 29
@@ -2639,8 +2639,8 @@ Deployed in facility : 38
 Server 77:
   Total Resources: 120
   Reliability: 0.994
-  Available Resources: 99
-  VNF Count: 1
+  Available Resources: 120
+  VNF Count: 0
 Activation cost for setup :120.42591994235364
 Deployed in facility : 38
 
@@ -2695,15 +2695,15 @@ Deployed in facility : 41
 Server 84:
   Total Resources: 134
   Reliability: 0.991
-  Available Resources: 117
-  VNF Count: 1
+  Available Resources: 134
+  VNF Count: 0
 Activation cost for setup :161.16777657259502
 Deployed in facility : 42
 
 Server 85:
   Total Resources: 141
   Reliability: 0.988
-  Available Resources: 102
+  Available Resources: 106
   VNF Count: 1
 Activation cost for setup :166.78632037125834
 Deployed in facility : 42
@@ -2775,8 +2775,8 @@ Deployed in facility : 46
 Server 94:
   Total Resources: 135
   Reliability: 0.980
-  Available Resources: 135
-  VNF Count: 0
+  Available Resources: 98
+  VNF Count: 1
 Activation cost for setup :107.5243860073767
 Deployed in facility : 47
 
@@ -2807,7 +2807,7 @@ Deployed in facility : 48
 Server 98:
   Total Resources: 102
   Reliability: 0.993
-  Available Resources: 84
+  Available Resources: 62
   VNF Count: 1
 Activation cost for setup :121.00765383397541
 Deployed in facility : 49
@@ -2823,15 +2823,15 @@ Deployed in facility : 49
 Server 100:
   Total Resources: 126
   Reliability: 0.995
-  Available Resources: 111
-  VNF Count: 1
+  Available Resources: 126
+  VNF Count: 0
 Activation cost for setup :174.9477611143539
 Deployed in facility : 50
 
 Server 101:
   Total Resources: 115
   Reliability: 0.993
-  Available Resources: 94
+  Available Resources: 96
   VNF Count: 1
 Activation cost for setup :197.62060329309628
 Deployed in facility : 50
@@ -2842,127 +2842,127 @@ Service Function Chains (SFC) Information:
 SFC 0:
   VNF 0:
     Resources: 38
-    Latency: 4
-    Deployed on Server: 3
+    Latency: 0
+    Deployed on Server: 52
 
   VNF 1:
-    Resources: 15
-    Latency: 3
-    Deployed on Server: 100
+    Resources: 10
+    Latency: 0
+    Deployed on Server: 22
 
   VNF 2:
-    Resources: 39
-    Latency: 4
-    Deployed on Server: 85
+    Resources: 33
+    Latency: 0
+    Deployed on Server: 42
 
-  Total Resources: 92
-  Total Reliability: 0.9861771229465368
-  Total Latency: 17
+  Total Resources: 81
+  Total Reliability: 0.9644038314794668
+  Total Latency: 7
 
 SFC 1:
   VNF 3:
     Resources: 35
-    Latency: 2
-    Deployed on Server: 34
+    Latency: 0
+    Deployed on Server: 85
 
   VNF 4:
-    Resources: 15
-    Latency: 1
-    Deployed on Server: 48
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 94
 
   VNF 5:
-    Resources: 37
-    Latency: 1
-    Deployed on Server: 60
+    Resources: 35
+    Latency: 0
+    Deployed on Server: 31
 
   VNF 6:
-    Resources: 17
-    Latency: 2
-    Deployed on Server: 58
-
-  VNF 7:
-    Resources: 21
-    Latency: 3
-    Deployed on Server: 101
+    Resources: 18
+    Latency: 0
+    Deployed on Server: 20
 
   Total Resources: 125
-  Total Reliability: 0.9630743327311662
-  Total Latency: 21
+  Total Reliability: 0.9621581825739187
+  Total Latency: 8
 
 SFC 2:
+  VNF 7:
+    Resources: 13
+    Latency: 0
+    Deployed on Server: 48
+
   VNF 8:
-    Resources: 17
-    Latency: 1
-    Deployed on Server: 84
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 4
 
   VNF 9:
-    Resources: 16
-    Latency: 4
-    Deployed on Server: 42
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 60
 
   VNF 10:
-    Resources: 18
-    Latency: 1
-    Deployed on Server: 98
+    Resources: 17
+    Latency: 0
+    Deployed on Server: 25
 
-  Total Resources: 51
-  Total Reliability: 0.9856809266894827
+  VNF 11:
+    Resources: 36
+    Latency: 0
+    Deployed on Server: 58
+
+  Total Resources: 140
+  Total Reliability: 0.9585269535020158
   Total Latency: 15
 
 SFC 3:
-  VNF 11:
-    Resources: 21
-    Latency: 5
-    Deployed on Server: 51
-
   VNF 12:
-    Resources: 31
-    Latency: 5
-    Deployed on Server: 42
+    Resources: 19
+    Latency: 0
+    Deployed on Server: 101
 
   VNF 13:
-    Resources: 40
-    Latency: 1
-    Deployed on Server: 14
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 29
 
   VNF 14:
-    Resources: 38
-    Latency: 3
-    Deployed on Server: 22
+    Resources: 17
+    Latency: 0
+    Deployed on Server: 3
 
-  Total Resources: 130
-  Total Reliability: 0.9658234290194206
-  Total Latency: 24
-
-SFC 4:
   VNF 15:
-    Resources: 40
-    Latency: 3
-    Deployed on Server: 4
-
-  VNF 16:
-    Resources: 13
-    Latency: 5
-    Deployed on Server: 55
-
-  VNF 17:
-    Resources: 21
-    Latency: 3
-    Deployed on Server: 77
-
-  VNF 18:
-    Resources: 26
-    Latency: 1
-    Deployed on Server: 49
-
-  VNF 19:
-    Resources: 38
-    Latency: 5
+    Resources: 31
+    Latency: 0
     Deployed on Server: 24
 
-  Total Resources: 138
-  Total Reliability: 0.9743346559584303
-  Total Latency: 32
+  Total Resources: 104
+  Total Reliability: 0.9726229739658085
+  Total Latency: 9
+
+SFC 4:
+  VNF 16:
+    Resources: 20
+    Latency: 0
+    Deployed on Server: 35
+
+  VNF 17:
+    Resources: 37
+    Latency: 0
+    Deployed on Server: 8
+
+  VNF 18:
+    Resources: 40
+    Latency: 0
+    Deployed on Server: 98
+
+  VNF 19:
+    Resources: 18
+    Latency: 0
+    Deployed on Server: 44
+
+  Total Resources: 115
+  Total Reliability: 0.975981125582256
+  Total Latency: 8
 
 
 Final Server Information:
@@ -2980,12 +2980,12 @@ Server 2:
   VNFs Deployed: []
 
 Server 3:
-  Available Resources: 67
-  VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 38, 'latency': 4, 'server_id': 3, 'Data': 1}]
+  Available Resources: 88
+  VNFs Deployed: [{'id': 14, 'sfc_id': 3, 'resources': 17, 'latency': 0, 'server_id': 3, 'Data': 1}]
 
 Server 4:
-  Available Resources: 72
-  VNFs Deployed: [{'id': 15, 'sfc_id': 4, 'resources': 40, 'latency': 3, 'server_id': 4, 'Data': 1}]
+  Available Resources: 75
+  VNFs Deployed: [{'id': 8, 'sfc_id': 2, 'resources': 37, 'latency': 0, 'server_id': 4, 'Data': 1}]
 
 Server 5:
   Available Resources: 126
@@ -3000,8 +3000,8 @@ Server 7:
   VNFs Deployed: []
 
 Server 8:
-  Available Resources: 121
-  VNFs Deployed: []
+  Available Resources: 84
+  VNFs Deployed: [{'id': 17, 'sfc_id': 4, 'resources': 37, 'latency': 0, 'server_id': 8, 'Data': 1}]
 
 Server 9:
   Available Resources: 122
@@ -3024,8 +3024,8 @@ Server 13:
   VNFs Deployed: []
 
 Server 14:
-  Available Resources: 74
-  VNFs Deployed: [{'id': 13, 'sfc_id': 3, 'resources': 40, 'latency': 1, 'server_id': 14, 'Data': 1}]
+  Available Resources: 114
+  VNFs Deployed: []
 
 Server 15:
   Available Resources: 129
@@ -3048,28 +3048,28 @@ Server 19:
   VNFs Deployed: []
 
 Server 20:
-  Available Resources: 143
-  VNFs Deployed: []
+  Available Resources: 125
+  VNFs Deployed: [{'id': 6, 'sfc_id': 1, 'resources': 18, 'latency': 0, 'server_id': 20, 'Data': 1}]
 
 Server 21:
   Available Resources: 103
   VNFs Deployed: []
 
 Server 22:
-  Available Resources: 79
-  VNFs Deployed: [{'id': 14, 'sfc_id': 3, 'resources': 38, 'latency': 3, 'server_id': 22, 'Data': 1}]
+  Available Resources: 107
+  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 10, 'latency': 0, 'server_id': 22, 'Data': 1}]
 
 Server 23:
   Available Resources: 136
   VNFs Deployed: []
 
 Server 24:
-  Available Resources: 87
-  VNFs Deployed: [{'id': 19, 'sfc_id': 4, 'resources': 38, 'latency': 5, 'server_id': 24, 'Data': 1}]
+  Available Resources: 94
+  VNFs Deployed: [{'id': 15, 'sfc_id': 3, 'resources': 31, 'latency': 0, 'server_id': 24, 'Data': 1}]
 
 Server 25:
-  Available Resources: 109
-  VNFs Deployed: []
+  Available Resources: 92
+  VNFs Deployed: [{'id': 10, 'sfc_id': 2, 'resources': 17, 'latency': 0, 'server_id': 25, 'Data': 1}]
 
 Server 26:
   Available Resources: 116
@@ -3084,16 +3084,16 @@ Server 28:
   VNFs Deployed: []
 
 Server 29:
-  Available Resources: 107
-  VNFs Deployed: []
+  Available Resources: 70
+  VNFs Deployed: [{'id': 13, 'sfc_id': 3, 'resources': 37, 'latency': 0, 'server_id': 29, 'Data': 1}]
 
 Server 30:
   Available Resources: 138
   VNFs Deployed: []
 
 Server 31:
-  Available Resources: 129
-  VNFs Deployed: []
+  Available Resources: 94
+  VNFs Deployed: [{'id': 5, 'sfc_id': 1, 'resources': 35, 'latency': 0, 'server_id': 31, 'Data': 1}]
 
 Server 32:
   Available Resources: 100
@@ -3104,12 +3104,12 @@ Server 33:
   VNFs Deployed: []
 
 Server 34:
-  Available Resources: 83
-  VNFs Deployed: [{'id': 3, 'sfc_id': 1, 'resources': 35, 'latency': 2, 'server_id': 34, 'Data': 1}]
+  Available Resources: 118
+  VNFs Deployed: []
 
 Server 35:
-  Available Resources: 146
-  VNFs Deployed: []
+  Available Resources: 126
+  VNFs Deployed: [{'id': 16, 'sfc_id': 4, 'resources': 20, 'latency': 0, 'server_id': 35, 'Data': 1}]
 
 Server 36:
   Available Resources: 111
@@ -3136,16 +3136,16 @@ Server 41:
   VNFs Deployed: []
 
 Server 42:
-  Available Resources: 58
-  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 16, 'latency': 4, 'server_id': 42, 'Data': 1}, {'id': 12, 'sfc_id': 3, 'resources': 31, 'latency': 5, 'server_id': 42, 'Data': 1}]
+  Available Resources: 72
+  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 33, 'latency': 0, 'server_id': 42, 'Data': 1}]
 
 Server 43:
   Available Resources: 104
   VNFs Deployed: []
 
 Server 44:
-  Available Resources: 142
-  VNFs Deployed: []
+  Available Resources: 124
+  VNFs Deployed: [{'id': 19, 'sfc_id': 4, 'resources': 18, 'latency': 0, 'server_id': 44, 'Data': 1}]
 
 Server 45:
   Available Resources: 116
@@ -3160,24 +3160,24 @@ Server 47:
   VNFs Deployed: []
 
 Server 48:
-  Available Resources: 113
-  VNFs Deployed: [{'id': 4, 'sfc_id': 1, 'resources': 15, 'latency': 1, 'server_id': 48, 'Data': 1}]
+  Available Resources: 115
+  VNFs Deployed: [{'id': 7, 'sfc_id': 2, 'resources': 13, 'latency': 0, 'server_id': 48, 'Data': 1}]
 
 Server 49:
-  Available Resources: 89
-  VNFs Deployed: [{'id': 18, 'sfc_id': 4, 'resources': 26, 'latency': 1, 'server_id': 49, 'Data': 1}]
+  Available Resources: 115
+  VNFs Deployed: []
 
 Server 50:
   Available Resources: 114
   VNFs Deployed: []
 
 Server 51:
-  Available Resources: 124
-  VNFs Deployed: [{'id': 11, 'sfc_id': 3, 'resources': 21, 'latency': 5, 'server_id': 51, 'Data': 1}]
+  Available Resources: 145
+  VNFs Deployed: []
 
 Server 52:
-  Available Resources: 121
-  VNFs Deployed: []
+  Available Resources: 83
+  VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 38, 'latency': 0, 'server_id': 52, 'Data': 1}]
 
 Server 53:
   Available Resources: 142
@@ -3188,8 +3188,8 @@ Server 54:
   VNFs Deployed: []
 
 Server 55:
-  Available Resources: 117
-  VNFs Deployed: [{'id': 16, 'sfc_id': 4, 'resources': 13, 'latency': 5, 'server_id': 55, 'Data': 1}]
+  Available Resources: 130
+  VNFs Deployed: []
 
 Server 56:
   Available Resources: 127
@@ -3200,8 +3200,8 @@ Server 57:
   VNFs Deployed: []
 
 Server 58:
-  Available Resources: 86
-  VNFs Deployed: [{'id': 6, 'sfc_id': 1, 'resources': 17, 'latency': 2, 'server_id': 58, 'Data': 1}]
+  Available Resources: 67
+  VNFs Deployed: [{'id': 11, 'sfc_id': 2, 'resources': 36, 'latency': 0, 'server_id': 58, 'Data': 1}]
 
 Server 59:
   Available Resources: 106
@@ -3209,7 +3209,7 @@ Server 59:
 
 Server 60:
   Available Resources: 90
-  VNFs Deployed: [{'id': 5, 'sfc_id': 1, 'resources': 37, 'latency': 1, 'server_id': 60, 'Data': 1}]
+  VNFs Deployed: [{'id': 9, 'sfc_id': 2, 'resources': 37, 'latency': 0, 'server_id': 60, 'Data': 1}]
 
 Server 61:
   Available Resources: 104
@@ -3276,8 +3276,8 @@ Server 76:
   VNFs Deployed: []
 
 Server 77:
-  Available Resources: 99
-  VNFs Deployed: [{'id': 17, 'sfc_id': 4, 'resources': 21, 'latency': 3, 'server_id': 77, 'Data': 1}]
+  Available Resources: 120
+  VNFs Deployed: []
 
 Server 78:
   Available Resources: 115
@@ -3304,12 +3304,12 @@ Server 83:
   VNFs Deployed: []
 
 Server 84:
-  Available Resources: 117
-  VNFs Deployed: [{'id': 8, 'sfc_id': 2, 'resources': 17, 'latency': 1, 'server_id': 84, 'Data': 1}]
+  Available Resources: 134
+  VNFs Deployed: []
 
 Server 85:
-  Available Resources: 102
-  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 39, 'latency': 4, 'server_id': 85, 'Data': 1}]
+  Available Resources: 106
+  VNFs Deployed: [{'id': 3, 'sfc_id': 1, 'resources': 35, 'latency': 0, 'server_id': 85, 'Data': 1}]
 
 Server 86:
   Available Resources: 142
@@ -3344,8 +3344,8 @@ Server 93:
   VNFs Deployed: []
 
 Server 94:
-  Available Resources: 135
-  VNFs Deployed: []
+  Available Resources: 98
+  VNFs Deployed: [{'id': 4, 'sfc_id': 1, 'resources': 37, 'latency': 0, 'server_id': 94, 'Data': 1}]
 
 Server 95:
   Available Resources: 144
@@ -3360,18 +3360,18 @@ Server 97:
   VNFs Deployed: []
 
 Server 98:
-  Available Resources: 84
-  VNFs Deployed: [{'id': 10, 'sfc_id': 2, 'resources': 18, 'latency': 1, 'server_id': 98, 'Data': 1}]
+  Available Resources: 62
+  VNFs Deployed: [{'id': 18, 'sfc_id': 4, 'resources': 40, 'latency': 0, 'server_id': 98, 'Data': 1}]
 
 Server 99:
   Available Resources: 115
   VNFs Deployed: []
 
 Server 100:
-  Available Resources: 111
-  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 15, 'latency': 3, 'server_id': 100, 'Data': 1}]
+  Available Resources: 126
+  VNFs Deployed: []
 
 Server 101:
-  Available Resources: 94
-  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 21, 'latency': 3, 'server_id': 101, 'Data': 1}]
+  Available Resources: 96
+  VNFs Deployed: [{'id': 12, 'sfc_id': 3, 'resources': 19, 'latency': 0, 'server_id': 101, 'Data': 1}]
 
