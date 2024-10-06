@@ -53,7 +53,7 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
                 new_relability+=param.bias
                 if distance_latency <= current_sfc.maxlatency and new_relability>=current_sfc.total_relaibility:
                     # cost_of_migration = vnf.data*distances[failing_server.server_facility_id][server.server_facility_id]
-                    cost_of_migration = vnf.data*distances[servers[vnf.server_id].server_facility_id][server.server_facility_id]
+                    cost_of_migration = vnf.data*distances[servers[vnf.server_id].server_facility_id][server.server_facility_id]*param.vnf_migration_dealy
                     if len(server.vnf_list)==0:
                         cost_of_migration+=server.activation_cost
                     facility = server_facility[server.server_facility_id].get_info()

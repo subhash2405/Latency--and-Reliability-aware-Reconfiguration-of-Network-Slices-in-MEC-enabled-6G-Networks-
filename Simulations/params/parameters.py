@@ -45,3 +45,5 @@ class param:
     resouces_in_each_sfc = [4,4,8,12,16]
     max_latency_in_each_sfc = [2.05, 2.05, 4.1, 6.2, 10.2]
     data_vnfs_per_sfc = [20,20,50,70,100]
+
+    vnf_migration_dealy = 0.001
