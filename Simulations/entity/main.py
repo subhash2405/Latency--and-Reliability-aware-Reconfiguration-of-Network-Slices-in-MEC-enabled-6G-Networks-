@@ -12,7 +12,7 @@ from utility.distance import distances
 
 random.seed(42)
 
-output_file = open('simulation_output2.txt', 'w')
+output_file = open('simulation_output3.txt', 'w')
 sys.stdout = output_file
 
 # server_file = 'servers_info.csv'
@@ -197,10 +197,21 @@ def handle_server_failure(failing_server_id):
     from stable_matching_relaibility import stable_matching_for_failed_server
     stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_facility)
 
+def bestfit_algo_cost(failing_server_id):
+    from best_fit_algortihm_cost import bestfit_algorithm_cost
+    bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility)
+
+def bestfit_algo_resources(failing_server_id):
+    from best_fit_algorithm_resources import bestfit_algorithm_resources
+    bestfit_algorithm_resources(failing_server_id, servers, sfcs, server_facility)
+
 # Call the function for a server expected to fail
 # failing_server_id = 2  # Example server ID to simulate failure
 failing_server_id = param.failing_server_id
-handle_server_failure(failing_server_id)
+# handle_server_failure(failing_server_id)
+# bestfit_algo_cost(failing_server_id)
+bestfit_algo_resources(failing_server_id)
+
 
 # Display final results after reconfiguration
 print("Final Configuration after the VNF's deployment")

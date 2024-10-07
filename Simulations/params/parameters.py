@@ -8,7 +8,7 @@ class param:
     distance_latency = [3,4,5]
     min_resource_vnf = 10
     max_resource_vnf = 40
-    bias = 0.02
+    bias = 0.00
     failing_server_id = [0,5]
     min_server_activation_cost = 100
     max_server_activation_cost = 200
@@ -47,3 +47,14 @@ class param:
     data_vnfs_per_sfc = [20,20,50,70,100]
 
     vnf_migration_dealy = 0.001
+
+    adj_matrix = [[1,5,6],[0,2,6],[1,3,7],[2,4,7],[3,5,8],[0,4,8],[0,1,8,7,9],[6,8,9,2,3],[4,5,6,7,9],[8,6,7]]
+    
+
+
+    # x-axis : number of servers failed
+    # y-axis : cost 
+
+    #number of facilities and servers activated || x : servers failed vs number of facilities activated
+    # % of vnfs failed to be placed vs number of failed servers
+    # penatly cost vs failed servers

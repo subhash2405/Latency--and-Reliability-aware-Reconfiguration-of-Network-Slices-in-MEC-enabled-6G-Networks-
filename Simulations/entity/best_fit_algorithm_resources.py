@@ -2,7 +2,7 @@ from params.parameters import param
 from utility.distance import distances
 from VirtualNetworkFunction import VNF
 # global count
-def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_facility):
+def bestfit_algorithm_resources(failing_server_id, servers, sfcs, server_facility):
     global count
     count = 0
     total_migration_cost = 0
@@ -47,7 +47,7 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
                         distance_latency += distances[servers[server.id].server_facility_id][servers[current_sfc.vnf_list[other_vnf + 1].server_id].server_facility_id]
                 
                 # Add the server and its calculated distance_latency to the VNF's preference list
-                # new_relability = (current_sfc.total_relaibility - param.bias)/failing_server.reliability
+
                 new_relability = (current_sfc.total_relaibility - param.bias)/servers[vnf.server_id].reliability
                 new_relability*=server.reliability
                 new_relability+=param.bias
@@ -65,7 +65,8 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
                             break
                     if flag==0:
                         cost_of_migration+=facility['Facility_activation_cost']
-                    vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id))
+                    consumed = server.available_resources - vnf.resources
+                    vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, consumed, new_relability,server.id))
 
 
         # Sort the servers for each VNF by highest relaibility 
@@ -73,77 +74,38 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
         if len(vnf_preferences[vnf.id])==0:
             count+=1
             print(f"No matching found for SFC {current_sfc.id} whose vnf is {vnf.id}")
+
         else:
+            vnf_preferences[vnf.id].sort(key=lambda x: x[3])
+            preferred_server, _, migration_cost,_, _, _ = vnf_preferences[vnf.id].pop(0)
+            new_server_id = preferred_server.id
+            vnf.change_server_id(new_server_id)
+            new_server = servers[new_server_id]
+            new_server.add_vnf(vnf)
+            current_sfc = next(sfc for sfc in sfcs if sfc.id == vnf.sfc_id)
+            total_migration_cost+=migration_cost
+
+            info = current_sfc.get_info()
         
-            vnf_preferences[vnf.id].sort(key=lambda x: x[2])
-    print("VNF Preferences", vnf_preferences)
-
-    for server in servers:
-        if server.id not in failing_server_id:
-            server_preferences[server.id] = []
-            # Servers prefer VNFs that can fit into their available resources while maintaining reliability
-            for vnf in vnfs_to_reassign:
-                if server.available_resources >= vnf.resources:
-                    server_preferences[server.id].append(vnf)
-            
-            # Sort VNFs by their resource demand (higher order)
-            server_preferences[server.id].sort(key=lambda v: v.resources, reverse=True)
-
-    print("server prefrences", server_preferences)
-    # Step 3: Stable Matching Algorithm (Gale-Shapley style)
-    unassigned_vnfs = vnfs_to_reassign.copy()
-    vnf_assignments = {}
-    server_assignments = {server.id: [] for server in servers}
-
-    while unassigned_vnfs:
-        vnf = unassigned_vnfs.pop(0)
-        vnf_id = vnf.id
-
-        # VNF proposes to its most preferred server
-        preferred_server, _, migration_cost, _, _ = vnf_preferences[vnf_id].pop(0)
-        
-        # If the server can accept the VNF, assign it
-        if sum(v.resources for v in server_assignments[preferred_server.id]) + vnf.resources <= preferred_server.available_resources:
-            server_assignments[preferred_server.id].append(vnf)
-            vnf_assignments[vnf_id] = [preferred_server.id, migration_cost] 
-        else:
-            # If the server is full, reject the least preferred VNF and try again
-            rejected_vnf = sorted(server_assignments[preferred_server.id], key=lambda v: v.resources)[0]
-            if rejected_vnf.resources > vnf.resources:
-                unassigned_vnfs.append(rejected_vnf)
-                server_assignments[preferred_server.id].remove(rejected_vnf)
-                server_assignments[preferred_server.id].append(vnf)
-                vnf_assignments[vnf_id] = [preferred_server.id, migration_cost]
-            else:
-                unassigned_vnfs.append(vnf)
-
-    # Step 4: Redeploy the VNFs and update latency and reliability for the affected SFCs
-    for vnf in vnfs_to_reassign:
-        new_server_id, migration_cost = vnf_assignments[vnf.id]
-        vnf.change_server_id(new_server_id)
-        new_server = servers[new_server_id]
-        new_server.add_vnf(vnf)
-        current_sfc = next(sfc for sfc in sfcs if sfc.id == vnf.sfc_id)
-        total_migration_cost+=migration_cost
-        # Recalculate latency and reliability for the SFC
-        
-        info = current_sfc.get_info()
-        
-        current_sfc.add_distance_latency(-1*(current_sfc.total_latency-current_sfc.vnf_latency))
-        current_relaibility = current_sfc.total_relaibility
-        current_sfc.total_relaibility = 1
-        for i  in range(0,len(info['vnf_list'])-1):    
-            vnf1 = info['vnf_list'][i]
-            vnf2 = info['vnf_list'][i+1]
-            dist = distances[servers[vnf1['server_id']].server_facility_id][servers[vnf2['server_id']].server_facility_id]
-            current_sfc.add_distance_latency(dist)
-            relaible = servers[vnf1['server_id']].reliability
+            current_sfc.add_distance_latency(-1*(current_sfc.total_latency-current_sfc.vnf_latency))
+            current_relaibility = current_sfc.total_relaibility
+            current_sfc.total_relaibility = 1
+            for i  in range(0,len(info['vnf_list'])-1):    
+                vnf1 = info['vnf_list'][i]
+                vnf2 = info['vnf_list'][i+1]
+                dist = distances[servers[vnf1['server_id']].server_facility_id][servers[vnf2['server_id']].server_facility_id]
+                current_sfc.add_distance_latency(dist)
+                relaible = servers[vnf1['server_id']].reliability
+                current_sfc.add_relaibility(relaible)
+            relaible = servers[vnf2['server_id']].reliability
             current_sfc.add_relaibility(relaible)
-        relaible = servers[vnf2['server_id']].reliability
-        current_sfc.add_relaibility(relaible)
-        if current_relaibility>current_sfc.total_relaibility:
-            count+=1
-            print(f"Relaibility factor not satisfied for SFC {current_sfc.id} whose vnf {vnf.id} is deployed in server {new_server_id}")
+            if current_relaibility>current_sfc.total_relaibility:
+                count+=1
+                print(f"Relaibility factor not satisfied for SFC {current_sfc.id} whose vnf {vnf.id} is deployed in server {new_server_id}")
+    
+
+            
+
     
     for fail in failing_server_id:
         failing_server = servers[fail]
@@ -151,3 +113,4 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
     print(f"Total migration cost of vnfs is {total_migration_cost}")
     print(f"Total VNF's that failed realibility factor or latency requirement {count}")
     print(f"Stable matching completed. VNFs from server {failing_server_id} have been reassigned.")
+
