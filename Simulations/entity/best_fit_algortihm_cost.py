@@ -1,6 +1,8 @@
 from params.parameters import param
 from utility.distance import distances
 from VirtualNetworkFunction import VNF
+import os
+import csv
 # global count
 def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
     global count
@@ -8,6 +10,10 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
     total_migration_cost = 0
     # from main import servers, sfcs
 
+    new_facility_activated = 0
+    results_file = 'results.csv'
+    headers = ['Servers failed', 'Num of facilities activated', 'Num of servers activated', 'vnfs failed to be placed','algorithm used', 'Overall Cost']
+    
     # failing_server = servers[failing_server_id]
     vnfs_to_reassign = []  # Get all VNFs from the failing server
     
@@ -84,6 +90,9 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
             current_sfc = next(sfc for sfc in sfcs if sfc.id == vnf.sfc_id)
             total_migration_cost+=migration_cost
 
+            if migration_cost>10:
+                new_facility_activated+=1
+
             info = current_sfc.get_info()
         
             current_sfc.add_distance_latency(-1*(current_sfc.total_latency-current_sfc.vnf_latency))
@@ -112,4 +121,9 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
     print(f"Total migration cost of vnfs is {total_migration_cost}")
     print(f"Total VNF's that failed realibility factor or latency requirement {count}")
     print(f"Stable matching completed. VNFs from server {failing_server_id} have been reassigned.")
+
+    with open(results_file, mode='a', newline='') as file:
+        csv_writer = csv.writer(file)
+        csv_writer.writerow([len(failing_server_id),new_facility_activated,count, 'Best Fit algo cost', total_migration_cost])
+
 

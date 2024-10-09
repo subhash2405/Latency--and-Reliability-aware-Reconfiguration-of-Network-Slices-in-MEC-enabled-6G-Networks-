@@ -14,7 +14,7 @@ class Server:
         if vnf.resources <= self.available_resources:
             self.vnf_list.append(vnf)
             self.available_resources -= vnf.resources
-            print(f"VNF {vnf.id} assigned to Server {self.id}. Available resources: {self.available_resources}")
+            print(f"VNF {vnf.id} assigned to Server {self.id} in server facility {self.server_facility_id}. Available resources: {self.available_resources}")
         else:
             print(f"Error: Server {self.id} does not have enough resources for VNF {vnf.id}")
             # raise ValueError(f"Server {self.id} does not have enough resources to deploy VNF {vnf.id}")

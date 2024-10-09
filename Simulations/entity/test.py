@@ -15,10 +15,12 @@ random.seed(42)
 output_file = open('simulation_output4.txt', 'w')
 sys.stdout = output_file
 
+# server_file = 'servers_info.csv'
 # sfc_file = 'sfc_info.csv'
 
 # Headers for CSV files
 # server_csv_headers = ['Server ID', 'Total Resources', 'Reliability', 'Available Resources', 'VNF Count', 'VNF List']
+# sfc_csv_headers = ['SFC ID', 'Total Resources', 'Total Reliability', 'Total Latency', 'VNFs']
 
 # # Create and initialize CSV files with headers if they don't exist
 # for csv_file, headers in [(server_file, server_csv_headers), (sfc_file, sfc_csv_headers)]:
@@ -80,17 +82,27 @@ for sfc in sfcs:
     serverslist = set()
     server_id = 0
     sfc.max_latency(param.max_latency_in_each_sfc[length])
-    servers_to_be_deployed = param.deployed_servers_per_sfc[length]
-    for i in range(sfc_length):
+    for _ in range(sfc_length):
         resources = param.resouces_in_each_sfc[length]
         # latency = random.randint(1, 5)
         latency = 0
-        (server_id, node) = servers_to_be_deployed[i]
+        
+        server = None
+        server_set = set()
+        # check = server_id
+        while server_id!=len(servers)-1:
+            srv = servers[server_id]
+            if srv in server_set:
+                continue
+            if srv.available_resources >= resources and srv not in serverslist:
+                server = srv
+                serverslist.add(srv)
+                break
+            else:
+                server_set.add(srv)
+                server_id+=1
+            # check+=1
 
-        srv_facility = server_facility[node]
-        server = srv_facility.deployed_servers[server_id]
-
-        # server = None
         if server is not None:
             vnf = VNF(vnf_id, sfc.id, resources, latency, server.id, param.data_vnfs_per_sfc[length])
             server.add_vnf(vnf)
@@ -200,77 +212,71 @@ def nearest_hop_algo(failing_server_id):
 # Call the function for a server expected to fail
 # failing_server_id = 2  # Example server ID to simulate failure
 failing_server_id = param.failing_server_id
-failing_servers = []
-for (srv_id, node) in failing_server_id:
-    srv_facility = server_facility[node]
-    server = srv_facility.deployed_servers[srv_id]
-    failing_servers.append(server.id)
-
-# handle_server_failure(failing_servers)
-# bestfit_algo_cost(failing_servers)
-# bestfit_algo_resources(failing_servers)
-nearest_hop_algo(failing_servers)
+# handle_server_failure(failing_server_id)
+# bestfit_algo_cost(failing_server_id)
+# bestfit_algo_resources(failing_server_id)
+nearest_hop_algo(failing_server_id)
 
 
 # Display final results after reconfiguration
 print("Final Configuration after the VNF's deployment")
 
-# print("====================")
-# for facility in server_facility:
-#     info = facility.get_info()
-#     print(f"Server_Facility {info['id']}")
-#     print(f"Band : {info['Band']}")
-#     print(f"Facility_activation_cost : {info['Facility_activation_cost']}")
-#     print(f"Number of servers deployed : {info['server_count']}\n")
+print("====================")
+for facility in server_facility:
+    info = facility.get_info()
+    print(f"Server_Facility {info['id']}")
+    print(f"Band : {info['Band']}")
+    print(f"Facility_activation_cost : {info['Facility_activation_cost']}")
+    print(f"Number of servers deployed : {info['server_count']}\n")
 
 
-# print("\nServer Information:")
-# print("====================")
-# for server in servers:
-#     info = server.get_info()
-#     print(f"Server {info['id']}:")
-#     print(f"  Total Resources: {info['total_resources']}")
-#     print(f"  Reliability: {info['reliability']:.3f}")
-#     print(f"  Available Resources: {info['available_resources']}")
-#     print(f"  VNF Count: {info['vnf_count']}")
-#     print(f"Activation cost for setup :{info['ActivationCost']}")
-#     print(f"Deployed in facility : {info['DeployedinFacility']}\n")
+print("\nServer Information:")
+print("====================")
+for server in servers:
+    info = server.get_info()
+    print(f"Server {info['id']}:")
+    print(f"  Total Resources: {info['total_resources']}")
+    print(f"  Reliability: {info['reliability']:.3f}")
+    print(f"  Available Resources: {info['available_resources']}")
+    print(f"  VNF Count: {info['vnf_count']}")
+    print(f"Activation cost for setup :{info['ActivationCost']}")
+    print(f"Deployed in facility : {info['DeployedinFacility']}\n")
     
-#     # with open(server_file, mode='a', newline='') as file:
-#     #     print("Starting to print server and SFC information...")
-#     #     csv_writer = csv.writer(file)
-#     #     csv_writer.writerow([info['id'], info['total_resources'], f"{info['reliability']:.3f}",
-#     #                          info['available_resources'], info['vnf_count'], info['vnf_list']])
+    # with open(server_file, mode='a', newline='') as file:
+    #     print("Starting to print server and SFC information...")
+    #     csv_writer = csv.writer(file)
+    #     csv_writer.writerow([info['id'], info['total_resources'], f"{info['reliability']:.3f}",
+    #                          info['available_resources'], info['vnf_count'], info['vnf_list']])
 
-# print("\nService Function Chains (SFC) Information:")
-# print("==========================================")
-# for sfc in sfcs:
-#     info = sfc.get_info()
-#     print(f"SFC {info['id']}:")
-#     for vnf in info['vnf_list']:
-#         print(f"  VNF {vnf['id']}:")
-#         print(f"    Resources: {vnf['resources']}")
-#         print(f"    Latency: {vnf['latency']}")
-#         print(f"    Deployed on Server: {vnf['server_id']}\n")
-#     print(f"  Total Resources: {info['total_resources']}")
-#     print(f"  Total Reliability: {info['total_relaibility']}")
-#     print(f"  Total Latency: {info['total_latency']}\n")
-#     print(f"Max allowed latency : {info['max_sfc_latency']}\n")
+print("\nService Function Chains (SFC) Information:")
+print("==========================================")
+for sfc in sfcs:
+    info = sfc.get_info()
+    print(f"SFC {info['id']}:")
+    for vnf in info['vnf_list']:
+        print(f"  VNF {vnf['id']}:")
+        print(f"    Resources: {vnf['resources']}")
+        print(f"    Latency: {vnf['latency']}")
+        print(f"    Deployed on Server: {vnf['server_id']}\n")
+    print(f"  Total Resources: {info['total_resources']}")
+    print(f"  Total Reliability: {info['total_relaibility']}")
+    print(f"  Total Latency: {info['total_latency']}\n")
+    print(f"Max allowed latency : {info['max_sfc_latency']}\n")
 
 
-#     # with open(sfc_file, mode='a', newline='') as file:
-#     #     print("Starting to print server and SFC information...")
-#     #     csv_writer = csv.writer(file)
-#     #     csv_writer.writerow([info['id'], info['total_resources'], info['total_relaibility'],
-#     #                          info['total_latency'], info['vnf_list']])
+    # with open(sfc_file, mode='a', newline='') as file:
+    #     print("Starting to print server and SFC information...")
+    #     csv_writer = csv.writer(file)
+    #     csv_writer.writerow([info['id'], info['total_resources'], info['total_relaibility'],
+    #                          info['total_latency'], info['vnf_list']])
         
-# print("\nFinal Server Information:")
-# print("==========================")
-# for server in servers:
-#     info = server.get_info()
-#     print(f"Server {info['id']}:")
-#     print(f"  Available Resources: {info['available_resources']}")
-#     print(f"  VNFs Deployed: {info['vnf_list']}\n")
+print("\nFinal Server Information:")
+print("==========================")
+for server in servers:
+    info = server.get_info()
+    print(f"Server {info['id']}:")
+    print(f"  Available Resources: {info['available_resources']}")
+    print(f"  VNFs Deployed: {info['vnf_list']}\n")
 
 output_file.close()
 
