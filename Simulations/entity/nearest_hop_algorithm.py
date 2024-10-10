@@ -41,7 +41,8 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
         min_hop = 10000
         while priority_queue:
             srv_facility,hop = priority_queue.pop(0)
-
+            # print("pq")
+            # print(srv_facility.id, hop, min_hop)
             if srv_facility in visited_facilities:
                 continue
 
@@ -99,6 +100,8 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
                         vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id, server_activation_cost, facility_activation_cost))
 
             for node in param.adj_matrix[srv_facility.id]:
+                # print("ihfihfoieh")
+                # print(srv_facility.id,node, hop)
                 priority_queue.append((server_facility[node], hop+1))
 
 
@@ -110,10 +113,10 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
 
         else:
             vnf_preferences[vnf.id].sort(key=lambda x: x[2])
-            print("sihgoiwjgpowgjewpogj\n")
-            for i in range(len(vnf_preferences[vnf.id])):
-                print(vnf_preferences[vnf.id][i][0].server_facility_id, "\n")
-                print(vnf_preferences[vnf.id][i])
+            # print("sihgoiwjgpowgjewpogj\n")
+            # for i in range(len(vnf_preferences[vnf.id])):
+            #     print(vnf_preferences[vnf.id][i][0].get_info(), "\n")
+            #     print(vnf_preferences[vnf.id][i])
             preferred_server, _, migration_cost, _, _, server_cost, facility_cost = vnf_preferences[vnf.id].pop(0)
             new_server_id = preferred_server.id
 

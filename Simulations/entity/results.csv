@@ -1,8 +1,5 @@
 Servers failed,Num of facilities activated,Num of servers activated,vnfs failed to be placed,algorithm used,Overall Cost
 4,1,2,0,Stable Matching Algortihm,131.2
-4,3,1,0,Nearest Hop algorithm,340.99999999999994
-4,3,1,0,Nearest Hop algorithm,340.99999999999994
-4,3,1,0,Nearest Hop algorithm,340.99999999999994
-4,3,1,0,Nearest Hop algorithm,340.99999999999994
-4,3,1,0,Nearest Hop algorithm,340.99999999999994
-4,3,1,0,Nearest Hop algorithm,340.99999999999994
+4,3,1,0,Nearest Hop algorithm,341
+4,1,2,0,Best Fit algo cost,131.2
+4,1,2,0,Best Fit algo resources,131.2

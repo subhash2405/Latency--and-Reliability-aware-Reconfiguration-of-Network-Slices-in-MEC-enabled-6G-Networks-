@@ -11,6 +11,7 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
     # from main import servers, sfcs
 
     new_facility_activated = 0
+    new_server_activated = 0
     results_file = 'results.csv'
     headers = ['Servers failed', 'Num of facilities activated', 'Num of servers activated', 'vnfs failed to be placed','algorithm used', 'Overall Cost']
     
@@ -29,6 +30,8 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
         current_sfc = next(sfc for sfc in sfcs if sfc.id == vnf.sfc_id) #finds the sfc corresponding to the particular vnf
         current_servers_deployed = current_sfc.get_deployed_server_list()
         for server in servers:
+            server_activation_cost =  0
+            facility_activation_cost = 0
             if server.id not in failing_server_id and server.available_resources >= vnf.resources and server.id not in current_servers_deployed:
                 distance_latency = 0
                 present_latency = 0
@@ -62,6 +65,7 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
                     cost_of_migration = vnf.data*distances[servers[vnf.server_id].server_facility_id][server.server_facility_id]*param.vnf_migration_dealy
                     if len(server.vnf_list)==0:
                         cost_of_migration+=server.activation_cost
+                        server_activation_cost = server.activation_cost
                     facility = server_facility[server.server_facility_id].get_info()
                     flag=0
                     for srv in facility['server_list']:
@@ -71,7 +75,8 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
                             break
                     if flag==0:
                         cost_of_migration+=facility['Facility_activation_cost']
-                    vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id))
+                        facility_activation_cost = facility['Facility_activation_cost']
+                    vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id, server_activation_cost, facility_activation_cost))
 
 
         # Sort the servers for each VNF by highest relaibility 
@@ -82,16 +87,37 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
 
         else:
             vnf_preferences[vnf.id].sort(key=lambda x: x[2])
-            preferred_server, _, migration_cost, _, _ = vnf_preferences[vnf.id].pop(0)
+            preferred_server, _, migration_cost, _, _,server_cost, facility_cost = vnf_preferences[vnf.id].pop(0)
             new_server_id = preferred_server.id
-            vnf.change_server_id(new_server_id)
             new_server = servers[new_server_id]
+
+            cost_of_migration = migration_cost - server_cost - facility_cost
+            new_server = servers[new_server_id]
+            new_server_facility = server_facility[new_server.server_facility_id]
+
+            facility = new_server_facility.get_info()
+            flag=0
+            for srv in facility['server_list']:
+                # temp  = srv.get_info()
+                if len(srv['vnf_list'])!=0:
+                    flag=1
+                    break
+            if flag==1:
+                migration_cost-=facility_cost
+
+            if len(new_server.vnf_list)!=0:
+                migration_cost-=server_cost
+
+            if migration_cost == cost_of_migration + param.server_activation_cost:
+                new_server_activated+=1
+            elif migration_cost > cost_of_migration + param.server_activation_cost:
+                new_facility_activated+=1
+
+            vnf.change_server_id(new_server_id)
             new_server.add_vnf(vnf)
             current_sfc = next(sfc for sfc in sfcs if sfc.id == vnf.sfc_id)
             total_migration_cost+=migration_cost
 
-            if migration_cost>10:
-                new_facility_activated+=1
 
             info = current_sfc.get_info()
         
@@ -124,6 +150,6 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
 
     with open(results_file, mode='a', newline='') as file:
         csv_writer = csv.writer(file)
-        csv_writer.writerow([len(failing_server_id),new_facility_activated,count, 'Best Fit algo cost', total_migration_cost])
+        csv_writer.writerow([len(failing_server_id),new_facility_activated,new_server_activated,count, 'Best Fit algo cost', total_migration_cost])
 
 
