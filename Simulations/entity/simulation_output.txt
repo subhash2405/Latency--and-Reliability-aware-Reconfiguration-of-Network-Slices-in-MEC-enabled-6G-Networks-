@@ -1,0 +1,4874 @@
+Server 0 assigned to Server Facility 26.
+Server 1 assigned to Server Facility 26.
+Server 2 assigned to Server Facility 26.
+Server 3 assigned to Server Facility 26.
+Server 4 assigned to Server Facility 26.
+Server 5 assigned to Server Facility 26.
+Server 6 assigned to Server Facility 26.
+Server 7 assigned to Server Facility 26.
+Server 8 assigned to Server Facility 26.
+Server 9 assigned to Server Facility 26.
+Server 10 assigned to Server Facility 26.
+Server 11 assigned to Server Facility 26.
+Server 12 assigned to Server Facility 26.
+Server 13 assigned to Server Facility 26.
+Server 14 assigned to Server Facility 26.
+Server 15 assigned to Server Facility 26.
+Server 16 assigned to Server Facility 25.
+Server 17 assigned to Server Facility 25.
+Server 18 assigned to Server Facility 25.
+Server 19 assigned to Server Facility 25.
+Server 20 assigned to Server Facility 25.
+Server 21 assigned to Server Facility 25.
+Server 22 assigned to Server Facility 25.
+Server 23 assigned to Server Facility 25.
+Server 24 assigned to Server Facility 25.
+Server 25 assigned to Server Facility 25.
+Server 26 assigned to Server Facility 25.
+Server 27 assigned to Server Facility 25.
+Server 28 assigned to Server Facility 25.
+Server 29 assigned to Server Facility 25.
+Server 30 assigned to Server Facility 25.
+Server 31 assigned to Server Facility 25.
+Server 32 assigned to Server Facility 24.
+Server 33 assigned to Server Facility 24.
+Server 34 assigned to Server Facility 24.
+Server 35 assigned to Server Facility 24.
+Server 36 assigned to Server Facility 24.
+Server 37 assigned to Server Facility 24.
+Server 38 assigned to Server Facility 24.
+Server 39 assigned to Server Facility 24.
+Server 40 assigned to Server Facility 24.
+Server 41 assigned to Server Facility 24.
+Server 42 assigned to Server Facility 24.
+Server 43 assigned to Server Facility 24.
+Server 44 assigned to Server Facility 24.
+Server 45 assigned to Server Facility 24.
+Server 46 assigned to Server Facility 24.
+Server 47 assigned to Server Facility 24.
+Server 48 assigned to Server Facility 23.
+Server 49 assigned to Server Facility 23.
+Server 50 assigned to Server Facility 23.
+Server 51 assigned to Server Facility 23.
+Server 52 assigned to Server Facility 23.
+Server 53 assigned to Server Facility 23.
+Server 54 assigned to Server Facility 23.
+Server 55 assigned to Server Facility 23.
+Server 56 assigned to Server Facility 22.
+Server 57 assigned to Server Facility 22.
+Server 58 assigned to Server Facility 22.
+Server 59 assigned to Server Facility 22.
+Server 60 assigned to Server Facility 22.
+Server 61 assigned to Server Facility 22.
+Server 62 assigned to Server Facility 22.
+Server 63 assigned to Server Facility 22.
+Server 64 assigned to Server Facility 21.
+Server 65 assigned to Server Facility 21.
+Server 66 assigned to Server Facility 21.
+Server 67 assigned to Server Facility 21.
+Server 68 assigned to Server Facility 21.
+Server 69 assigned to Server Facility 21.
+Server 70 assigned to Server Facility 21.
+Server 71 assigned to Server Facility 21.
+Server 72 assigned to Server Facility 20.
+Server 73 assigned to Server Facility 20.
+Server 74 assigned to Server Facility 20.
+Server 75 assigned to Server Facility 20.
+Server 76 assigned to Server Facility 20.
+Server 77 assigned to Server Facility 20.
+Server 78 assigned to Server Facility 20.
+Server 79 assigned to Server Facility 20.
+Server 80 assigned to Server Facility 19.
+Server 81 assigned to Server Facility 19.
+Server 82 assigned to Server Facility 19.
+Server 83 assigned to Server Facility 19.
+Server 84 assigned to Server Facility 19.
+Server 85 assigned to Server Facility 19.
+Server 86 assigned to Server Facility 19.
+Server 87 assigned to Server Facility 19.
+Server 88 assigned to Server Facility 18.
+Server 89 assigned to Server Facility 18.
+Server 90 assigned to Server Facility 18.
+Server 91 assigned to Server Facility 18.
+Server 92 assigned to Server Facility 18.
+Server 93 assigned to Server Facility 18.
+Server 94 assigned to Server Facility 18.
+Server 95 assigned to Server Facility 18.
+Server 96 assigned to Server Facility 17.
+Server 97 assigned to Server Facility 17.
+Server 98 assigned to Server Facility 17.
+Server 99 assigned to Server Facility 17.
+Server 100 assigned to Server Facility 16.
+Server 101 assigned to Server Facility 16.
+Server 102 assigned to Server Facility 16.
+Server 103 assigned to Server Facility 16.
+Server 104 assigned to Server Facility 15.
+Server 105 assigned to Server Facility 15.
+Server 106 assigned to Server Facility 15.
+Server 107 assigned to Server Facility 15.
+Server 108 assigned to Server Facility 14.
+Server 109 assigned to Server Facility 14.
+Server 110 assigned to Server Facility 14.
+Server 111 assigned to Server Facility 14.
+Server 112 assigned to Server Facility 13.
+Server 113 assigned to Server Facility 13.
+Server 114 assigned to Server Facility 13.
+Server 115 assigned to Server Facility 13.
+Server 116 assigned to Server Facility 12.
+Server 117 assigned to Server Facility 12.
+Server 118 assigned to Server Facility 12.
+Server 119 assigned to Server Facility 12.
+Server 120 assigned to Server Facility 11.
+Server 121 assigned to Server Facility 11.
+Server 122 assigned to Server Facility 11.
+Server 123 assigned to Server Facility 11.
+Server 124 assigned to Server Facility 10.
+Server 125 assigned to Server Facility 10.
+Server 126 assigned to Server Facility 10.
+Server 127 assigned to Server Facility 10.
+Server 128 assigned to Server Facility 9.
+Server 129 assigned to Server Facility 9.
+Server 130 assigned to Server Facility 9.
+Server 131 assigned to Server Facility 9.
+Server 132 assigned to Server Facility 8.
+Server 133 assigned to Server Facility 8.
+Server 134 assigned to Server Facility 8.
+Server 135 assigned to Server Facility 8.
+Server 136 assigned to Server Facility 7.
+Server 137 assigned to Server Facility 7.
+Server 138 assigned to Server Facility 7.
+Server 139 assigned to Server Facility 7.
+Server 140 assigned to Server Facility 6.
+Server 141 assigned to Server Facility 6.
+Server 142 assigned to Server Facility 6.
+Server 143 assigned to Server Facility 6.
+Server 144 assigned to Server Facility 5.
+Server 145 assigned to Server Facility 5.
+Server 146 assigned to Server Facility 5.
+Server 147 assigned to Server Facility 5.
+Server 148 assigned to Server Facility 4.
+Server 149 assigned to Server Facility 4.
+Server 150 assigned to Server Facility 4.
+Server 151 assigned to Server Facility 4.
+Server 152 assigned to Server Facility 3.
+Server 153 assigned to Server Facility 3.
+Server 154 assigned to Server Facility 3.
+Server 155 assigned to Server Facility 3.
+Server 156 assigned to Server Facility 2.
+Server 157 assigned to Server Facility 2.
+Server 158 assigned to Server Facility 2.
+Server 159 assigned to Server Facility 2.
+Server 160 assigned to Server Facility 1.
+Server 161 assigned to Server Facility 1.
+Server 162 assigned to Server Facility 1.
+Server 163 assigned to Server Facility 1.
+Server 164 assigned to Server Facility 0.
+Server 165 assigned to Server Facility 0.
+Server 166 assigned to Server Facility 0.
+Server 167 assigned to Server Facility 0.
+Number of facilities: 27
+Number of servers: 168
+VNF 0 assigned to Server 124 in server facility 10. Available resources: 24
+VNF 0 added to SFC 0. Total resources: 4, Total latency: 0
+VNF 1 assigned to Server 125 in server facility 10. Available resources: 24
+VNF 1 added to SFC 0. Total resources: 8, Total latency: 0
+VNF 2 assigned to Server 126 in server facility 10. Available resources: 24
+VNF 2 added to SFC 0. Total resources: 12, Total latency: 0
+VNF 3 assigned to Server 124 in server facility 10. Available resources: 12
+VNF 3 added to SFC 1. Total resources: 12, Total latency: 0
+VNF 4 assigned to Server 125 in server facility 10. Available resources: 12
+VNF 4 added to SFC 1. Total resources: 24, Total latency: 0
+VNF 5 assigned to Server 126 in server facility 10. Available resources: 12
+VNF 5 added to SFC 1. Total resources: 36, Total latency: 0
+VNF 6 assigned to Server 127 in server facility 10. Available resources: 16
+VNF 6 added to SFC 1. Total resources: 48, Total latency: 0
+VNF 7 assigned to Server 64 in server facility 21. Available resources: 16
+VNF 7 added to SFC 1. Total resources: 60, Total latency: 0
+VNF 8 assigned to Server 124 in server facility 10. Available resources: 0
+VNF 8 added to SFC 2. Total resources: 12, Total latency: 0
+VNF 9 assigned to Server 125 in server facility 10. Available resources: 0
+VNF 9 added to SFC 2. Total resources: 24, Total latency: 0
+VNF 10 assigned to Server 126 in server facility 10. Available resources: 0
+VNF 10 added to SFC 2. Total resources: 36, Total latency: 0
+VNF 11 assigned to Server 127 in server facility 10. Available resources: 4
+VNF 11 added to SFC 2. Total resources: 48, Total latency: 0
+VNF 12 assigned to Server 64 in server facility 21. Available resources: 4
+VNF 12 added to SFC 2. Total resources: 60, Total latency: 0
+VNF 13 assigned to Server 65 in server facility 21. Available resources: 12
+VNF 13 added to SFC 3. Total resources: 16, Total latency: 0
+VNF 14 assigned to Server 66 in server facility 21. Available resources: 12
+VNF 14 added to SFC 3. Total resources: 32, Total latency: 0
+VNF 15 assigned to Server 67 in server facility 21. Available resources: 12
+VNF 15 added to SFC 3. Total resources: 48, Total latency: 0
+VNF 16 assigned to Server 68 in server facility 21. Available resources: 12
+VNF 16 added to SFC 3. Total resources: 64, Total latency: 0
+VNF 17 assigned to Server 69 in server facility 21. Available resources: 12
+VNF 17 added to SFC 3. Total resources: 80, Total latency: 0
+VNF 18 assigned to Server 70 in server facility 21. Available resources: 12
+VNF 18 added to SFC 3. Total resources: 96, Total latency: 0
+VNF 19 assigned to Server 71 in server facility 21. Available resources: 12
+VNF 19 added to SFC 4. Total resources: 16, Total latency: 0
+VNF 20 assigned to Server 132 in server facility 8. Available resources: 12
+VNF 20 added to SFC 4. Total resources: 32, Total latency: 0
+VNF 21 assigned to Server 133 in server facility 8. Available resources: 12
+VNF 21 added to SFC 4. Total resources: 48, Total latency: 0
+VNF 22 assigned to Server 134 in server facility 8. Available resources: 12
+VNF 22 added to SFC 4. Total resources: 64, Total latency: 0
+VNF 23 assigned to Server 135 in server facility 8. Available resources: 12
+VNF 23 added to SFC 4. Total resources: 80, Total latency: 0
+VNF 24 assigned to Server 48 in server facility 23. Available resources: 12
+VNF 24 added to SFC 4. Total resources: 96, Total latency: 0
+[{'id': 0, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 124, 'Data': 20}, {'id': 1, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 125, 'Data': 20}, {'id': 2, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 126, 'Data': 20}]
+[{'id': 3, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 124, 'Data': 70}, {'id': 4, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 125, 'Data': 70}, {'id': 5, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 126, 'Data': 70}, {'id': 6, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 127, 'Data': 70}, {'id': 7, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 64, 'Data': 70}]
+[{'id': 8, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 124, 'Data': 70}, {'id': 9, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 125, 'Data': 70}, {'id': 10, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 126, 'Data': 70}, {'id': 11, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 127, 'Data': 70}, {'id': 12, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 64, 'Data': 70}]
+[{'id': 13, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 65, 'Data': 100}, {'id': 14, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 66, 'Data': 100}, {'id': 15, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 67, 'Data': 100}, {'id': 16, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 68, 'Data': 100}, {'id': 17, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 69, 'Data': 100}, {'id': 18, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 70, 'Data': 100}]
+[{'id': 19, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 71, 'Data': 100}, {'id': 20, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 132, 'Data': 100}, {'id': 21, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 133, 'Data': 100}, {'id': 22, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 134, 'Data': 100}, {'id': 23, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 135, 'Data': 100}, {'id': 24, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 48, 'Data': 100}]
+Intital Configuration
+====================
+Server_Facility 0
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 1
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 2
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 3
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 4
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 5
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 6
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 7
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 8
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 9
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 10
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 11
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 12
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 13
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 14
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 15
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 16
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 17
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 18
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 19
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 20
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 21
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 22
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 23
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 24
+Band : 1
+Facility_activation_cost : 100
+Number of servers deployed : 16
+
+Server_Facility 25
+Band : 1
+Facility_activation_cost : 100
+Number of servers deployed : 16
+
+Server_Facility 26
+Band : 1
+Facility_activation_cost : 100
+Number of servers deployed : 16
+
+====================
+
+Server Information:
+Server 0:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 1:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 2:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 3:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 4:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 5:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 6:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 7:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 8:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 9:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 10:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 11:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 12:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 13:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 14:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 15:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 16:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 17:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 18:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 19:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 20:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 21:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 22:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 23:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 24:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 25:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 26:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 27:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 28:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 29:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 30:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 31:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 32:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 33:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 34:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 35:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 36:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 37:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 38:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 39:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 40:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 41:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 42:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 43:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 44:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 45:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 46:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 47:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 48:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 49:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 50:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 51:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 52:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 53:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 54:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 55:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 56:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 57:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 58:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 59:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 60:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 61:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 62:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 63:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 64:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 4
+  VNF Count: 2
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 65:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 66:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 67:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 68:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 69:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 70:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 71:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 72:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 73:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 74:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 75:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 76:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 77:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 78:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 79:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 80:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 81:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 82:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 83:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 84:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 85:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 86:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 87:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 88:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 89:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 90:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 91:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 92:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 93:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 94:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 95:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 96:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 97:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 98:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 99:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 100:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 101:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 102:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 103:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 104:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 105:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 106:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 107:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 108:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 109:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 110:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 111:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 112:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 113:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 114:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 115:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 116:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 117:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 118:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 119:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 120:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 121:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 122:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 123:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 124:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 0
+  VNF Count: 3
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 125:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 0
+  VNF Count: 3
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 126:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 0
+  VNF Count: 3
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 127:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 4
+  VNF Count: 2
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 128:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 129:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 130:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 131:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 132:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 133:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 134:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 135:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 136:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 137:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 138:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 139:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 140:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 141:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 142:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 143:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 144:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 145:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 146:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 147:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 148:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 149:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 150:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 151:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 152:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 153:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 154:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 155:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 156:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 157:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 158:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 159:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 160:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 161:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 162:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 163:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 164:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+Server 165:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+Server 166:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+Server 167:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+
+Service Function Chains (SFC) Information:
+==========================================
+SFC 0:
+  VNF 0:
+    Resources: 4
+    Latency: 0
+    Deployed on Server: 124
+
+  VNF 1:
+    Resources: 4
+    Latency: 0
+    Deployed on Server: 125
+
+  VNF 2:
+    Resources: 4
+    Latency: 0
+    Deployed on Server: 126
+
+  Total Resources: 12
+  Total Reliability: 0.5760000000000001
+  Total Latency: 0.1
+Max allowed latency : 2.05
+
+SFC 1:
+  VNF 3:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 124
+
+  VNF 4:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 125
+
+  VNF 5:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 126
+
+  VNF 6:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 127
+
+  VNF 7:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 64
+
+  Total Resources: 60
+  Total Reliability: 0.4147200000000001
+  Total Latency: 4.15
+Max allowed latency : 6.2
+
+SFC 2:
+  VNF 8:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 124
+
+  VNF 9:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 125
+
+  VNF 10:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 126
+
+  VNF 11:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 127
+
+  VNF 12:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 64
+
+  Total Resources: 60
+  Total Reliability: 0.4147200000000001
+  Total Latency: 4.15
+Max allowed latency : 6.2
+
+SFC 3:
+  VNF 13:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 65
+
+  VNF 14:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 66
+
+  VNF 15:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 67
+
+  VNF 16:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 68
+
+  VNF 17:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 69
+
+  VNF 18:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 70
+
+  Total Resources: 96
+  Total Reliability: 0.3732480000000001
+  Total Latency: 0.25
+Max allowed latency : 10.2
+
+SFC 4:
+  VNF 19:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 71
+
+  VNF 20:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 132
+
+  VNF 21:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 133
+
+  VNF 22:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 134
+
+  VNF 23:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 135
+
+  VNF 24:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 48
+
+  Total Resources: 96
+  Total Reliability: 0.3732480000000001
+  Total Latency: 8.149999999999999
+Max allowed latency : 10.2
+
+
+ Server Information after initial deployment:
+==========================
+Server 0:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 1:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 2:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 3:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 4:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 5:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 6:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 7:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 8:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 9:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 10:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 11:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 12:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 13:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 14:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 15:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 16:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 17:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 18:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 19:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 20:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 21:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 22:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 23:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 24:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 25:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 26:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 27:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 28:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 29:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 30:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 31:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 32:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 33:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 34:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 35:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 36:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 37:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 38:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 39:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 40:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 41:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 42:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 43:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 44:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 45:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 46:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 47:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 48:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 24, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 48, 'Data': 100}]
+
+Server 49:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 50:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 51:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 52:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 53:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 54:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 55:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 56:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 57:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 58:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 59:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 60:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 61:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 62:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 63:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 64:
+  Available Resources: 4
+  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 64, 'Data': 70}, {'id': 12, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 64, 'Data': 70}]
+
+Server 65:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 13, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 65, 'Data': 100}]
+
+Server 66:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 14, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 66, 'Data': 100}]
+
+Server 67:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 15, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 67, 'Data': 100}]
+
+Server 68:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 16, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 68, 'Data': 100}]
+
+Server 69:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 17, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 69, 'Data': 100}]
+
+Server 70:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 18, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 70, 'Data': 100}]
+
+Server 71:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 19, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 71, 'Data': 100}]
+
+Server 72:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 73:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 74:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 75:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 76:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 77:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 78:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 79:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 80:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 81:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 82:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 83:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 84:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 85:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 86:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 87:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 88:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 89:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 90:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 91:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 92:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 93:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 94:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 95:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 96:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 97:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 98:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 99:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 100:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 101:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 102:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 103:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 104:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 105:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 106:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 107:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 108:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 109:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 110:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 111:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 112:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 113:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 114:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 115:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 116:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 117:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 118:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 119:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 120:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 121:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 122:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 123:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 124:
+  Available Resources: 0
+  VNFs Deployed: [{'id': 0, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 124, 'Data': 20}, {'id': 3, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 124, 'Data': 70}, {'id': 8, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 124, 'Data': 70}]
+
+Server 125:
+  Available Resources: 0
+  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 125, 'Data': 20}, {'id': 4, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 125, 'Data': 70}, {'id': 9, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 125, 'Data': 70}]
+
+Server 126:
+  Available Resources: 0
+  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 126, 'Data': 20}, {'id': 5, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 126, 'Data': 70}, {'id': 10, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 126, 'Data': 70}]
+
+Server 127:
+  Available Resources: 4
+  VNFs Deployed: [{'id': 6, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 127, 'Data': 70}, {'id': 11, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 127, 'Data': 70}]
+
+Server 128:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 129:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 130:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 131:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 132:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 20, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 132, 'Data': 100}]
+
+Server 133:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 21, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 133, 'Data': 100}]
+
+Server 134:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 22, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 134, 'Data': 100}]
+
+Server 135:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 23, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 135, 'Data': 100}]
+
+Server 136:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 137:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 138:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 139:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 140:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 141:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 142:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 143:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 144:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 145:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 146:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 147:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 148:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 149:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 150:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 151:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 152:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 153:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 154:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 155:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 156:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 157:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 158:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 159:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 160:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 161:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 162:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 163:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 164:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 165:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 166:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 167:
+  Available Resources: 28
+  VNFs Deployed: []
+
+All Servers , SFC's have been setup!!!
+VNF Preferences {0: [(<DeployedServers.Server object at 0x000002F247C9EB90>, 0.1, 0.001, 0.6480000000000001, 127, 0, 0), (<DeployedServers.Server object at 0x000002F247C9C0D0>, 2.05, 110.03999999999999, 0.5760000000000001, 56, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C190>, 2.05, 110.03999999999999, 0.6480000000000001, 57, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C210>, 2.05, 110.03999999999999, 0.5760000000000001, 58, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C290>, 2.05, 110.03999999999999, 0.6480000000000001, 59, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C310>, 2.05, 110.03999999999999, 0.5760000000000001, 60, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C3D0>, 2.05, 110.03999999999999, 0.6480000000000001, 61, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C450>, 2.05, 110.03999999999999, 0.5760000000000001, 62, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C4D0>, 2.05, 110.03999999999999, 0.6480000000000001, 63, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E750>, 2.05, 110.03999999999999, 0.5760000000000001, 120, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E810>, 2.05, 110.03999999999999, 0.6480000000000001, 121, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E890>, 2.05, 110.03999999999999, 0.5760000000000001, 122, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E910>, 2.05, 110.03999999999999, 0.6480000000000001, 123, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EC50>, 2.05, 110.03999999999999, 0.5760000000000001, 128, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED10>, 2.05, 110.03999999999999, 0.6480000000000001, 129, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED90>, 2.05, 110.03999999999999, 0.5760000000000001, 130, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EE10>, 2.05, 110.03999999999999, 0.6480000000000001, 131, 10, 100)], 3: [(<DeployedServers.Server object at 0x000002F247C9C0D0>, 6.1, 110.14, 0.4147200000000001, 56, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C190>, 6.1, 110.14, 0.4665600000000001, 57, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C210>, 6.1, 110.14, 0.4147200000000001, 58, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C290>, 6.1, 110.14, 0.4665600000000001, 59, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C310>, 6.1, 110.14, 0.4147200000000001, 60, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C3D0>, 6.1, 110.14, 0.4665600000000001, 61, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C450>, 6.1, 110.14, 0.4147200000000001, 62, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C4D0>, 6.1, 110.14, 0.4665600000000001, 63, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E750>, 6.1, 110.14, 0.4147200000000001, 120, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E810>, 6.1, 110.14, 0.4665600000000001, 121, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E890>, 6.1, 110.14, 0.4147200000000001, 122, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E910>, 6.1, 110.14, 0.4665600000000001, 123, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EC50>, 6.1, 110.14, 0.4147200000000001, 128, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED10>, 6.1, 110.14, 0.4665600000000001, 129, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED90>, 6.1, 110.14, 0.4147200000000001, 130, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EE10>, 6.1, 110.14, 0.4665600000000001, 131, 10, 100)], 8: [(<DeployedServers.Server object at 0x000002F247C9C0D0>, 6.1, 110.14, 0.4147200000000001, 56, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C190>, 6.1, 110.14, 0.4665600000000001, 57, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C210>, 6.1, 110.14, 0.4147200000000001, 58, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C290>, 6.1, 110.14, 0.4665600000000001, 59, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C310>, 6.1, 110.14, 0.4147200000000001, 60, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C3D0>, 6.1, 110.14, 0.4665600000000001, 61, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C450>, 6.1, 110.14, 0.4147200000000001, 62, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C4D0>, 6.1, 110.14, 0.4665600000000001, 63, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E750>, 6.1, 110.14, 0.4147200000000001, 120, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E810>, 6.1, 110.14, 0.4665600000000001, 121, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E890>, 6.1, 110.14, 0.4147200000000001, 122, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E910>, 6.1, 110.14, 0.4665600000000001, 123, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EC50>, 6.1, 110.14, 0.4147200000000001, 128, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED10>, 6.1, 110.14, 0.4665600000000001, 129, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED90>, 6.1, 110.14, 0.4147200000000001, 130, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EE10>, 6.1, 110.14, 0.4665600000000001, 131, 10, 100)], 13: [(<DeployedServers.Server object at 0x000002F247C97C50>, 4.199999999999999, 10.4, 0.3732480000000001, 49, 10, 0), (<DeployedServers.Server object at 0x000002F247C97D50>, 4.199999999999999, 10.4, 0.3732480000000001, 51, 10, 0), (<DeployedServers.Server object at 0x000002F247C97E90>, 4.199999999999999, 10.4, 0.3732480000000001, 53, 10, 0), (<DeployedServers.Server object at 0x000002F247C97F90>, 4.199999999999999, 10.4, 0.3732480000000001, 55, 10, 0), (<DeployedServers.Server object at 0x000002F247C9C190>, 2.1999999999999993, 110.2, 0.3732480000000001, 57, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C290>, 2.1999999999999993, 110.2, 0.3732480000000001, 59, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C3D0>, 2.1999999999999993, 110.2, 0.3732480000000001, 61, 10, 100), (<DeployedServers.Server object at 0x000002F247C9C4D0>, 2.1999999999999993, 110.2, 0.3732480000000001, 63, 10, 100), (<DeployedServers.Server object at 0x000002F247C9CB10>, 2.1999999999999993, 110.2, 0.3732480000000001, 73, 10, 100), (<DeployedServers.Server object at 0x000002F247C9CC10>, 2.1999999999999993, 110.2, 0.3732480000000001, 75, 10, 100), (<DeployedServers.Server object at 0x000002F247C9CD50>, 2.1999999999999993, 110.2, 0.3732480000000001, 77, 10, 100), (<DeployedServers.Server object at 0x000002F247C9CE50>, 2.1999999999999993, 110.2, 0.3732480000000001, 79, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F210>, 2.1999999999999993, 110.2, 0.3732480000000001, 137, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F310>, 2.1999999999999993, 110.2, 0.3732480000000001, 139, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F490>, 2.1999999999999993, 110.2, 0.3732480000000001, 141, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F590>, 2.1999999999999993, 110.2, 0.3732480000000001, 143, 10, 100), (<DeployedServers.Server object at 0x000002F247C9CFD0>, 4.199999999999999, 110.4, 0.3732480000000001, 81, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D0D0>, 4.199999999999999, 110.4, 0.3732480000000001, 83, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D210>, 4.199999999999999, 110.4, 0.3732480000000001, 85, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D310>, 4.199999999999999, 110.4, 0.3732480000000001, 87, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E810>, 4.199999999999999, 110.4, 0.3732480000000001, 121, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E910>, 4.199999999999999, 110.4, 0.3732480000000001, 123, 10, 100), (<DeployedServers.Server object at 0x000002F247C9ED10>, 4.199999999999999, 110.4, 0.3732480000000001, 129, 10, 100), (<DeployedServers.Server object at 0x000002F247C9EE10>, 4.199999999999999, 110.4, 0.3732480000000001, 131, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F710>, 4.199999999999999, 110.4, 0.3732480000000001, 145, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F810>, 4.199999999999999, 110.4, 0.3732480000000001, 147, 10, 100), (<DeployedServers.Server object at 0x000002F247C9F990>, 4.199999999999999, 110.4, 0.3732480000000001, 149, 10, 100), (<DeployedServers.Server object at 0x000002F247C9FA90>, 4.199999999999999, 110.4, 0.3732480000000001, 151, 10, 100), (<DeployedServers.Server object at 0x000002F247C9FC50>, 4.199999999999999, 110.4, 0.3732480000000001, 153, 10, 100), (<DeployedServers.Server object at 0x000002F247C9FD50>, 4.199999999999999, 110.4, 0.3732480000000001, 155, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D450>, 6.199999999999999, 110.6, 0.3732480000000001, 89, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D550>, 6.199999999999999, 110.6, 0.3732480000000001, 91, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D690>, 6.199999999999999, 110.6, 0.3732480000000001, 93, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D790>, 6.199999999999999, 110.6, 0.3732480000000001, 95, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E090>, 6.199999999999999, 110.6, 0.3732480000000001, 109, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E190>, 6.199999999999999, 110.6, 0.3732480000000001, 111, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E310>, 6.199999999999999, 110.6, 0.3732480000000001, 113, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E410>, 6.199999999999999, 110.6, 0.3732480000000001, 115, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E590>, 6.199999999999999, 110.6, 0.3732480000000001, 117, 10, 100), (<DeployedServers.Server object at 0x000002F247C9E690>, 6.199999999999999, 110.6, 0.3732480000000001, 119, 10, 100), (<DeployedServers.Server object at 0x000002F247C9FED0>, 6.199999999999999, 110.6, 0.3732480000000001, 157, 10, 100), (<DeployedServers.Server object at 0x000002F247C9FFD0>, 6.199999999999999, 110.6, 0.3732480000000001, 159, 10, 100), (<DeployedServers.Server object at 0x000002F247CA4190>, 6.199999999999999, 110.6, 0.3732480000000001, 161, 10, 100), (<DeployedServers.Server object at 0x000002F247CA4290>, 6.199999999999999, 110.6, 0.3732480000000001, 163, 10, 100), (<DeployedServers.Server object at 0x000002F247CA4410>, 6.199999999999999, 110.6, 0.3732480000000001, 165, 10, 100), (<DeployedServers.Server object at 0x000002F247CA4510>, 6.199999999999999, 110.6, 0.3732480000000001, 167, 10, 100), (<DeployedServers.Server object at 0x000002F247C96250>, 8.200000000000003, 110.8, 0.3732480000000001, 1, 10, 100), (<DeployedServers.Server object at 0x000002F247C96410>, 8.200000000000003, 110.8, 0.3732480000000001, 3, 10, 100), (<DeployedServers.Server object at 0x000002F247C96550>, 8.200000000000003, 110.8, 0.3732480000000001, 5, 10, 100), (<DeployedServers.Server object at 0x000002F247C96650>, 8.200000000000003, 110.8, 0.3732480000000001, 7, 10, 100), (<DeployedServers.Server object at 0x000002F247C964D0>, 8.200000000000003, 110.8, 0.3732480000000001, 9, 10, 100), (<DeployedServers.Server object at 0x000002F247C967D0>, 8.200000000000003, 110.8, 0.3732480000000001, 11, 10, 100), (<DeployedServers.Server object at 0x000002F247C968D0>, 8.200000000000003, 110.8, 0.3732480000000001, 13, 10, 100), (<DeployedServers.Server object at 0x000002F247C969D0>, 8.200000000000003, 110.8, 0.3732480000000001, 15, 10, 100), (<DeployedServers.Server object at 0x000002F247C9D910>, 8.200000000000003, 110.8, 0.3732480000000001, 97, 10, 100), (<DeployedServers.Server object at 0x000002F247C9DA10>, 8.200000000000003, 110.8, 0.3732480000000001, 99, 10, 100), (<DeployedServers.Server object at 0x000002F247C9DB90>, 8.200000000000003, 110.8, 0.3732480000000001, 101, 10, 100), (<DeployedServers.Server object at 0x000002F247C9DC90>, 8.200000000000003, 110.8, 0.3732480000000001, 103, 10, 100), (<DeployedServers.Server object at 0x000002F247C9DE10>, 8.200000000000003, 110.8, 0.3732480000000001, 105, 10, 100), (<DeployedServers.Server object at 0x000002F247C9DF10>, 8.200000000000003, 110.8, 0.3732480000000001, 107, 10, 100)]}
+server prefrences {0: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 1: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 2: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 3: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 4: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 5: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 6: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 7: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 8: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 9: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 10: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 11: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 12: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 13: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 14: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 15: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 16: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 17: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 18: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 19: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 20: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 21: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 22: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 23: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 24: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 25: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 26: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 27: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 28: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 29: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 30: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 31: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 32: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 33: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 34: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 35: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 36: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 37: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 38: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 39: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 40: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 41: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 42: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 43: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 44: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 45: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 46: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 47: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 48: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 49: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 50: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 51: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 52: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 53: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 54: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 55: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 56: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 57: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 58: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 59: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 60: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 61: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 62: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 63: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 64: [<VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 66: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 67: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 68: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 69: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 70: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 71: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 72: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 73: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 74: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 75: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 76: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 77: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 78: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 79: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 80: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 81: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 82: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 83: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 84: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 85: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 86: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 87: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 88: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 89: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 90: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 91: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 92: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 93: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 94: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 95: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 96: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 97: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 98: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 99: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 100: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 101: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 102: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 103: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 104: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 105: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 106: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 107: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 108: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 109: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 110: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 111: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 112: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 113: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 114: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 115: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 116: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 117: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 118: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 119: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 120: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 121: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 122: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 123: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 125: [], 126: [], 127: [<VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 128: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 129: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 130: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 131: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 132: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 133: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 134: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 135: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 136: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 137: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 138: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 139: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 140: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 141: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 142: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 143: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 144: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 145: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 146: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 147: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 148: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 149: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 150: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 151: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 152: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 153: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 154: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 155: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 156: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 157: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 158: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 159: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 160: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 161: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 162: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 163: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 164: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 165: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 166: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>], 167: [<VirtualNetworkFunction.VNF object at 0x000002F247CA4C50>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4990>, <VirtualNetworkFunction.VNF object at 0x000002F247CA4B10>, <VirtualNetworkFunction.VNF object at 0x000002F247CA48D0>]}
+VNF 0 assigned to Server 127 in server facility 10. Available resources: 0
+VNF 3 assigned to Server 56 in server facility 22. Available resources: 16
+VNF 8 assigned to Server 56 in server facility 22. Available resources: 4
+VNF 13 assigned to Server 49 in server facility 23. Available resources: 12
+Total migration cost of vnfs is 120.68100000000001
+Total VNF's that failed realibility factor or latency requirement 0
+Stable matching completed. VNFs from server [124, 65] have been reassigned.
+Final Configuration after the VNF's deployment
+====================
+Server_Facility 0
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 1
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 2
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 3
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 4
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 5
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 6
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 7
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 8
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 9
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 10
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 11
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 12
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 13
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 14
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 15
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 16
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 17
+Band : 3
+Facility_activation_cost : 100
+Number of servers deployed : 4
+
+Server_Facility 18
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 19
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 20
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 21
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 22
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 23
+Band : 2
+Facility_activation_cost : 100
+Number of servers deployed : 8
+
+Server_Facility 24
+Band : 1
+Facility_activation_cost : 100
+Number of servers deployed : 16
+
+Server_Facility 25
+Band : 1
+Facility_activation_cost : 100
+Number of servers deployed : 16
+
+Server_Facility 26
+Band : 1
+Facility_activation_cost : 100
+Number of servers deployed : 16
+
+
+Server Information:
+====================
+Server 0:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 1:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 2:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 3:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 4:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 5:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 6:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 7:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 8:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 9:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 10:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 11:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 12:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 13:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 14:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 15:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 26
+
+Server 16:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 17:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 18:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 19:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 20:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 21:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 22:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 23:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 24:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 25:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 26:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 27:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 28:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 29:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 30:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 31:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 25
+
+Server 32:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 33:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 34:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 35:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 36:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 37:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 38:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 39:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 40:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 41:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 42:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 43:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 44:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 45:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 46:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 47:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 24
+
+Server 48:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 49:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 50:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 51:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 52:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 53:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 54:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 55:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 23
+
+Server 56:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 4
+  VNF Count: 2
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 57:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 58:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 59:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 60:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 61:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 62:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 63:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 22
+
+Server 64:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 4
+  VNF Count: 2
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 65:
+  Total Resources: 0
+  Reliability: 0.000
+  Available Resources: 0
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 66:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 67:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 68:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 69:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 70:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 71:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 21
+
+Server 72:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 73:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 74:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 75:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 76:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 77:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 78:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 79:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 20
+
+Server 80:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 81:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 82:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 83:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 84:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 85:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 86:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 87:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 19
+
+Server 88:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 89:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 90:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 91:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 92:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 93:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 94:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 95:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 18
+
+Server 96:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 97:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 98:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 99:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 17
+
+Server 100:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 101:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 102:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 103:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 16
+
+Server 104:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 105:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 106:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 107:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 15
+
+Server 108:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 109:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 110:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 111:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 14
+
+Server 112:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 113:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 114:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 115:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 13
+
+Server 116:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 117:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 118:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 119:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 12
+
+Server 120:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 121:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 122:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 123:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 11
+
+Server 124:
+  Total Resources: 0
+  Reliability: 0.000
+  Available Resources: 0
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 125:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 0
+  VNF Count: 3
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 126:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 0
+  VNF Count: 3
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 127:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 0
+  VNF Count: 3
+Activation cost for setup :10
+Deployed in facility : 10
+
+Server 128:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 129:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 130:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 131:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 9
+
+Server 132:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 133:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 134:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 135:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 12
+  VNF Count: 1
+Activation cost for setup :10
+Deployed in facility : 8
+
+Server 136:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 137:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 138:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 139:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 7
+
+Server 140:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 141:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 142:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 143:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 6
+
+Server 144:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 145:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 146:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 147:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 5
+
+Server 148:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 149:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 150:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 151:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 4
+
+Server 152:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 153:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 154:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 155:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 3
+
+Server 156:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 157:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 158:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 159:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 2
+
+Server 160:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 161:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 162:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 163:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 1
+
+Server 164:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+Server 165:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+Server 166:
+  Total Resources: 28
+  Reliability: 0.800
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+Server 167:
+  Total Resources: 28
+  Reliability: 0.900
+  Available Resources: 28
+  VNF Count: 0
+Activation cost for setup :10
+Deployed in facility : 0
+
+
+Service Function Chains (SFC) Information:
+==========================================
+SFC 0:
+  VNF 0:
+    Resources: 4
+    Latency: 0
+    Deployed on Server: 127
+
+  VNF 1:
+    Resources: 4
+    Latency: 0
+    Deployed on Server: 125
+
+  VNF 2:
+    Resources: 4
+    Latency: 0
+    Deployed on Server: 126
+
+  Total Resources: 12
+  Total Reliability: 0.6480000000000001
+  Total Latency: 0.1
+
+Max allowed latency : 2.05
+
+SFC 1:
+  VNF 3:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 56
+
+  VNF 4:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 125
+
+  VNF 5:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 126
+
+  VNF 6:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 127
+
+  VNF 7:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 64
+
+  Total Resources: 60
+  Total Reliability: 0.4147200000000001
+  Total Latency: 6.1
+
+Max allowed latency : 6.2
+
+SFC 2:
+  VNF 8:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 56
+
+  VNF 9:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 125
+
+  VNF 10:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 126
+
+  VNF 11:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 127
+
+  VNF 12:
+    Resources: 12
+    Latency: 0
+    Deployed on Server: 64
+
+  Total Resources: 60
+  Total Reliability: 0.4147200000000001
+  Total Latency: 6.1
+
+Max allowed latency : 6.2
+
+SFC 3:
+  VNF 13:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 49
+
+  VNF 14:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 66
+
+  VNF 15:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 67
+
+  VNF 16:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 68
+
+  VNF 17:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 69
+
+  VNF 18:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 70
+
+  Total Resources: 96
+  Total Reliability: 0.3732480000000001
+  Total Latency: 4.199999999999999
+
+Max allowed latency : 10.2
+
+SFC 4:
+  VNF 19:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 71
+
+  VNF 20:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 132
+
+  VNF 21:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 133
+
+  VNF 22:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 134
+
+  VNF 23:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 135
+
+  VNF 24:
+    Resources: 16
+    Latency: 0
+    Deployed on Server: 48
+
+  Total Resources: 96
+  Total Reliability: 0.3732480000000001
+  Total Latency: 8.149999999999999
+
+Max allowed latency : 10.2
+
+
+Final Server Information:
+==========================
+Server 0:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 1:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 2:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 3:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 4:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 5:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 6:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 7:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 8:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 9:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 10:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 11:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 12:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 13:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 14:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 15:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 16:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 17:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 18:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 19:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 20:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 21:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 22:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 23:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 24:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 25:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 26:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 27:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 28:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 29:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 30:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 31:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 32:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 33:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 34:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 35:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 36:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 37:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 38:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 39:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 40:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 41:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 42:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 43:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 44:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 45:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 46:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 47:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 48:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 24, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 48, 'Data': 100}]
+
+Server 49:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 13, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 49, 'Data': 100}]
+
+Server 50:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 51:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 52:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 53:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 54:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 55:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 56:
+  Available Resources: 4
+  VNFs Deployed: [{'id': 3, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 56, 'Data': 70}, {'id': 8, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 56, 'Data': 70}]
+
+Server 57:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 58:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 59:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 60:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 61:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 62:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 63:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 64:
+  Available Resources: 4
+  VNFs Deployed: [{'id': 7, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 64, 'Data': 70}, {'id': 12, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 64, 'Data': 70}]
+
+Server 65:
+  Available Resources: 0
+  VNFs Deployed: []
+
+Server 66:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 14, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 66, 'Data': 100}]
+
+Server 67:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 15, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 67, 'Data': 100}]
+
+Server 68:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 16, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 68, 'Data': 100}]
+
+Server 69:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 17, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 69, 'Data': 100}]
+
+Server 70:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 18, 'sfc_id': 3, 'resources': 16, 'latency': 0, 'server_id': 70, 'Data': 100}]
+
+Server 71:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 19, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 71, 'Data': 100}]
+
+Server 72:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 73:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 74:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 75:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 76:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 77:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 78:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 79:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 80:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 81:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 82:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 83:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 84:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 85:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 86:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 87:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 88:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 89:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 90:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 91:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 92:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 93:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 94:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 95:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 96:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 97:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 98:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 99:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 100:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 101:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 102:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 103:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 104:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 105:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 106:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 107:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 108:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 109:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 110:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 111:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 112:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 113:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 114:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 115:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 116:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 117:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 118:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 119:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 120:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 121:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 122:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 123:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 124:
+  Available Resources: 0
+  VNFs Deployed: []
+
+Server 125:
+  Available Resources: 0
+  VNFs Deployed: [{'id': 1, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 125, 'Data': 20}, {'id': 4, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 125, 'Data': 70}, {'id': 9, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 125, 'Data': 70}]
+
+Server 126:
+  Available Resources: 0
+  VNFs Deployed: [{'id': 2, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 126, 'Data': 20}, {'id': 5, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 126, 'Data': 70}, {'id': 10, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 126, 'Data': 70}]
+
+Server 127:
+  Available Resources: 0
+  VNFs Deployed: [{'id': 6, 'sfc_id': 1, 'resources': 12, 'latency': 0, 'server_id': 127, 'Data': 70}, {'id': 11, 'sfc_id': 2, 'resources': 12, 'latency': 0, 'server_id': 127, 'Data': 70}, {'id': 0, 'sfc_id': 0, 'resources': 4, 'latency': 0, 'server_id': 127, 'Data': 20}]
+
+Server 128:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 129:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 130:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 131:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 132:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 20, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 132, 'Data': 100}]
+
+Server 133:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 21, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 133, 'Data': 100}]
+
+Server 134:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 22, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 134, 'Data': 100}]
+
+Server 135:
+  Available Resources: 12
+  VNFs Deployed: [{'id': 23, 'sfc_id': 4, 'resources': 16, 'latency': 0, 'server_id': 135, 'Data': 100}]
+
+Server 136:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 137:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 138:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 139:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 140:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 141:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 142:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 143:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 144:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 145:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 146:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 147:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 148:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 149:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 150:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 151:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 152:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 153:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 154:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 155:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 156:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 157:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 158:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 159:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 160:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 161:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 162:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 163:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 164:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 165:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 166:
+  Available Resources: 28
+  VNFs Deployed: []
+
+Server 167:
+  Available Resources: 28
+  VNFs Deployed: []
+

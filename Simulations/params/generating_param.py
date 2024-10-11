@@ -7,7 +7,7 @@ class param:
     server_status = {}
     migration_requests = []
 
-    # Data of the architecture setup
+    # Sample data
     data = """
     SFC 0 has 3 VNFs with max allowed delay of 2.05 and migration data size of VNFs is 20 megabits
     VNF 0 of SFC 0 requires 4 cores is placed in server 0 of node 10
@@ -51,13 +51,12 @@ class param:
     # Temporary dictionary to hold current SFC details
     current_sfc = {}
     for line in lines:
-        line = line.strip()
         if line.startswith("SFC"):
             # Extract SFC details
             parts = line.split()
             sfc_id = int(parts[1])
             vnfs_count = int(parts[3])
-            max_delay = float(parts[10])
+            max_delay = float(parts[8])
             migration_size = int(parts[-2])
             current_sfc = {
                 "id": sfc_id,
@@ -67,18 +66,14 @@ class param:
                 "vnfs": []
             }
             sfc_list.append(current_sfc)
-
-        elif line.startswith("VNF "):
+        elif line.startswith("VNF"):
             # Extract VNF details
             parts = line.split()
             vnf_id = int(parts[1])
             sfc_id = int(parts[4])
             cores_required = int(parts[6])
-            server_id = int(parts[12])
-            node_id = int(parts[-1])
-
-            # Debugging check to ensure correct SFC reference
-
+            server_id = int(parts[9])
+            node_id = int(parts[12])
             vnf_details = {
                 "vnf_id": vnf_id,
                 "sfc_id": sfc_id,
@@ -86,10 +81,8 @@ class param:
                 "server_id": server_id,
                 "node_id": node_id
             }
-            sfc_list[-1]["vnfs"].append(vnf_details)
+            current_sfc["vnfs"].append(vnf_details)
             vnf_list.append(vnf_details)
-
-
         elif line.startswith("Activated servers"):
             # Extract activated servers and their residual capacities
             servers = line.split(":")[1].split(",")
@@ -114,13 +107,12 @@ class param:
                 "req_id": req_id
             })
 
-    bias = 0.00
-    # Chooses between network topology 1 (10 server facilities) or 2 (27 facilities) 
+
     network_configuration = 2
 
-    numofCoreFacilities = 3
-    multiplicityofCores = 2
-    multiplicityofregional = 3
+    numofCoreFacilities = 1
+    multiplicityofCores = 3
+    multiplicityofregional = 2
     num_of_server_per_core_facility = 16
     num_of_server_per_regional_facility = 8
     num_of_server_per_nodal_facility = 4
@@ -143,13 +135,21 @@ class param:
     num_of_nodal_servers = numofnodalFacilities*num_of_server_per_nodal_facility
     total_num_of_servers = num_of_core_servers+num_of_nodal_servers+num_of_regional_servers
 
+
     numOfSFC = len(sfc_list)
     vnfs_in_each_sfc = [sfc['vnfs_count'] for sfc in sfc_list]
-    resouces_in_each_sfc = [sfc['vnfs'][0]['cores_required'] for sfc in sfc_list]
+    resouces_in_each_sfc = [sfc['cores_required'] for sfc in sfc_list]
     max_latency_in_each_sfc = [sfc['max_delay'] for sfc in sfc_list]
     data_vnfs_per_sfc = [sfc['migration_size'] for sfc in sfc_list]
-    deployed_servers_per_sfc = {sfc['id']: [(vnf['server_id'], vnf['node_id']) for vnf in sfc['vnfs']] for sfc in sfc_list}
+    deployed_servers_per_sfc = defaultdict(list, {sfc['id']: [(vnf['server_id'], vnf['node_id']) for vnf in sfc['vnfs']] for sfc in sfc_list})
     failing_server_id = [(req['server_id'], req['node_id']) for req in migration_requests]
+
+    # failing_server_id = [(0,3),(0,2),(1,8),(0,6)]
+
+        # vnfs_in_each_sfc.append(sfc['vnfs_count'])
+        # resouces_in_each_sfc.append(sfc['cores_required'])
+        # max_latency_in_each_sfc.append(sfc['max_delay'])
+        # data_vnfs_per_sfc.append(sfc['migration_size'])
 
 
     if network_configuration == 1:
@@ -159,6 +159,11 @@ class param:
     else:
         print("ERROR : Network Configuration unavailable !!!")
 
+    # vnfs_in_each_sfc = [3,3,3,4,4,5,5,6,6,6]
+    # resouces_in_each_sfc = [4,4,4,8,8,12,12,16,16,16]
+    # max_latency_in_each_sfc = [2.05, 2.05,2.05,4.1, 4.1,6.2, 6.2, 10.2, 10.2, 10.2]
+    # data_vnfs_per_sfc = [20,20,20,50,50,70,70,100,100,100]
+    # deployed_servers_per_sfc = {0 : [(0,3),(1,3),(2,3)], 1 : [(0,3),(1,3),(2,3)], 2 : [(0,3),(1,3),(2,3),(3,3)], 3 : [(0,3),(1,3),(2,3),(3,3)], 4 : [(0,3),(1,3),(2,3),(3,3)], 5 : [(3,3),(0,2),(1,2),(2,2),(3,2)], 6 : [(0,2),(1,2),(2,2),(3,2),(0,8)], 7 : [(0,8),(1,8),(2,8),(3,8),(4,8),(5,8)], 8 : [(6,8),(7,8),(0,6),(1,6),(2,6),(3,6)], 9 : [(4,6),(5,6),(6,6),(7,6),(0,9),(1,9)]}
 
     # x-axis : number of servers failed
     # y-axis : cost 

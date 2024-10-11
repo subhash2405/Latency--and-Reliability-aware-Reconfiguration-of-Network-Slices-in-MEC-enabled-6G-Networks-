@@ -3,14 +3,14 @@ from utility.distance import distances
 from VirtualNetworkFunction import VNF
 import csv
 import os
-# global count
 def nearest_hop(failing_server_id, servers, sfcs, server_facility):
     global count
     count = 0
     total_migration_cost = 0
-    # from main import servers, sfcs
     new_facility_activated = 0
     new_server_activated = 0
+
+    # Creating a results file, it appends the output of every run to this file
     results_file = 'results.csv'
     headers = ['Servers failed', 'Num of facilities activated', 'Num of servers activated', 'vnfs failed to be placed','algorithm used', 'Overall Cost']
     
@@ -20,7 +20,6 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
             csv_writer.writerow(headers)
 
 
-    # failing_server = servers[failing_server_id]
     vnfs_to_reassign = []  # Get all VNFs from the failing server
     
     for fail in failing_server_id:
@@ -28,7 +27,6 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
         vnfs_to_reassign += (failing_server.get_vnfs())
 
     vnf_preferences = {}
-    server_preferences = {}
 
     for vnf in vnfs_to_reassign:
         vnf_preferences[vnf.id] = []
@@ -36,29 +34,36 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
         current_servers_deployed = current_sfc.get_deployed_server_list()
         current_server_facility = server_facility[servers[vnf.server_id].server_facility_id]
 
-        priority_queue = [(current_server_facility,0)]
-        visited_facilities = set()
-        min_hop = 10000
+        # Implementing BFS to check if we have any eligible server after every hop
+
+        priority_queue = [(current_server_facility,0)] # Keeps a list of tuples containing the server_facility and the present hop
+        visited_facilities = set() # Keeps a track of the previously visited facilities
+        prev_hop = 10000
         while priority_queue:
             srv_facility,hop = priority_queue.pop(0)
             # print("pq")
-            # print(srv_facility.id, hop, min_hop)
+            # print(srv_facility.id, hop, prev_hop)
             if srv_facility in visited_facilities:
                 continue
 
             visited_facilities.add(srv_facility)
-            if hop>min_hop and len(vnf_preferences[vnf.id])!=0:
+
+            # If the current hop > prev hop => all the neighbors of the prev hop distance have been visited and if the vnf_list!=0 then break and choose the best server of the available ones
+            if hop>prev_hop and len(vnf_preferences[vnf.id])!=0: 
                     break
             
-            min_hop = min(min_hop, hop)
+            prev_hop = hop
+            # Checking for the eligible servers and appending it to the vnf_prefernce list
+
             for server in srv_facility.deployed_servers:
-                server_activation_cost =  0
+
+                server_activation_cost =  0 # Keeping a track of the activation costs if deployed in that particular server
                 facility_activation_cost = 0
+
                 if server.id not in failing_server_id and server.available_resources >= vnf.resources and server.id not in current_servers_deployed:
                     distance_latency = 0
                     present_latency = 0
 
-                    
                     # Iterate over the VNFs in the current SFC to calculate distances
                     for other_vnf in range(len(current_sfc.vnf_list) - 1):
                         current_vnf_id = current_sfc.vnf_list[other_vnf].id
@@ -79,6 +84,7 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
                             distance_latency += distances[servers[server.id].server_facility_id][servers[current_sfc.vnf_list[other_vnf + 1].server_id].server_facility_id]
                     
                     # Add the server and its calculated distance_latency to the VNF's preference list
+                    # Calculating the new relaibility and calculating the migration cost
                     new_relability = (current_sfc.total_relaibility - param.bias)/servers[vnf.server_id].reliability
                     new_relability*=server.reliability
                     new_relability+=param.bias
@@ -99,23 +105,21 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
                             facility_activation_cost = facility['Facility_activation_cost']
                         vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id, server_activation_cost, facility_activation_cost))
 
+            # Adding the adjacent neighbors of the present server_facility
             for node in param.adj_matrix[srv_facility.id]:
-                # print("ihfihfoieh")
                 # print(srv_facility.id,node, hop)
                 priority_queue.append((server_facility[node], hop+1))
 
 
-        # Sort the servers for each VNF by highest relaibility 
-        # Sort w.r.to objective cost of instantiation only if its new data*cost
+        # Sort w.r.to objective : cost of migration 
         if len(vnf_preferences[vnf.id])==0:
             count+=1
             print(f"No matching found for SFC {current_sfc.id} whose vnf is {vnf.id}")
 
         else:
             vnf_preferences[vnf.id].sort(key=lambda x: x[2])
-            # print("sihgoiwjgpowgjewpogj\n")
             # for i in range(len(vnf_preferences[vnf.id])):
-            #     print(vnf_preferences[vnf.id][i][0].get_info(), "\n")
+            #     print(vnf_preferences[vnf.id][i][0].get_info())
             #     print(vnf_preferences[vnf.id][i])
             preferred_server, _, migration_cost, _, _, server_cost, facility_cost = vnf_preferences[vnf.id].pop(0)
             new_server_id = preferred_server.id
@@ -125,9 +129,9 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
             new_server_facility = server_facility[new_server.server_facility_id]
 
             facility = new_server_facility.get_info()
+            # Adding the migration costs only if the server or facility has not been activated previously
             flag=0
             for srv in facility['server_list']:
-                # temp  = srv.get_info()
                 if len(srv['vnf_list'])!=0:
                     flag=1
                     break
@@ -143,8 +147,8 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
                 new_facility_activated+=1
 
 
+            # Deploying the vnf in the new server and passing the required information to its respective sfc and server
             vnf.change_server_id(new_server_id)
-            # new_server = servers[new_server_id]
             new_server.add_vnf(vnf)
             current_sfc = next(sfc for sfc in sfcs if sfc.id == vnf.sfc_id)
             total_migration_cost+=migration_cost
@@ -170,7 +174,7 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
 
             
 
-    
+    # Deleting the resources for the failed servers
     for fail in failing_server_id:
         failing_server = servers[fail]
         failing_server.server_fail()
@@ -178,6 +182,7 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
     print(f"Total VNF's that failed realibility factor or latency requirement {count}")
     print(f"Stable matching completed. VNFs from server {failing_server_id} have been reassigned.")
 
+    # writing the results to csv file
     with open(results_file, mode='a', newline='') as file:
         csv_writer = csv.writer(file)
         csv_writer.writerow([len(failing_server_id),new_facility_activated,new_server_activated,count, 'Nearest Hop algorithm', total_migration_cost])

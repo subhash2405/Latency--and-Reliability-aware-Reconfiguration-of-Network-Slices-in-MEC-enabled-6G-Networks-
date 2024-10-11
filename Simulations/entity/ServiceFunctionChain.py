@@ -2,14 +2,15 @@ import os
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from params.parameters import param
+
 class SFC:
     def __init__(self, id):
         self.id = id
         self.vnf_list = []  
         self.total_resources = 0  
-        self.total_latency = 0   # remove vnf latency
+        self.total_latency = 0   
         self.total_relaibility = 1
-        self.vnf_latency = 0 # remove
+        self.vnf_latency = 0 
         self.maxlatency = 0
 
     def add_vnf(self, vnf):
@@ -48,29 +49,6 @@ class SFC:
 
 
 
-
-
-
-# class SFC:
-#     def __init__(self, id):
-#         self.id = id
-#         self.vnf_list = []  
-#         self.total_resources = 0  
-#         self.total_latency = 0  
-
-#     def add_vnf(self, vnf):
-#         self.vnf_list.append(vnf)
-#         self.total_resources += vnf.resources
-#         self.total_latency += vnf.latency
-    
-#     def get_info(self):
-#         return {
-#             'id': self.id,
-#             'vnf_count': len(self.vnf_list),
-#             'total_resources': self.total_resources,
-#             'total_latency': self.total_latency,
-#             'vnf_list': [vnf.get_info() for vnf in self.vnf_list]
-#         }
 
 
 

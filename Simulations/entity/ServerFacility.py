@@ -20,12 +20,7 @@ class Facility:
         }
     
     def add_server(self, server):
-        # if len(self.deployed_servers)<param.num_of_server_per_facility:
         self.deployed_servers.append(server)
         print(f"Server {server.id} assigned to Server Facility {self.id}.")
-        # else:
-            # print(f"Error: Server_Facility {self.id} has reached its maximum capacity")
-
-
-    
+        
     # Bands : Core Band - 1 || Regional Band - 2 || Edge Band - 3

@@ -3,19 +3,18 @@ from utility.distance import distances
 from VirtualNetworkFunction import VNF
 import os
 import csv
-# global count
 def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
     global count
     count = 0
     total_migration_cost = 0
-    # from main import servers, sfcs
 
     new_facility_activated = 0
     new_server_activated = 0
+
+    # Creating a results file, it appends the output of every run to this file
     results_file = 'results.csv'
     headers = ['Servers failed', 'Num of facilities activated', 'Num of servers activated', 'vnfs failed to be placed','algorithm used', 'Overall Cost']
     
-    # failing_server = servers[failing_server_id]
     vnfs_to_reassign = []  # Get all VNFs from the failing server
     
     for fail in failing_server_id:
@@ -23,7 +22,6 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
         vnfs_to_reassign += (failing_server.get_vnfs())
 
     vnf_preferences = {}
-    server_preferences = {}
 
     for vnf in vnfs_to_reassign:
         vnf_preferences[vnf.id] = []
@@ -56,12 +54,10 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
                         distance_latency += distances[servers[server.id].server_facility_id][servers[current_sfc.vnf_list[other_vnf + 1].server_id].server_facility_id]
                 
                 # Add the server and its calculated distance_latency to the VNF's preference list
-                # new_relability = (current_sfc.total_relaibility - param.bias)/failing_server.reliability
                 new_relability = (current_sfc.total_relaibility - param.bias)/servers[vnf.server_id].reliability
                 new_relability*=server.reliability
                 new_relability+=param.bias
                 if distance_latency <= current_sfc.maxlatency and new_relability>=current_sfc.total_relaibility:
-                    # cost_of_migration = vnf.data*distances[failing_server.server_facility_id][server.server_facility_id]
                     cost_of_migration = vnf.data*distances[servers[vnf.server_id].server_facility_id][server.server_facility_id]*param.vnf_migration_dealy
                     if len(server.vnf_list)==0:
                         cost_of_migration+=server.activation_cost
@@ -69,7 +65,6 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
                     facility = server_facility[server.server_facility_id].get_info()
                     flag=0
                     for srv in facility['server_list']:
-                        # temp  = srv.get_info()
                         if len(srv['vnf_list'])!=0:
                             flag=1
                             break
@@ -80,7 +75,7 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
 
 
         # Sort the servers for each VNF by highest relaibility 
-        # Sort w.r.to objective cost of instantiation only if its new data*cost
+        # Sort w.r.to objective : cost of migration
         if len(vnf_preferences[vnf.id])==0:
             count+=1
             print(f"No matching found for SFC {current_sfc.id} whose vnf is {vnf.id}")
@@ -96,9 +91,9 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
             new_server_facility = server_facility[new_server.server_facility_id]
 
             facility = new_server_facility.get_info()
+            # Adding the migration costs only if the server or facility is not yet activated
             flag=0
             for srv in facility['server_list']:
-                # temp  = srv.get_info()
                 if len(srv['vnf_list'])!=0:
                     flag=1
                     break
@@ -140,7 +135,7 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
 
             
 
-    
+    # Clearing the resources allocated to the failed servers
     for fail in failing_server_id:
         failing_server = servers[fail]
         failing_server.server_fail()
@@ -148,6 +143,7 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
     print(f"Total VNF's that failed realibility factor or latency requirement {count}")
     print(f"Stable matching completed. VNFs from server {failing_server_id} have been reassigned.")
 
+    # Writing the ouputs to csv file
     with open(results_file, mode='a', newline='') as file:
         csv_writer = csv.writer(file)
         csv_writer.writerow([len(failing_server_id),new_facility_activated,new_server_activated,count, 'Best Fit algo cost', total_migration_cost])

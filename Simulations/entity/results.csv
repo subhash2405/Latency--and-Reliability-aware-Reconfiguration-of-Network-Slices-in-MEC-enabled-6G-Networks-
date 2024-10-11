@@ -3,3 +3,9 @@ Servers failed,Num of facilities activated,Num of servers activated,vnfs failed 
 4,3,1,0,Nearest Hop algorithm,341
 4,1,2,0,Best Fit algo cost,131.2
 4,1,2,0,Best Fit algo resources,131.2
+4,1,2,0,Best Fit algo resources,131.2
+4,2,2,0,Nearest Hop algorithm,240.99999999999994
+2,0,1,0,Nearest Hop algorithm,10.001
+2,2,0,0,Nearest Hop algorithm,220.481
+2,1,1,0,Stable Matching Algortihm,120.68100000000001
+2,1,1,0,Stable Matching Algortihm,120.68100000000001
