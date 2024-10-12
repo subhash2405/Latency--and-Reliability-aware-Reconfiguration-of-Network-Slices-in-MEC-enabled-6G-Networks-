@@ -185,10 +185,10 @@ for (srv_id, node) in failing_server_id:
 
 # Calling different algorithms for migration
 
-handle_server_failure(failing_servers)
+# handle_server_failure(failing_servers)
 # bestfit_algo_cost(failing_servers)
 # bestfit_algo_resources(failing_servers)
-# nearest_hop_algo(failing_servers)
+nearest_hop_algo(failing_servers)
 
 
 # Display final results after reconfiguration

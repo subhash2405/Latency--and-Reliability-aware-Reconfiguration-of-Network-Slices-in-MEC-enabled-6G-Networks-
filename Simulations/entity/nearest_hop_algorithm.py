@@ -145,6 +145,7 @@ def nearest_hop(failing_server_id, servers, sfcs, server_facility):
                 new_server_activated+=1
             elif migration_cost > cost_of_migration + param.server_activation_cost:
                 new_facility_activated+=1
+                new_server_activated+=1
 
 
             # Deploying the vnf in the new server and passing the required information to its respective sfc and server

@@ -9,40 +9,40 @@ class param:
 
     # Data of the architecture setup
     data = """
-    SFC 0 has 3 VNFs with max allowed delay of 2.05 and migration data size of VNFs is 20 megabits
-    VNF 0 of SFC 0 requires 4 cores is placed in server 0 of node 10
-    VNF 1 of SFC 0 requires 4 cores is placed in server 1 of node 10
-    VNF 2 of SFC 0 requires 4 cores is placed in server 2 of node 10
-    SFC 1 has 5 VNFs with max allowed delay of 6.2 and migration data size of VNFs is 70 megabits
-    VNF 0 of SFC 1 requires 12 cores is placed in server 0 of node 10
-    VNF 1 of SFC 1 requires 12 cores is placed in server 1 of node 10
-    VNF 2 of SFC 1 requires 12 cores is placed in server 2 of node 10
-    VNF 3 of SFC 1 requires 12 cores is placed in server 3 of node 10
-    VNF 4 of SFC 1 requires 12 cores is placed in server 0 of node 21
-    SFC 2 has 5 VNFs with max allowed delay of 6.2 and migration data size of VNFs is 70 megabits
-    VNF 0 of SFC 2 requires 12 cores is placed in server 0 of node 10
-    VNF 1 of SFC 2 requires 12 cores is placed in server 1 of node 10
-    VNF 2 of SFC 2 requires 12 cores is placed in server 2 of node 10
-    VNF 3 of SFC 2 requires 12 cores is placed in server 3 of node 10
-    VNF 4 of SFC 2 requires 12 cores is placed in server 0 of node 21
-    SFC 3 has 6 VNFs with max allowed delay of 10.2 and migration data size of VNFs is 100 megabits
-    VNF 0 of SFC 3 requires 16 cores is placed in server 1 of node 21
-    VNF 1 of SFC 3 requires 16 cores is placed in server 2 of node 21
-    VNF 2 of SFC 3 requires 16 cores is placed in server 3 of node 21
-    VNF 3 of SFC 3 requires 16 cores is placed in server 4 of node 21
-    VNF 4 of SFC 3 requires 16 cores is placed in server 5 of node 21
-    VNF 5 of SFC 3 requires 16 cores is placed in server 6 of node 21
-    SFC 4 has 6 VNFs with max allowed delay of 10.2 and migration data size of VNFs is 100 megabits
-    VNF 0 of SFC 4 requires 16 cores is placed in server 7 of node 21
-    VNF 1 of SFC 4 requires 16 cores is placed in server 0 of node 8
-    VNF 2 of SFC 4 requires 16 cores is placed in server 1 of node 8
-    VNF 3 of SFC 4 requires 16 cores is placed in server 2 of node 8
-    VNF 4 of SFC 4 requires 16 cores is placed in server 3 of node 8
-    VNF 5 of SFC 4 requires 16 cores is placed in server 0 of node 23
+    SFC 0 has 4 VNFs with max allowed delay of 4.1 and migration data size of VNFs is 1000 megabits
+    VNF 0 of SFC 0 requires 8 cores is placed in server 0 of node 13
+    VNF 1 of SFC 0 requires 8 cores is placed in server 1 of node 13
+    VNF 2 of SFC 0 requires 8 cores is placed in server 2 of node 13
+    VNF 3 of SFC 0 requires 8 cores is placed in server 3 of node 13
+    SFC 1 has 4 VNFs with max allowed delay of 4.1 and migration data size of VNFs is 1000 megabits
+    VNF 0 of SFC 1 requires 8 cores is placed in server 0 of node 13
+    VNF 1 of SFC 1 requires 8 cores is placed in server 1 of node 13
+    VNF 2 of SFC 1 requires 8 cores is placed in server 2 of node 13
+    VNF 3 of SFC 1 requires 8 cores is placed in server 3 of node 13
+    SFC 2 has 4 VNFs with max allowed delay of 4.1 and migration data size of VNFs is 1000 megabits
+    VNF 0 of SFC 2 requires 8 cores is placed in server 0 of node 13
+    VNF 1 of SFC 2 requires 8 cores is placed in server 1 of node 13
+    VNF 2 of SFC 2 requires 8 cores is placed in server 2 of node 13
+    VNF 3 of SFC 2 requires 8 cores is placed in server 3 of node 13
+    SFC 3 has 6 VNFs with max allowed delay of 10.2 and migration data size of VNFs is 1500 megabits
+    VNF 0 of SFC 3 requires 16 cores is placed in server 0 of node 25
+    VNF 1 of SFC 3 requires 16 cores is placed in server 1 of node 25
+    VNF 2 of SFC 3 requires 16 cores is placed in server 2 of node 25
+    VNF 3 of SFC 3 requires 16 cores is placed in server 3 of node 25
+    VNF 4 of SFC 3 requires 16 cores is placed in server 4 of node 25
+    VNF 5 of SFC 3 requires 16 cores is placed in server 5 of node 25
+    SFC 4 has 6 VNFs with max allowed delay of 10.2 and migration data size of VNFs is 1500 megabits
+    VNF 0 of SFC 4 requires 16 cores is placed in server 6 of node 25
+    VNF 1 of SFC 4 requires 16 cores is placed in server 7 of node 25
+    VNF 2 of SFC 4 requires 16 cores is placed in server 8 of node 25
+    VNF 3 of SFC 4 requires 16 cores is placed in server 9 of node 25
+    VNF 4 of SFC 4 requires 16 cores is placed in server 10 of node 25
+    VNF 5 of SFC 4 requires 16 cores is placed in server 11 of node 25
     Activated servers in node with residual capacity are:
-    8 0 12.0, 8 1 12.0, 8 2 12.0, 8 3 12.0, 10 0 0.0, 10 1 0.0, 10 2 0.0, 10 3 4.0, 21 0 4.0, 21 1 12.0, 21 2 12.0, 21 3 12.0, 21 4 12.0, 21 5 12.0, 21 6 12.0, 21 7 12.0, 23 0 12.0,
-    VNFs placed in server 0 of node 10 are to be migratied for req 0
-    VNFs placed in server 1 of node 21 are to be migrated for req 1
+    13 0 4.0, 13 1 4.0, 13 2 4.0, 13 3 4.0, 25 0 12.0, 25 1 12.0, 25 2 12.0, 25 3 12.0, 25 4 12.0, 25 5 12.0, 25 6 12.0, 25 7 12.0, 25 8 12.0, 25 9 12.0, 25 10 12.0, 25 11 12.0,
+    VNFs placed in server 0 of node 13 are to be migratied for req 0
+    VNFs placed in server 0 of node 25 are to be migrated for req 1
+
     """
 
     # Parsing the data

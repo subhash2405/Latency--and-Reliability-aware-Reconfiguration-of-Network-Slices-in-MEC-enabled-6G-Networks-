@@ -116,6 +116,7 @@ def bestfit_algorithm_resources(failing_server_id, servers, sfcs, server_facilit
 
             elif migration_cost > cost_of_migration + param.server_activation_cost:
                 new_facility_activated+=1
+                new_server_activated+=1
 
             # Adding the vnf to the chosen server and updating the sfc and that particular server
             vnf.change_server_id(new_server_id)

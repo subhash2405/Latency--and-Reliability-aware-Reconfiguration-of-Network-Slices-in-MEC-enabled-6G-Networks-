@@ -107,6 +107,8 @@ def bestfit_algorithm_cost(failing_server_id, servers, sfcs, server_facility):
                 new_server_activated+=1
             elif migration_cost > cost_of_migration + param.server_activation_cost:
                 new_facility_activated+=1
+                new_server_activated+=1
+
 
             vnf.change_server_id(new_server_id)
             new_server.add_vnf(vnf)
