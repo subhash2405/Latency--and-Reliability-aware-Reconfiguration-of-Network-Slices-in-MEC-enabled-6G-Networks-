@@ -80,6 +80,11 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
                         facility_activation_cost = facility['Facility_activation_cost']
                     vnf_preferences[vnf.id].append((server,  distance_latency, cost_of_migration, new_relability,server.id, server_activation_cost, facility_activation_cost))
 
+# step 2
+# vnf1 - servers = [0,1,2] - count 1 count of 2 = 4
+# vnf2 - servers =  [2,1,4] - count 2 count 1
+# vnf3 - servers = [5,6,7] - count 1
+# step 3
 
         # Sort the servers for each VNF by highest relaibility 
         # Sort w.r.to objective cost of instantiation only if its new data*cost
@@ -114,7 +119,6 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
 
         # VNF proposes to its most preferred server
         preferred_server, _, migration_cost, _, _, server_cost, facility_cost = vnf_preferences[vnf_id].pop(0)
-        
         # If the server can accept the VNF, assign it
         if sum(v.resources for v in server_assignments[preferred_server.id]) + vnf.resources <= preferred_server.available_resources:
             server_assignments[preferred_server.id].append(vnf)
@@ -122,7 +126,7 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
         else:
             # If the server is full, reject the least preferred VNF and try again
             rejected_vnf = sorted(server_assignments[preferred_server.id], key=lambda v: v.resources)[0]
-            if rejected_vnf.resources > vnf.resources:
+            if rejected_vnf.resources < vnf.resources:
                 unassigned_vnfs.append(rejected_vnf)
                 server_assignments[preferred_server.id].remove(rejected_vnf)
                 server_assignments[preferred_server.id].append(vnf)

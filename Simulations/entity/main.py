@@ -160,7 +160,7 @@ print("All Servers , SFC's have been setup!!!")
 
 # Functions to handle server failure and reassign VNFs
 def handle_server_failure(failing_server_id):
-    from stable_matching_relaibility import stable_matching_for_failed_server
+    from stable_matching_modified import stable_matching_for_failed_server
     stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_facility)
 
 def bestfit_algo_cost(failing_server_id):
@@ -185,10 +185,10 @@ for (srv_id, node) in failing_server_id:
 
 # Calling different algorithms for migration
 
-# handle_server_failure(failing_servers)
+handle_server_failure(failing_servers)
 # bestfit_algo_cost(failing_servers)
 # bestfit_algo_resources(failing_servers)
-nearest_hop_algo(failing_servers)
+# nearest_hop_algo(failing_servers)
 
 
 # Display final results after reconfiguration

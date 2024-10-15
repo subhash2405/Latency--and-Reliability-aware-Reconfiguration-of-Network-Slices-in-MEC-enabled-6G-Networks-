@@ -22,5 +22,21 @@ class Facility:
     def add_server(self, server):
         self.deployed_servers.append(server)
         print(f"Server {server.id} assigned to Server Facility {self.id}.")
+
+    def get_servers_and_facility_status(self, failing_servers):
+        facility = 0
+        activeserverlist = []
+        inactiveserverlist = []
+        for srv in self.deployed_servers:
+            if srv.id in failing_servers:
+                continue
+            if len(srv.get_vnfs()) !=0 :
+                facility = 1
+                activeserverlist.append(srv)
+            else:
+                inactiveserverlist.append(srv)
+        return facility, activeserverlist, inactiveserverlist
+
+
         
     # Bands : Core Band - 1 || Regional Band - 2 || Edge Band - 3

@@ -1,5 +1,38 @@
 Servers failed,Num of facilities activated,Num of servers activated,vnfs failed to be placed,algorithm used,Overall Cost
 2,1,2,0,Stable Matching Algortihm,126.075
 2,1,2,0,Best Fit algo cost,126.075
-2,2,2,0,Best Fit algo resources,229.0
+2,2,2,0,Best Fit algo resources,229
 2,1,2,0,Nearest Hop algorithm,126.075
+4,2,3,0,Stable Matching Algortihm,259.40000000000003
+4,1,2,0,Best Fit algo cost,148.8
+4,2,2,0,Best Fit algo resources,251.8
+4,3,3,0,Nearest Hop algorithm,350.4
+6,1,5,0,Stable Matching Algortihm,189.34000000000003
+6,1,4,0,Best Fit algo cost,167.34
+6,2,4,0,Best Fit algo resources,266.755
+6,2,4,0,Nearest Hop algorithm,264.34000000000003
+8,2,5,0,Stable Matching Algortihm,282.20500000000004
+8,2,6,0,Best Fit algo cost,292.20500000000004
+8,2,6,0,Best Fit algo resources,292.20500000000004
+8,2,6,0,Nearest Hop algorithm,292.20500000000004
+8,2,5,0,Stable Matching Algortihm,275.185
+10,3,4,0,Best Fit algo cost,397.46
+10,3,4,0,Best Fit algo resources,415.46
+10,3,4,0,Nearest Hop algorithm,392.4612
+12,4,9,0,Stable Matching Algortihm,546.445
+12,3,9,0,Best Fit algo cost,440.44500000000005
+12,3,9,0,Best Fit algo resources,484.635
+12,5,9,0,Nearest Hop algorithm,634.445
+2,0,1,0,Stable Matching Algortihm,10.21
+2,0,1,0,Best Fit algo cost,10.21
+2,1,1,0,Best Fit algo resources,117.35000000000001
+2,0,1,0,Nearest Hop algorithm,10.21
+2,0,1,0,Stable Matching Algortihm,10.21
+2,0,0,0,Best Fit algo cost,0
+2,0,0,0,Best Fit algo resources,0
+2,0,0,0,Nearest Hop algorithm,0
+2,0,1,0,Stable Matching Algortihm,10.21
+4,2,3,0,Stable Matching Algortihm,259.40000000000003
+4,2,3,0,Stable Matching Algortihm,259.40000000000003
+6,1,4,0,Stable Matching Algortihm,178.815
+6,1,4,0,Stable Matching Algortihm,178.815
