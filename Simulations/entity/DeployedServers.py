@@ -8,6 +8,8 @@ class Server:
         self.vnf_list = []
         self.reliability = reliability
         self.activation_cost = activation_cost
+        self.count = 0
+
         
     # Adds vnf to the server if it has enough resources
     def add_vnf(self, vnf):
@@ -42,4 +44,9 @@ class Server:
         self.vnf_list = []
         self.reliability = 0
 
+    def get_pref(self):
+        return self.count
+    
+    def add_pref(self):
+        self.count+=1
 

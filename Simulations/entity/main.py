@@ -110,57 +110,57 @@ for sfc in sfcs:
 
 
 # Printing the intial configuration of the given network architecture
-print("Intital Configuration")
-print("====================")
-for facility in server_facility:
-    info = facility.get_info()
-    print(f"Server_Facility {info['id']}")
-    print(f"Band : {info['Band']}")
-    print(f"Facility_activation_cost : {info['Facility_activation_cost']}")
-    print(f"Number of servers deployed : {info['server_count']}\n")
+# print("Intital Configuration")
+# print("====================")
+# for facility in server_facility:
+#     info = facility.get_info()
+#     print(f"Server_Facility {info['id']}")
+#     print(f"Band : {info['Band']}")
+#     print(f"Facility_activation_cost : {info['Facility_activation_cost']}")
+#     print(f"Number of servers deployed : {info['server_count']}\n")
 
-print("====================")
-print("\nServer Information:")
-for server in servers:
-    info = server.get_info()
-    print(f"Server {info['id']}:")
-    print(f"  Total Resources: {info['total_resources']}")
-    print(f"  Reliability: {info['reliability']:.3f}")
-    print(f"  Available Resources: {info['available_resources']}")
-    print(f"  VNF Count: {info['vnf_count']}")
-    print(f"Activation cost for setup :{info['ActivationCost']}")
-    print(f"Deployed in facility : {info['DeployedinFacility']}\n")
+# print("====================")
+# print("\nServer Information:")
+# for server in servers:
+#     info = server.get_info()
+#     print(f"Server {info['id']}:")
+#     print(f"  Total Resources: {info['total_resources']}")
+#     print(f"  Reliability: {info['reliability']:.3f}")
+#     print(f"  Available Resources: {info['available_resources']}")
+#     print(f"  VNF Count: {info['vnf_count']}")
+#     print(f"Activation cost for setup :{info['ActivationCost']}")
+#     print(f"Deployed in facility : {info['DeployedinFacility']}\n")
     
 
-print("\nService Function Chains (SFC) Information:")
-print("==========================================")
-for sfc in sfcs:
-    info = sfc.get_info()
-    print(f"SFC {info['id']}:")
-    for vnf in info['vnf_list']:
-        print(f"  VNF {vnf['id']}:")
-        print(f"    Resources: {vnf['resources']}")
-        print(f"    Latency: {vnf['latency']}")
-        print(f"    Deployed on Server: {vnf['server_id']}\n")
-    print(f"  Total Resources: {info['total_resources']}")
-    print(f"  Total Reliability: {info['total_relaibility']}")
-    print(f"  Total Latency: {info['total_latency']}")
-    print(f"Max allowed latency : {info['max_sfc_latency']}\n")
+# print("\nService Function Chains (SFC) Information:")
+# print("==========================================")
+# for sfc in sfcs:
+#     info = sfc.get_info()
+#     print(f"SFC {info['id']}:")
+#     for vnf in info['vnf_list']:
+#         print(f"  VNF {vnf['id']}:")
+#         print(f"    Resources: {vnf['resources']}")
+#         print(f"    Latency: {vnf['latency']}")
+#         print(f"    Deployed on Server: {vnf['server_id']}\n")
+#     print(f"  Total Resources: {info['total_resources']}")
+#     print(f"  Total Reliability: {info['total_relaibility']}")
+#     print(f"  Total Latency: {info['total_latency']}")
+#     print(f"Max allowed latency : {info['max_sfc_latency']}\n")
 
 
-print("\n Server Information after initial deployment:")
-print("==========================")
-for server in servers:
-    info = server.get_info()
-    print(f"Server {info['id']}:")
-    print(f"  Available Resources: {info['available_resources']}")
-    print(f"  VNFs Deployed: {info['vnf_list']}\n")
+# print("\n Server Information after initial deployment:")
+# print("==========================")
+# for server in servers:
+#     info = server.get_info()
+#     print(f"Server {info['id']}:")
+#     print(f"  Available Resources: {info['available_resources']}")
+#     print(f"  VNFs Deployed: {info['vnf_list']}\n")
 
-print("All Servers , SFC's have been setup!!!")
+# print("All Servers , SFC's have been setup!!!")
 
 # Functions to handle server failure and reassign VNFs
 def handle_server_failure(failing_server_id):
-    from stable_matching_modified import stable_matching_for_failed_server
+    from stable_matching_relaibility import stable_matching_for_failed_server
     stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_facility)
 
 def bestfit_algo_cost(failing_server_id):
@@ -192,53 +192,53 @@ handle_server_failure(failing_servers)
 
 
 # Display final results after reconfiguration
-print("Final Configuration after the VNF's deployment")
+# print("Final Configuration after the VNF's deployment")
 
-print("====================")
-for facility in server_facility:
-    info = facility.get_info()
-    print(f"Server_Facility {info['id']}")
-    print(f"Band : {info['Band']}")
-    print(f"Facility_activation_cost : {info['Facility_activation_cost']}")
-    print(f"Number of servers deployed : {info['server_count']}\n")
+# print("====================")
+# for facility in server_facility:
+#     info = facility.get_info()
+#     print(f"Server_Facility {info['id']}")
+#     print(f"Band : {info['Band']}")
+#     print(f"Facility_activation_cost : {info['Facility_activation_cost']}")
+#     print(f"Number of servers deployed : {info['server_count']}\n")
 
 
-print("\nServer Information:")
-print("====================")
-for server in servers:
-    info = server.get_info()
-    print(f"Server {info['id']}:")
-    print(f"  Total Resources: {info['total_resources']}")
-    print(f"  Reliability: {info['reliability']:.3f}")
-    print(f"  Available Resources: {info['available_resources']}")
-    print(f"  VNF Count: {info['vnf_count']}")
-    print(f"Activation cost for setup :{info['ActivationCost']}")
-    print(f"Deployed in facility : {info['DeployedinFacility']}\n")
+# print("\nServer Information:")
+# print("====================")
+# for server in servers:
+#     info = server.get_info()
+#     print(f"Server {info['id']}:")
+#     print(f"  Total Resources: {info['total_resources']}")
+#     print(f"  Reliability: {info['reliability']:.3f}")
+#     print(f"  Available Resources: {info['available_resources']}")
+#     print(f"  VNF Count: {info['vnf_count']}")
+#     print(f"Activation cost for setup :{info['ActivationCost']}")
+#     print(f"Deployed in facility : {info['DeployedinFacility']}\n")
     
     
-print("\nService Function Chains (SFC) Information:")
-print("==========================================")
-for sfc in sfcs:
-    info = sfc.get_info()
-    print(f"SFC {info['id']}:")
-    for vnf in info['vnf_list']:
-        print(f"  VNF {vnf['id']}:")
-        print(f"    Resources: {vnf['resources']}")
-        print(f"    Latency: {vnf['latency']}")
-        print(f"    Deployed on Server: {vnf['server_id']}\n")
-    print(f"  Total Resources: {info['total_resources']}")
-    print(f"  Total Reliability: {info['total_relaibility']}")
-    print(f"  Total Latency: {info['total_latency']}\n")
-    print(f"Max allowed latency : {info['max_sfc_latency']}\n")
+# print("\nService Function Chains (SFC) Information:")
+# print("==========================================")
+# for sfc in sfcs:
+#     info = sfc.get_info()
+#     print(f"SFC {info['id']}:")
+#     for vnf in info['vnf_list']:
+#         print(f"  VNF {vnf['id']}:")
+#         print(f"    Resources: {vnf['resources']}")
+#         print(f"    Latency: {vnf['latency']}")
+#         print(f"    Deployed on Server: {vnf['server_id']}\n")
+#     print(f"  Total Resources: {info['total_resources']}")
+#     print(f"  Total Reliability: {info['total_relaibility']}")
+#     print(f"  Total Latency: {info['total_latency']}\n")
+#     print(f"Max allowed latency : {info['max_sfc_latency']}\n")
 
 
-print("\nFinal Server Information:")
-print("==========================")
-for server in servers:
-    info = server.get_info()
-    print(f"Server {info['id']}:")
-    print(f"  Available Resources: {info['available_resources']}")
-    print(f"  VNFs Deployed: {info['vnf_list']}\n")
+# print("\nFinal Server Information:")
+# print("==========================")
+# for server in servers:
+#     info = server.get_info()
+#     print(f"Server {info['id']}:")
+#     print(f"  Available Resources: {info['available_resources']}")
+#     print(f"  VNFs Deployed: {info['vnf_list']}\n")
 
 output_file.close()
 

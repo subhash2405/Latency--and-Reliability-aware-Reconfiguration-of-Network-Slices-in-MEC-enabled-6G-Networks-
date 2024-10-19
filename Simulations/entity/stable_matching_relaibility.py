@@ -118,6 +118,12 @@ def stable_matching_for_failed_server(failing_server_id, servers, sfcs, server_f
         vnf_id = vnf.id
 
         # VNF proposes to its most preferred server
+        if len(vnf_preferences[vnf_id]) == 0:
+            # vnf_assignments.pop(vnf_id)
+            # del vnf_assignments[vnf_id]
+            vnfs_to_reassign.remove(vnf)
+            count+=1
+            continue
         preferred_server, _, migration_cost, _, _, server_cost, facility_cost = vnf_preferences[vnf_id].pop(0)
         # If the server can accept the VNF, assign it
         if sum(v.resources for v in server_assignments[preferred_server.id]) + vnf.resources <= preferred_server.available_resources:
